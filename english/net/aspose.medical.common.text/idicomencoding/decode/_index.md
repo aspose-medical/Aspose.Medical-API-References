@@ -1,7 +1,7 @@
 ---
 title: Decode
 second_title: Aspose.Medical for .NET API Reference
-description: Decodes all the byte fragments in the specified Byte array into a String using a set of the given encodings.
+description: Decodes DICOM character string value bytes using the specified character set sequence.
 type: docs
 weight: 10
 url: /net/aspose.medical.common.text/idicomencoding/decode/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.common.text/idicomencoding/decode/
 
 ## IDicomEncoding.Decode method
 
-Decodes all the byte fragments in the specified Byte array into a String using a set of the given *encodings*.
+Decodes DICOM character string value bytes using the specified character set sequence.
 
 ```csharp
 public string Decode(Span<byte> data, Encoding[] encodings, ReadOnlySpan<byte> delimiters)
@@ -17,19 +17,19 @@ public string Decode(Span<byte> data, Encoding[] encodings, ReadOnlySpan<byte> d
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | Span`1 | The Byte data to be decoded into a String (can be multi-charset). |
-| encodings | Encoding[] | A list of registered encodings that can be used to decode the given *data*. |
-| delimiters | ReadOnlySpan`1 | Delimiters in text values that reset the encoding. |
+| data | Span`1 | The encoded value bytes to decode. |
+| encodings | Encoding[] | The DICOM character set sequence active for the value. |
+| delimiters | ReadOnlySpan`1 | Value delimiters that reset code extension state while decoding. |
 
 ### Return Value
 
-A String that contains the results of decoding the specified sequence of bytes.
+The decoded character string.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| [MedicalApiException](../../../aspose.medical.errors/medicalapiexception) | Unknown escape sequence found in the given fragment. |
+| [MedicalApiException](../../../aspose.medical.errors/medicalapiexception) | An unknown escape sequence is found in the encoded value. |
 
 ### See Also
 

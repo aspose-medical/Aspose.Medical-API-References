@@ -3,7 +3,7 @@ title: OtherByteFragment
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a fragment sequence of Other Byte OB items. Intended for handling OB fragments of encapsulated compressed pixel data.
 type: docs
-weight: 350
+weight: 640
 url: /net/aspose.medical.dicom.elements/otherbytefragment/
 ---
 
@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom.elements/otherbytefragment/
 Represents a fragment sequence of Other Byte (OB) items. Intended for handling OB fragments of encapsulated (compressed) pixel data.
 
 ```csharp
-public class OtherByteFragment : FragmentSequence
+public sealed class OtherByteFragment : FragmentSequence
 ```
 
 ## Properties

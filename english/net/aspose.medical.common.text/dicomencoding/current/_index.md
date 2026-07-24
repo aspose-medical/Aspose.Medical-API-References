@@ -1,15 +1,15 @@
 ---
 title: Current
 second_title: Aspose.Medical for .NET API Reference
-description: The current instance of the DicomEncodingaspose.medical.common.text/dicomencoding. Read-only DicomEncodingaspose.medical.common.text/dicomencoding.
+description: Gets the current DICOM character string encoding service.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.medical.common.text/dicomencoding/current/
 ---
 
 ## DicomEncoding.Current property
 
-The current instance of the [`DicomEncoding`](../../dicomencoding). Read-only, [`DicomEncoding`](../../dicomencoding).
+Gets the current DICOM character string encoding service.
 
 ```csharp
 public static IDicomEncoding Current { get; }

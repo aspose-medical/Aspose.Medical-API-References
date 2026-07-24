@@ -1,31 +1,90 @@
 ---
 title: GetBytes
 second_title: Aspose.Medical for .NET API Reference
-description: Encodes all the characters in the specified string into a Bytes array.
+description: Encodes a DICOM character string value into an even-length byte array.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.medical.common.text/idicomencoding/getbytes/
 ---
 
-## IDicomEncoding.GetBytes method
+## GetBytes(ReadOnlySpan&lt;char&gt;, Encoding[], byte, ReadOnlySpan&lt;byte&gt;) {#getbytes}
 
-Encodes all the characters in the specified string into a Byte's array.
+Encodes a DICOM character string value into an even-length byte array.
 
 ```csharp
-public byte[] GetBytes(string data, Encoding[] encodings, byte paddingValue, 
+public byte[] GetBytes(ReadOnlySpan<char> data, Encoding[] encodings, byte paddingValue, 
     ReadOnlySpan<byte> delimiters)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | String | The string containing the characters to encode. |
-| encodings | Encoding[] | Encodings used to encode the given *data*. |
-| paddingValue | Byte | Byte value used to pad result Byte's array to even length. |
-| delimiters | ReadOnlySpan`1 | Delimiters in text values that reset the encoding. |
+| data | ReadOnlySpan`1 | The character string to encode. |
+| encodings | Encoding[] | The DICOM character set sequence to use for encoding. |
+| paddingValue | Byte | The byte value appended when encoded length is odd. |
+| delimiters | ReadOnlySpan`1 | Value delimiters that reset code extension state while encoding. |
 
 ### Return Value
 
-A Byte array containing the results of encoding the specified set of characters.
+The encoded value bytes, padded to even length when needed.
+
+### See Also
+
+* interface [IDicomEncoding](../../idicomencoding)
+* namespace [Aspose.Medical.Common.Text](../../idicomencoding)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## GetBytes(ReadOnlySpan&lt;char&gt;, Encoding[], byte, ReadOnlySpan&lt;byte&gt;, Span&lt;byte&gt;) {#getbytes_1}
+
+Encodes a DICOM character string value into a caller-provided byte span.
+
+```csharp
+public int GetBytes(ReadOnlySpan<char> data, Encoding[] encodings, byte paddingValue, 
+    ReadOnlySpan<byte> delimiters, Span<byte> destination)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | ReadOnlySpan`1 | The character string to encode. |
+| encodings | Encoding[] | The DICOM character set sequence to use for encoding. |
+| paddingValue | Byte | The byte value appended when encoded length is odd. |
+| delimiters | ReadOnlySpan`1 | Value delimiters that reset code extension state while encoding. |
+| destination | Span`1 | The destination that receives the encoded value bytes. |
+
+### Return Value
+
+The number of bytes written to *destination*.
+
+### See Also
+
+* interface [IDicomEncoding](../../idicomencoding)
+* namespace [Aspose.Medical.Common.Text](../../idicomencoding)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## GetBytes(ReadOnlySpan&lt;string&gt;, char, Encoding[], byte, ReadOnlySpan&lt;byte&gt;, Span&lt;byte&gt;) {#getbytes_2}
+
+Encodes a multi-valued DICOM character string value into a caller-provided byte span.
+
+```csharp
+public int GetBytes(ReadOnlySpan<string> values, char separator, Encoding[] encodings, 
+    byte paddingValue, ReadOnlySpan<byte> delimiters, Span<byte> destination)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| values | ReadOnlySpan`1 | The character string values to encode. |
+| separator | Char | The character inserted between encoded values. |
+| encodings | Encoding[] | The DICOM character set sequence to use for encoding. |
+| paddingValue | Byte | The byte value appended when encoded length is odd. |
+| delimiters | ReadOnlySpan`1 | Value delimiters that reset code extension state while encoding. |
+| destination | Span`1 | The destination that receives the encoded value bytes. |
+
+### Return Value
+
+The number of bytes written to *destination*.
 
 ### See Also
 

@@ -1,0 +1,41 @@
+---
+title: Aspose.Medical.Dicom.Network.Client.Handlers
+second_title: Aspose.Medical for .NET API Reference
+description: 
+type: docs
+weight: 190
+url: /net/aspose.medical.dicom.network.client.handlers/
+---
+
+
+
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
+| [ICCancelExchangeHandler](./iccancelexchangehandler) | Observes C-CANCEL exchanges on the SCU side. Invoked after a C-CANCEL-RQ is sent to the remote SCP, allowing the implementer to log or audit the cancellation attempt. Because C-CANCEL has no corresponding response from the SCP, the response slot carries [`NoneDicomNetworkResponse`](../aspose.medical.dicom.network.messages/nonedicomnetworkresponse). |
+| [ICCancelExchangeHandlerFactory](./iccancelexchangehandlerfactory) | A factory that creates handlers that observe C-CANCEL exchanges on the SCU side. Invoked after a C-CANCEL-RQ is sent to the remote SCP, allowing the implementer to log or audit the cancellation attempt. Because C-CANCEL has no corresponding response from the SCP, the response slot carries [`NoneDicomNetworkResponse`](../aspose.medical.dicom.network.messages/nonedicomnetworkresponse). |
+| [ICEchoExchangeHandler](./icechoexchangehandler) | Observes completed C-ECHO exchanges on the SCU side. Invoked after the remote SCP returns a C-ECHO-RSP, allowing the implementer to inspect the verification status (e.g. success or failure) of a DICOM association connectivity check. |
+| [ICEchoExchangeHandlerFactory](./icechoexchangehandlerfactory) | A factory that creates handlers that observe C-ECHO exchanges on the SCU side. Invoked after the remote SCP returns a C-ECHO-RSP, allowing the implementer to inspect the verification status (e.g. success or failure) of a DICOM association connectivity check. |
+| [ICFindExchangeHandler](./icfindexchangehandler) | Observes completed C-FIND exchanges on the SCU side. Invoked for each C-FIND-RSP received from the remote SCP, allowing the implementer to process query results (matching datasets) or inspect the final status of the query operation. |
+| [ICFindExchangeHandlerFactory](./icfindexchangehandlerfactory) | A factory that creates handlers that observe C-FIND exchanges on the SCU side. Invoked for each C-FIND-RSP received from the remote SCP, allowing the implementer to process query results (matching datasets) or inspect the final status of the query operation. |
+| [ICGetExchangeHandler](./icgetexchangehandler) | Observes completed C-GET exchanges on the SCU side. Invoked for each C-GET-RSP received from the remote SCP, allowing the implementer to track retrieval progress (remaining / completed / failed sub-operations) and inspect the final composite status of the retrieve operation. |
+| [ICGetExchangeHandlerFactory](./icgetexchangehandlerfactory) | A factory that creates handlers that observe C-GET exchanges on the SCU side. Invoked for each C-GET-RSP received from the remote SCP, allowing the implementer to track retrieval progress (remaining / completed / failed sub-operations) and inspect the final composite status of the retrieve operation. |
+| [ICMoveExchangeHandler](./icmoveexchangehandler) | Observes completed C-MOVE exchanges on the SCU side. Invoked for each C-MOVE-RSP received from the remote SCP, allowing the implementer to track retrieval progress (remaining / completed / failed / warning sub-operations) and inspect the final composite status of the move operation. |
+| [ICMoveExchangeHandlerFactory](./icmoveexchangehandlerfactory) | A factory that creates handlers that observe C-MOVE exchanges on the SCU side. Invoked for each C-MOVE-RSP received from the remote SCP, allowing the implementer to track retrieval progress (remaining / completed / failed / warning sub-operations) and inspect the final composite status of the move operation. |
+| [ICStoreExchangeHandler](./icstoreexchangehandler) | Observes completed C-STORE exchanges on the SCU side. Invoked after the remote SCP returns a C-STORE-RSP, allowing the implementer to confirm that a composite SOP instance was accepted, inspect refusal reasons, or perform post-storage bookkeeping (e.g. marking a study as uploaded). |
+| [ICStoreExchangeHandlerFactory](./icstoreexchangehandlerfactory) | A factory that creates handlers that observe C-STORE exchanges on the SCU side. Invoked after the remote SCP returns a C-STORE-RSP, allowing the implementer to confirm that a composite SOP instance was accepted, inspect refusal reasons, or perform post-storage bookkeeping (e.g. marking a study as uploaded). |
+| [INActionExchangeHandler](./inactionexchangehandler) | Observes completed N-ACTION exchanges on the SCU side. Invoked after the remote SCP returns an N-ACTION-RSP, allowing the implementer to examine the action outcome, optional action-reply data, and the response status. |
+| [INActionExchangeHandlerFactory](./inactionexchangehandlerfactory) | A factory that creates handlers that observe N-ACTION exchanges on the SCU side. Invoked after the remote SCP returns an N-ACTION-RSP, allowing the implementer to examine the action outcome, optional action-reply data, and the response status. |
+| [INCreateExchangeHandler](./increateexchangehandler) | Observes completed N-CREATE exchanges on the SCU side. Invoked after the remote SCP returns an N-CREATE-RSP, allowing the implementer to inspect the newly created SOP instance UID, any attribute values assigned by the SCP, and the response status. |
+| [INCreateExchangeHandlerFactory](./increateexchangehandlerfactory) | A factory that creates handlers that observe N-CREATE exchanges on the SCU side. Invoked after the remote SCP returns an N-CREATE-RSP, allowing the implementer to inspect the newly created SOP instance UID, any attribute values assigned by the SCP, and the response status. |
+| [INDeleteExchangeHandler](./indeleteexchangehandler) | Observes completed N-DELETE exchanges on the SCU side. Invoked after the remote SCP returns an N-DELETE-RSP, allowing the implementer to confirm that the managed SOP instance was deleted and inspect the response status. |
+| [INDeleteExchangeHandlerFactory](./indeleteexchangehandlerfactory) | A factory that creates handlers that observe N-DELETE exchanges on the SCU side. Invoked after the remote SCP returns an N-DELETE-RSP, allowing the implementer to confirm that the managed SOP instance was deleted and inspect the response status. |
+| [INEventReportExchangeHandler](./ineventreportexchangehandler) | Observes completed N-EVENT-REPORT exchanges on the SCU side. Invoked after the remote SCP returns an N-EVENT-REPORT-RSP, allowing the implementer to process event information (event type ID, event data) and inspect the response status. |
+| [INEventReportExchangeHandlerFactory](./ineventreportexchangehandlerfactory) | A factory that creates handlers that observe N-EVENT-REPORT exchanges on the SCU side. Invoked after the remote SCP returns an N-EVENT-REPORT-RSP, allowing the implementer to process event information (event type ID, event data) and inspect the response status. |
+| [INGetExchangeHandler](./ingetexchangehandler) | Observes completed N-GET exchanges on the SCU side. Invoked after the remote SCP returns an N-GET-RSP, allowing the implementer to read the requested attribute values from the managed SOP instance and inspect the response status. |
+| [INGetExchangeHandlerFactory](./ingetexchangehandlerfactory) | A factory that creates handlers that observe N-GET exchanges on the SCU side. Invoked after the remote SCP returns an N-GET-RSP, allowing the implementer to read the requested attribute values from the managed SOP instance and inspect the response status. |
+| [INSetExchangeHandler](./insetexchangehandler) | Observes completed N-SET exchanges on the SCU side. Invoked after the remote SCP returns an N-SET-RSP, allowing the implementer to confirm which attribute values were successfully modified on the managed SOP instance and inspect the response status. |
+| [INSetExchangeHandlerFactory](./insetexchangehandlerfactory) | A factory that creates handlers that observe N-SET exchanges on the SCU side. Invoked after the remote SCP returns an N-SET-RSP, allowing the implementer to confirm which attribute values were successfully modified on the managed SOP instance and inspect the response status. |
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Medical.dll -->

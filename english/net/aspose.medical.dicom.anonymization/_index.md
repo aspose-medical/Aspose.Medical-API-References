@@ -3,7 +3,7 @@ title: Aspose.Medical.Dicom.Anonymization
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 80
 url: /net/aspose.medical.dicom.anonymization/
 ---
 

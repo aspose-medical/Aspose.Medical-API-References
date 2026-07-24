@@ -1,23 +1,17 @@
 ---
 title: RegisterProvider
 second_title: Aspose.Medical for .NET API Reference
-description: Registers an encoding provider.
+description: 
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.medical.common.text/dicomencoding/registerprovider/
 ---
 
 ## DicomEncoding.RegisterProvider method
 
-Registers an encoding provider.
-
 ```csharp
 public void RegisterProvider(EncodingProvider provider)
 ```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| provider | EncodingProvider | A subclass of EncodingProvider that provides access to additional character encodings. |
 
 ### See Also
 

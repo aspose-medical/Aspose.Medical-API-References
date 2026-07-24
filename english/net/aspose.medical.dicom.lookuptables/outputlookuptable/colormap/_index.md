@@ -1,7 +1,7 @@
 ---
 title: ColorMap
 second_title: Aspose.Medical for .NET API Reference
-description: The associated color map. Read-only Bgra32aspose.medical.imaging.pixelformats/bgra32.
+description: The associated color map. Read-only Bgra32aspose.medical.imaging.pixels/bgra32.
 type: docs
 weight: 20
 url: /net/aspose.medical.dicom.lookuptables/outputlookuptable/colormap/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.lookuptables/outputlookuptable/colormap/
 
 ## OutputLookUpTable.ColorMap property
 
-The associated color map. Read-only [`Bgra32`](../../../aspose.medical.imaging.pixelformats/bgra32)[].
+The associated color map. Read-only [`Bgra32`](../../../aspose.medical.imaging.pixels/bgra32)[].
 
 ```csharp
 public Bgra32[] ColorMap { get; }
@@ -17,7 +17,7 @@ public Bgra32[] ColorMap { get; }
 
 ### See Also
 
-* struct [Bgra32](../../../aspose.medical.imaging.pixelformats/bgra32)
+* struct [Bgra32](../../../aspose.medical.imaging.pixels/bgra32)
 * class [OutputLookUpTable](../../outputlookuptable)
 * namespace [Aspose.Medical.Dicom.LookUpTables](../../outputlookuptable)
 * assembly [Aspose.Medical](../../../)

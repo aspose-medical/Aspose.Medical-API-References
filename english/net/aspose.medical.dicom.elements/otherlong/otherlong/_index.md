@@ -7,7 +7,7 @@ weight: 10
 url: /net/aspose.medical.dicom.elements/otherlong/otherlong/
 ---
 
-## OtherLong(Tag, Span&lt;uint&gt;) {#constructor}
+## OtherLong(Tag, Span&lt;uint&gt;) {#constructor_1}
 
 ```csharp
 public OtherLong(Tag tag, Span<uint> data)
@@ -22,7 +22,22 @@ public OtherLong(Tag tag, Span<uint> data)
 
 ---
 
-## OtherLong(Tag, uint) {#constructor_1}
+## OtherLong(Tag, ReadOnlySpan&lt;uint&gt;) {#constructor}
+
+```csharp
+public OtherLong(Tag tag, ReadOnlySpan<uint> data)
+```
+
+### See Also
+
+* class [Tag](../../../aspose.medical.dicom.tags/tag)
+* class [OtherLong](../../otherlong)
+* namespace [Aspose.Medical.Dicom.Elements](../../otherlong)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## OtherLong(Tag, uint) {#constructor_2}
 
 Initializes a new instance of the [`OtherLong`](../../otherlong) with the given *value* and *tag*.
 

@@ -7,61 +7,62 @@ weight: 20
 url: /net/aspose.medical.dicom.imaging.overlays/overlayfactory/fromimage/
 ---
 
-## FromImage(Dataset, RawImage, Bgra32) {#fromimage}
+## FromImage(Dataset, PixelImage&lt;Bgra32&gt;, Bgra32) {#fromimage}
 
 Creates a DICOM overlay from an image and adds it to the given *dataset*.
 
 ```csharp
-public static OverlayData FromImage(Dataset dataset, RawImage image, Bgra32 mask)
+public static OverlayData FromImage(Dataset dataset, PixelImage<Bgra32> image, Bgra32 mask)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataset | Dataset | DICOM Dataset. |
-| image | RawImage | Image to be added as overlay. |
-| mask | Bgra32 | Color mask for overlay. |
+| dataset | Dataset | The DICOM dataset that will receive the overlay. |
+| image | PixelImage`1 | The source image for the overlay. |
+| mask | Bgra32 | The pixel value that identifies overlay pixels in the source image. |
 
 ### Return Value
 
-The [`OverlayData`](../../overlaydata).
+The created overlay data.
 
 ### See Also
 
 * class [OverlayData](../../overlaydata)
 * class [Dataset](../../../aspose.medical.dicom/dataset)
-* class [RawImage](../../../aspose.medical.imaging/rawimage)
-* struct [Bgra32](../../../aspose.medical.imaging.pixelformats/bgra32)
+* class [PixelImage&lt;TPixel&gt;](../../../aspose.medical.imaging/pixelimage-1)
+* struct [Bgra32](../../../aspose.medical.imaging.pixels/bgra32)
 * class [OverlayFactory](../../overlayfactory)
 * namespace [Aspose.Medical.Dicom.Imaging.Overlays](../../overlayfactory)
 * assembly [Aspose.Medical](../../../)
 
 ---
 
-## FromImage(Dataset, RawImage, Bgra32, ushort) {#fromimage_1}
+## FromImage(Dataset, PixelImage&lt;Bgra32&gt;, Bgra32, ushort) {#fromimage_1}
 
 Creates a DICOM overlay from an image and adds it to the given *dataset*.
 
 ```csharp
-public static OverlayData FromImage(Dataset dataset, RawImage image, Bgra32 mask, ushort group)
+public static OverlayData FromImage(Dataset dataset, PixelImage<Bgra32> image, Bgra32 mask, 
+    ushort group)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataset | Dataset | DICOM Dataset. |
-| image | RawImage | Image to be added as overlay. |
-| mask | Bgra32 | Color mask for overlay. |
-| group | UInt16 | Overlay group (will be used as a [`Group`](../../../aspose.medical.dicom.tags/tag/group) for all elements that belongs to this overlay). |
+| dataset | Dataset | The DICOM dataset that will receive the overlay. |
+| image | PixelImage`1 | The source image for the overlay. |
+| mask | Bgra32 | The pixel value that identifies overlay pixels in the source image. |
+| group | UInt16 | The DICOM overlay group. |
 
 ### Return Value
 
-The [`OverlayData`](../../overlaydata).
+The created overlay data.
 
 ### See Also
 
 * class [OverlayData](../../overlaydata)
 * class [Dataset](../../../aspose.medical.dicom/dataset)
-* class [RawImage](../../../aspose.medical.imaging/rawimage)
-* struct [Bgra32](../../../aspose.medical.imaging.pixelformats/bgra32)
+* class [PixelImage&lt;TPixel&gt;](../../../aspose.medical.imaging/pixelimage-1)
+* struct [Bgra32](../../../aspose.medical.imaging.pixels/bgra32)
 * class [OverlayFactory](../../overlayfactory)
 * namespace [Aspose.Medical.Dicom.Imaging.Overlays](../../overlayfactory)
 * assembly [Aspose.Medical](../../../)

@@ -1,31 +1,17 @@
 ---
 title: GetEncoding
 second_title: Aspose.Medical for .NET API Reference
-description: Returns the Encoding corresponding to charset DICOM Specific Character Set.
+description: 
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.medical.common.text/dicomencoding/getencoding/
 ---
 
 ## DicomEncoding.GetEncoding method
 
-Returns the Encoding corresponding to *charset* (DICOM Specific Character Set).
-
 ```csharp
 public Encoding GetEncoding(string charset)
 ```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| charset | String | Name of a DICOM character set (encoding). |
-
-### Return Value
-
-The Encoding according to the given *charset* or [`Default`](../default) if the encoding is unknown.
-
-### Remarks
-
-Allows some common misspellings such as redundant spaces, use of ISO-IR ### or ISO IR ### instead of ISO_IR ###.
 
 ### See Also
 

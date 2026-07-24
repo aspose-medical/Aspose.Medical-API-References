@@ -3,7 +3,7 @@ title: PnmColorType
 second_title: Aspose.Medical for .NET API Reference
 description: Identifies the PNM image kind to encode.
 type: docs
-weight: 1290
+weight: 3150
 url: /net/aspose.medical.imaging.codecs.pnm/pnmcolortype/
 ---
 

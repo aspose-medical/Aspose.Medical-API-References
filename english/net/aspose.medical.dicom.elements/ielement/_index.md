@@ -3,7 +3,7 @@ title: IElement
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a basic DICOM data element.
 type: docs
-weight: 270
+weight: 560
 url: /net/aspose.medical.dicom.elements/ielement/
 ---
 

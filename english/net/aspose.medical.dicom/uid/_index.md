@@ -3,7 +3,7 @@ title: Uid
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates DICOM UID. https//dicom.nema.org/dicom/2013/output/chtml/part06/chapter_A.htmlhttps//dicom.nema.org/dicom/2013/output/chtml/part06/chapter_A.html.
 type: docs
-weight: 1180
+weight: 3020
 url: /net/aspose.medical.dicom/uid/
 ---
 
@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom/uid/
 Encapsulates DICOM UID. [https://dicom.nema.org/dicom/2013/output/chtml/part06/chapter_A.html](https://dicom.nema.org/dicom/2013/output/chtml/part06/chapter_A.html).
 
 ```csharp
-public sealed class Uid : IEquatable<Uid>, ISpanParsable<Uid>
+public sealed class Uid : IComparable<Uid>, IEquatable<Uid>, ISpanParsable<Uid>
 ```
 
 ## Properties
@@ -33,6 +33,7 @@ public sealed class Uid : IEquatable<Uid>, ISpanParsable<Uid>
 | static [Parse](../../aspose.medical.dicom/uid/parse#parse_1)(string) | Converts the string representation of an UID to its typed equivalent. |
 | static [Parse](../../aspose.medical.dicom/uid/parse#parse)(ReadOnlySpan&lt;char&gt;, IFormatProvider?) |  |
 | static [Parse](../../aspose.medical.dicom/uid/parse#parse_2)(string, IFormatProvider?) |  |
+| [CompareTo](../../aspose.medical.dicom/uid/compareto)(Uid) |  |
 | override [Equals](../../aspose.medical.dicom/uid/equals#equals_1)(object) |  |
 | [Equals](../../aspose.medical.dicom/uid/equals#equals)(Uid) |  |
 | override [GetHashCode](../../aspose.medical.dicom/uid/gethashcode)() |  |

@@ -3,7 +3,7 @@ title: OutputLookUpTable
 second_title: Aspose.Medical for .NET API Reference
 description: Output LUT used to map grayscale images to RGB grays or colorize grayscale images using custom color map.
 type: docs
-weight: 820
+weight: 1110
 url: /net/aspose.medical.dicom.lookuptables/outputlookuptable/
 ---
 
@@ -25,7 +25,7 @@ public sealed class OutputLookUpTable : ILookUpTable
 
 | Name | Description |
 | --- | --- |
-| [ColorMap](../../aspose.medical.dicom.lookuptables/outputlookuptable/colormap) { get; } | The associated color map. Read-only [`Bgra32`](../../aspose.medical.imaging.pixelformats/bgra32)[]. |
+| [ColorMap](../../aspose.medical.dicom.lookuptables/outputlookuptable/colormap) { get; } | The associated color map. Read-only [`Bgra32`](../../aspose.medical.imaging.pixels/bgra32)[]. |
 | [IsValid](../../aspose.medical.dicom.lookuptables/outputlookuptable/isvalid) { get; } |  |
 | [Item](../../aspose.medical.dicom.lookuptables/outputlookuptable/item) { get; } |  |
 | [Maximum](../../aspose.medical.dicom.lookuptables/outputlookuptable/maximum) { get; } |  |

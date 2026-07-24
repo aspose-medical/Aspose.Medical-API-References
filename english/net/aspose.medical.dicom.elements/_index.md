@@ -3,7 +3,7 @@ title: Aspose.Medical.Dicom.Elements
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.medical.dicom.elements/
 ---
 
@@ -21,6 +21,7 @@ url: /net/aspose.medical.dicom.elements/
 | [Date](./date) | Encapsulates the Date (DA) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=DA-,Date,-A%20string%20of. |
 | [DateTime](./datetime) | Encapsulates the Date Time (DT) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=DT-,Date%20Time,-A%20concatenated%20date. |
 | [DecimalString](./decimalstring) | Encapsulates the Decimal String (DS) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=DS-,Decimal%20String,-A%20string%20of. |
+| [DicomTextSeparators](./dicomtextseparators) | Provides separator characters used by DICOM text value serialization. |
 | [EncodableMultiValuedTextElement](./encodablemultivaluedtextelement) | Encapsulates basic functionality for multi-value text VR types with customizable encodings. |
 | [FloatingPointDouble](./floatingpointdouble) | Encapsulates the Floating Point Double (FD) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=FD-,Floating%20Point%20Double,-Double%20precision%20binary. |
 | [FloatingPointSingle](./floatingpointsingle) | Encapsulates the Floating Point Single (FL) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=FL-,Floating%20Point%20Single,-Single%20precision%20binary.c |

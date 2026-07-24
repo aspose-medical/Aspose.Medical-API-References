@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: Aspose.Medical for .NET API Reference
 description: Determines whether two specified objects have different values.
 type: docs
-weight: 5360
+weight: 5370
 url: /net/aspose.medical.dicom/uid/op_inequality/
 ---
 

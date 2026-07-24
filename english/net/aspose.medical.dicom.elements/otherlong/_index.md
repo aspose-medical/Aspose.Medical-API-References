@@ -3,7 +3,7 @@ title: OtherLong
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Other Long OL VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextOL-Other20Long-A20stream20of.
 type: docs
-weight: 380
+weight: 670
 url: /net/aspose.medical.dicom.elements/otherlong/
 ---
 
@@ -19,8 +19,9 @@ public sealed class OtherLong : ValueElement<uint>
 
 | Name | Description |
 | --- | --- |
-| [OtherLong](otherlong#constructor)(Tag, Span&lt;uint&gt;) |  |
-| [OtherLong](otherlong#constructor_1)(Tag, uint) | Initializes a new instance of the [`OtherLong`](../otherlong) with the given *value* and *tag*. |
+| [OtherLong](otherlong#constructor)(Tag, ReadOnlySpan&lt;uint&gt;) |  |
+| [OtherLong](otherlong#constructor_1)(Tag, Span&lt;uint&gt;) |  |
+| [OtherLong](otherlong#constructor_2)(Tag, uint) | Initializes a new instance of the [`OtherLong`](../otherlong) with the given *value* and *tag*. |
 
 ## Properties
 

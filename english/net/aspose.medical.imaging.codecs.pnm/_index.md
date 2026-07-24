@@ -3,7 +3,7 @@ title: Aspose.Medical.Imaging.Codecs.Pnm
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 380
 url: /net/aspose.medical.imaging.codecs.pnm/
 ---
 

@@ -3,7 +3,7 @@ title: UnitSize
 second_title: Aspose.Medical for .NET API Reference
 description: Size of each individual value unit for fixed length value types. Read-only Int32.
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.medical.dicom.valuerepresentations/valuerepresentation/unitsize/
 ---
 

@@ -3,7 +3,7 @@ title: Aspose.Medical.Dicom.Imaging.Overlays
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 140
 url: /net/aspose.medical.dicom.imaging.overlays/
 ---
 

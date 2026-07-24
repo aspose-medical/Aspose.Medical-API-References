@@ -1,7 +1,7 @@
 ---
 title: Monochrome1
 second_title: Aspose.Medical for .NET API Reference
-description: Look-up table representing MONOCHROME1 grayscale scheme. Read-only Bgra32aspose.medical.imaging.pixelformats/bgra32s array.
+description: Look-up table representing MONOCHROME1 grayscale scheme. Read-only Bgra32aspose.medical.imaging.pixels/bgra32s array.
 type: docs
 weight: 10
 url: /net/aspose.medical.dicom.imaging/colortable/monochrome1/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.imaging/colortable/monochrome1/
 
 ## ColorTable.Monochrome1 property
 
-Look-up table representing MONOCHROME1 grayscale scheme. Read-only [`Bgra32`](../../../aspose.medical.imaging.pixelformats/bgra32)'s array.
+Look-up table representing MONOCHROME1 grayscale scheme. Read-only [`Bgra32`](../../../aspose.medical.imaging.pixels/bgra32)'s array.
 
 ```csharp
 public static Bgra32[] Monochrome1 { get; }
@@ -17,7 +17,7 @@ public static Bgra32[] Monochrome1 { get; }
 
 ### See Also
 
-* struct [Bgra32](../../../aspose.medical.imaging.pixelformats/bgra32)
+* struct [Bgra32](../../../aspose.medical.imaging.pixels/bgra32)
 * class [ColorTable](../../colortable)
 * namespace [Aspose.Medical.Dicom.Imaging](../../colortable)
 * assembly [Aspose.Medical](../../../)

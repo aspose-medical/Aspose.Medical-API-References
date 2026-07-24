@@ -1,29 +1,58 @@
 ---
 title: GetByteCount
 second_title: Aspose.Medical for .NET API Reference
-description: Calculates the number of bytes that encoding all the characters in the specified string would produce given the same fallback and delimiter logic as your GetBytes method.
+description: Calculates the encoded byte count for a DICOM character string value.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.medical.common.text/idicomencoding/getbytecount/
 ---
 
-## IDicomEncoding.GetByteCount method
+## GetByteCount(ReadOnlySpan&lt;char&gt;, Encoding[], ReadOnlySpan&lt;byte&gt;) {#getbytecount}
 
-Calculates the number of bytes that encoding all the characters in the specified string would produce, given the same fallback and delimiter logic as your GetBytes method.
+Calculates the encoded byte count for a DICOM character string value.
 
 ```csharp
-public int GetByteCount(string data, Encoding[] encodings, ReadOnlySpan<byte> delimiters)
+public int GetByteCount(ReadOnlySpan<char> data, Encoding[] encodings, 
+    ReadOnlySpan<byte> delimiters)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | String | The string containing the characters to encode. |
-| encodings | Encoding[] | Encodings used to encode the given *data* (for final‐fallback). |
-| delimiters | ReadOnlySpan`1 | Delimiters in text values that reset the encoding. |
+| data | ReadOnlySpan`1 | The character string to encode. |
+| encodings | Encoding[] | The DICOM character set sequence to use for encoding. |
+| delimiters | ReadOnlySpan`1 | Value delimiters that reset code extension state while encoding. |
 
 ### Return Value
 
-The total number of bytes that your GetBytes would have returned.
+The number of bytes that encoding would write, including one padding byte when needed for even length.
+
+### See Also
+
+* interface [IDicomEncoding](../../idicomencoding)
+* namespace [Aspose.Medical.Common.Text](../../idicomencoding)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## GetByteCount(ReadOnlySpan&lt;string&gt;, char, Encoding[], ReadOnlySpan&lt;byte&gt;) {#getbytecount_1}
+
+Calculates the encoded byte count for a multi-valued DICOM character string value.
+
+```csharp
+public int GetByteCount(ReadOnlySpan<string> values, char separator, Encoding[] encodings, 
+    ReadOnlySpan<byte> delimiters)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| values | ReadOnlySpan`1 | The character string values to encode. |
+| separator | Char | The character inserted between encoded values. |
+| encodings | Encoding[] | The DICOM character set sequence to use for encoding. |
+| delimiters | ReadOnlySpan`1 | Value delimiters that reset code extension state while encoding. |
+
+### Return Value
+
+The number of bytes that encoding would write, including separators and one padding byte when needed for even length.
 
 ### See Also
 

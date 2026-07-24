@@ -7,10 +7,25 @@ weight: 10
 url: /net/aspose.medical.dicom.elements/otherfloat/otherfloat/
 ---
 
-## OtherFloat(Tag, Span&lt;float&gt;) {#constructor_1}
+## OtherFloat(Tag, Span&lt;float&gt;) {#constructor_2}
 
 ```csharp
 public OtherFloat(Tag tag, Span<float> data)
+```
+
+### See Also
+
+* class [Tag](../../../aspose.medical.dicom.tags/tag)
+* class [OtherFloat](../../otherfloat)
+* namespace [Aspose.Medical.Dicom.Elements](../../otherfloat)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## OtherFloat(Tag, ReadOnlySpan&lt;float&gt;) {#constructor_1}
+
+```csharp
+public OtherFloat(Tag tag, ReadOnlySpan<float> data)
 ```
 
 ### See Also

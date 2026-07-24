@@ -3,7 +3,7 @@ title: ReadDicomFileOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Options for reading from a file path.
 type: docs
-weight: 960
+weight: 2800
 url: /net/aspose.medical.dicom.readers/readdicomfileoptions/
 ---
 

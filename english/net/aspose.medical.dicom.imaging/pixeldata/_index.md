@@ -3,7 +3,7 @@ title: PixelData
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulated base functionality for reading and writing DICOM images pixel data according to the specified transfer syntax.
 type: docs
-weight: 690
+weight: 980
 url: /net/aspose.medical.dicom.imaging/pixeldata/
 ---
 
@@ -30,7 +30,7 @@ public abstract class PixelData
 | [LossyCompressionMethod](../../aspose.medical.dicom.imaging/pixeldata/lossycompressionmethod) { get; } | The lossy image compression method (0028,2114). Read-only String. |
 | [LossyCompressionRatio](../../aspose.medical.dicom.imaging/pixeldata/lossycompressionratio) { get; } | The lossy image compression ratio (0028,2112). Read-only Decimal. |
 | [NumberOfFrames](../../aspose.medical.dicom.imaging/pixeldata/numberofframes) { get; set; } | The DICOM image Number of frames. This value usually equals 1 for single frame images. Read/Write Int32. |
-| [PaletteColorLut](../../aspose.medical.dicom.imaging/pixeldata/palettecolorlut) { get; } | The palette color LUT, valid for PALETTE COLOR [`PhotometricInterpretation`](./photometricinterpretation). Read-only [`Bgra32`](../../aspose.medical.imaging.pixelformats/bgra32) array. |
+| [PaletteColorLut](../../aspose.medical.dicom.imaging/pixeldata/palettecolorlut) { get; } | The palette color LUT, valid for PALETTE COLOR [`PhotometricInterpretation`](./photometricinterpretation). Read-only [`Bgra32`](../../aspose.medical.imaging.pixels/bgra32) array. |
 | [PhotometricInterpretation](../../aspose.medical.dicom.imaging/pixeldata/photometricinterpretation) { get; set; } | The photometric Interpretation. Read/Write [`PhotometricInterpretation`](../photometricinterpretation). |
 | [PixelRepresentation](../../aspose.medical.dicom.imaging/pixeldata/pixelrepresentation) { get; set; } | The pixel Representation (0028,0103), represents signed/unsigned data of the pixel samples. Read/Write [`PixelRepresentation`](../pixelrepresentation). |
 | [PlanarConfiguration](../../aspose.medical.dicom.imaging/pixeldata/planarconfiguration) { get; set; } | The planar Configuration (0028,0006), indicates whether the color pixel data are sent color-by-plane or color-by-pixel. Read/Write [`PixelRepresentation`](../pixelrepresentation). |

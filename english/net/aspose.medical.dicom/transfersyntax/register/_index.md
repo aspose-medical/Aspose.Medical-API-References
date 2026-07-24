@@ -18,8 +18,8 @@ public static void Register(Uid uid, bool isLittleEndian, bool isExplicitVr)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | uid | Uid | The UID of the transfer syntax to be registered. |
-| isLittleEndian | Boolean |  |
-| isExplicitVr | Boolean |  |
+| isLittleEndian | Boolean | Whether values use little-endian byte order. |
+| isExplicitVr | Boolean | Whether value representations are encoded explicitly. |
 
 ### Exceptions
 

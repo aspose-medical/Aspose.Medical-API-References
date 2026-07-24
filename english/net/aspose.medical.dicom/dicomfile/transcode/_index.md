@@ -3,7 +3,7 @@ title: Transcode
 second_title: Aspose.Medical for .NET API Reference
 description: Transcodes this DicomFileaspose.medical.dicom/dicomfile from MetaInfoaspose.medical.dicom/dicomfile/metainfo.TransferSyntaxaspose.medical.dicom/metainformation/transfersyntax to the given syntax.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.medical.dicom/dicomfile/transcode/
 ---
 

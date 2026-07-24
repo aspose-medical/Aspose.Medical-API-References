@@ -1,15 +1,15 @@
 ---
 title: RegisterEncoding
 second_title: Aspose.Medical for .NET API Reference
-description: Registers an encoding for a specific character set value.
+description: Registers a .NET encoding name for a DICOM Specific Character Set value.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.medical.common.text/idicomencoding/registerencoding/
 ---
 
 ## IDicomEncoding.RegisterEncoding method
 
-Registers an encoding for a specific character set value.
+Registers a .NET encoding name for a DICOM Specific Character Set value.
 
 ```csharp
 public void RegisterEncoding(string charsetName, string encodingName)
@@ -17,8 +17,8 @@ public void RegisterEncoding(string charsetName, string encodingName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| charsetName | String | The name of the character set as given in the `Specific Character Set` DICOM attribute. |
-| encodingName | String | The name of .NET encoding for the *charsetName*. |
+| charsetName | String | The DICOM Specific Character Set value to register. |
+| encodingName | String | The .NET encoding name for *charsetName*. |
 
 ### See Also
 

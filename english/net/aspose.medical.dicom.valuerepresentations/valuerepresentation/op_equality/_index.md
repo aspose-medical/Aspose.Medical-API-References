@@ -3,7 +3,7 @@ title: op_Equality
 second_title: Aspose.Medical for .NET API Reference
 description: Determines whether two specified objects have the same value.
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.medical.dicom.valuerepresentations/valuerepresentation/op_equality/
 ---
 

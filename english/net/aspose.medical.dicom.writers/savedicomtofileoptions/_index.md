@@ -3,7 +3,7 @@ title: SaveDicomToFileOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Options that control how a DicomFile../aspose.medical.dicom/dicomfile is saved to a file.
 type: docs
-weight: 1240
+weight: 3080
 url: /net/aspose.medical.dicom.writers/savedicomtofileoptions/
 ---
 

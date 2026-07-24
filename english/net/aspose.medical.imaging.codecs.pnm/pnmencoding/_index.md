@@ -3,7 +3,7 @@ title: PnmEncoding
 second_title: Aspose.Medical for .NET API Reference
 description: Specifies how pixel samples are represented in a PNM stream.
 type: docs
-weight: 1300
+weight: 3160
 url: /net/aspose.medical.imaging.codecs.pnm/pnmencoding/
 ---
 

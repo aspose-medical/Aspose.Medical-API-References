@@ -3,7 +3,7 @@ title: SingleValueTextElement
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates basic functionality for single-valued text VR types that customizable charset.
 type: docs
-weight: 490
+weight: 780
 url: /net/aspose.medical.dicom.elements/singlevaluetextelement/
 ---
 

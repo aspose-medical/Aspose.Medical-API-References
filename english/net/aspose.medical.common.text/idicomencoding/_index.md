@@ -1,7 +1,7 @@
 ---
 title: IDicomEncoding
 second_title: Aspose.Medical for .NET API Reference
-description: Handles alternate character sets for DICOM character strings.
+description: Encodes and decodes DICOM character string value fields using DICOM Specific Character Set rules.
 type: docs
 weight: 20
 url: /net/aspose.medical.common.text/idicomencoding/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.common.text/idicomencoding/
 
 ## IDicomEncoding interface
 
-Handles alternate character sets for DICOM character strings.
+Encodes and decodes DICOM character string value fields using DICOM Specific Character Set rules.
 
 ```csharp
 public interface IDicomEncoding
@@ -19,14 +19,18 @@ public interface IDicomEncoding
 
 | Name | Description |
 | --- | --- |
-| [Decode](../../aspose.medical.common.text/idicomencoding/decode)(Span&lt;byte&gt;, Encoding[], ReadOnlySpan&lt;byte&gt;) | Decodes all the byte fragments in the specified Byte array into a String using a set of the given *encodings*. |
-| [GetByteCount](../../aspose.medical.common.text/idicomencoding/getbytecount)(string, Encoding[], ReadOnlySpan&lt;byte&gt;) | Calculates the number of bytes that encoding all the characters in the specified string would produce, given the same fallback and delimiter logic as your GetBytes method. |
-| [GetBytes](../../aspose.medical.common.text/idicomencoding/getbytes)(string, Encoding[], byte, ReadOnlySpan&lt;byte&gt;) | Encodes all the characters in the specified string into a Byte's array. |
-| [GetCharset](../../aspose.medical.common.text/idicomencoding/getcharset)(Encoding, bool) | Get DICOM character set from .NET Encoding. |
-| [GetEncoding](../../aspose.medical.common.text/idicomencoding/getencoding)(string) | Returns the Encoding corresponding to *charset* (DICOM Specific Character Set). |
-| [GetEncodings](../../aspose.medical.common.text/idicomencoding/getencodings)(string[]) | Returns a collection of Encoding corresponding to the given *charsets*, where every *charsets* item is a name of the DICOM Specific Character Set. |
-| [RegisterEncoding](../../aspose.medical.common.text/idicomencoding/registerencoding)(string, string) | Registers an encoding for a specific character set value. |
-| [RegisterProvider](../../aspose.medical.common.text/idicomencoding/registerprovider)(EncodingProvider) | Registers an encoding provider. |
+| [Decode](../../aspose.medical.common.text/idicomencoding/decode)(Span&lt;byte&gt;, Encoding[], ReadOnlySpan&lt;byte&gt;) | Decodes DICOM character string value bytes using the specified character set sequence. |
+| [DecodeList](../../aspose.medical.common.text/idicomencoding/decodelist)(Span&lt;byte&gt;, Encoding[], ReadOnlySpan&lt;byte&gt;) | Decodes a multi-valued DICOM character string value into individual string values. |
+| [GetByteCount](../../aspose.medical.common.text/idicomencoding/getbytecount#getbytecount)(ReadOnlySpan&lt;char&gt;, Encoding[], ReadOnlySpan&lt;byte&gt;) | Calculates the encoded byte count for a DICOM character string value. |
+| [GetByteCount](../../aspose.medical.common.text/idicomencoding/getbytecount#getbytecount_1)(ReadOnlySpan&lt;string&gt;, char, Encoding[], ReadOnlySpan&lt;byte&gt;) | Calculates the encoded byte count for a multi-valued DICOM character string value. |
+| [GetBytes](../../aspose.medical.common.text/idicomencoding/getbytes#getbytes)(ReadOnlySpan&lt;char&gt;, Encoding[], byte, ReadOnlySpan&lt;byte&gt;) | Encodes a DICOM character string value into an even-length byte array. |
+| [GetBytes](../../aspose.medical.common.text/idicomencoding/getbytes#getbytes_1)(ReadOnlySpan&lt;char&gt;, Encoding[], byte, ReadOnlySpan&lt;byte&gt;, Span&lt;byte&gt;) | Encodes a DICOM character string value into a caller-provided byte span. |
+| [GetBytes](../../aspose.medical.common.text/idicomencoding/getbytes#getbytes_2)(ReadOnlySpan&lt;string&gt;, char, Encoding[], byte, ReadOnlySpan&lt;byte&gt;, Span&lt;byte&gt;) | Encodes a multi-valued DICOM character string value into a caller-provided byte span. |
+| [GetCharset](../../aspose.medical.common.text/idicomencoding/getcharset)(Encoding, bool) | Gets the DICOM Specific Character Set value for a .NET Encoding. |
+| [GetEncoding](../../aspose.medical.common.text/idicomencoding/getencoding)(string) | Gets the .NET Encoding for a DICOM Specific Character Set value. |
+| [GetEncodings](../../aspose.medical.common.text/idicomencoding/getencodings)(string[]) | Gets the .NET encodings for a DICOM Specific Character Set value sequence. |
+| [RegisterEncoding](../../aspose.medical.common.text/idicomencoding/registerencoding)(string, string) | Registers a .NET encoding name for a DICOM Specific Character Set value. |
+| [RegisterProvider](../../aspose.medical.common.text/idicomencoding/registerprovider)(EncodingProvider) | Registers an encoding provider used to resolve additional .NET encodings. |
 
 ### See Also
 

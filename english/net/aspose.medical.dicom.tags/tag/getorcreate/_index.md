@@ -1,7 +1,7 @@
 ---
 title: GetOrCreate
 second_title: Aspose.Medical for .NET API Reference
-description: 
+description: Returns the registered tag for the specified group and element or creates a tag value when no registered tag exists.
 type: docs
 weight: 53030
 url: /net/aspose.medical.dicom.tags/tag/getorcreate/
@@ -9,14 +9,20 @@ url: /net/aspose.medical.dicom.tags/tag/getorcreate/
 
 ## Tag.GetOrCreate method
 
+Returns the registered tag for the specified group and element, or creates a tag value when no registered tag exists.
+
 ```csharp
 public static Tag GetOrCreate(ushort group, ushort element)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| group | UInt16 |  |
-| element | UInt16 |  |
+| group | UInt16 | The DICOM tag group number. |
+| element | UInt16 | The DICOM tag element number. |
+
+### Return Value
+
+The registered [`Tag`](../../tag) for the specified tag number; otherwise, a new tag with the supplied group and element.
 
 ### See Also
 

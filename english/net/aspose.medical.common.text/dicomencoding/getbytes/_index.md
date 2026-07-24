@@ -1,31 +1,48 @@
 ---
 title: GetBytes
 second_title: Aspose.Medical for .NET API Reference
-description: Encodes all the characters in the specified string into a Bytes array.
+description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.medical.common.text/dicomencoding/getbytes/
 ---
 
-## DicomEncoding.GetBytes method
-
-Encodes all the characters in the specified string into a Byte's array.
+## GetBytes(ReadOnlySpan&lt;char&gt;, Encoding[], byte, ReadOnlySpan&lt;byte&gt;) {#getbytes}
 
 ```csharp
-public virtual byte[] GetBytes(string data, Encoding[] encodings, byte paddingValue, 
+public virtual byte[] GetBytes(ReadOnlySpan<char> data, Encoding[] encodings, byte paddingValue, 
     ReadOnlySpan<byte> delimiters)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| data | String | The string containing the characters to encode. |
-| encodings | Encoding[] | Encodings used to encode the given *data*. |
-| paddingValue | Byte | Byte value used to pad result Byte's array to even length. |
-| delimiters | ReadOnlySpan`1 | Delimiters in text values that reset the encoding. |
+### See Also
 
-### Return Value
+* class [DicomEncoding](../../dicomencoding)
+* namespace [Aspose.Medical.Common.Text](../../dicomencoding)
+* assembly [Aspose.Medical](../../../)
 
-A Byte array containing the results of encoding the specified set of characters.
+---
+
+## GetBytes(ReadOnlySpan&lt;char&gt;, Encoding[], byte, ReadOnlySpan&lt;byte&gt;, Span&lt;byte&gt;) {#getbytes_1}
+
+```csharp
+public virtual int GetBytes(ReadOnlySpan<char> data, Encoding[] encodings, byte paddingValue, 
+    ReadOnlySpan<byte> delimiters, Span<byte> destination)
+```
+
+### See Also
+
+* class [DicomEncoding](../../dicomencoding)
+* namespace [Aspose.Medical.Common.Text](../../dicomencoding)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## GetBytes(ReadOnlySpan&lt;string&gt;, char, Encoding[], byte, ReadOnlySpan&lt;byte&gt;, Span&lt;byte&gt;) {#getbytes_2}
+
+```csharp
+public virtual int GetBytes(ReadOnlySpan<string> values, char separator, Encoding[] encodings, 
+    byte paddingValue, ReadOnlySpan<byte> delimiters, Span<byte> destination)
+```
 
 ### See Also
 

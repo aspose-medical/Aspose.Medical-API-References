@@ -3,7 +3,7 @@ title: CompositeLookUpTable
 second_title: Aspose.Medical for .NET API Reference
 description: Look-Up Table that represents a set of Look-Up Tables to be applied to a destination image sequentially.
 type: docs
-weight: 750
+weight: 1040
 url: /net/aspose.medical.dicom.lookuptables/compositelookuptable/
 ---
 

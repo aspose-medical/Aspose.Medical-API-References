@@ -3,7 +3,7 @@ title: Aspose.Medical.Dicom.Errors
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 110
 url: /net/aspose.medical.dicom.errors/
 ---
 

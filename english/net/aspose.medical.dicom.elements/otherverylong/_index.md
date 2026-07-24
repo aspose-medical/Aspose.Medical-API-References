@@ -3,7 +3,7 @@ title: OtherVeryLong
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Other Very Long OV VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextTransfer20Syntax20definition-OV-Other20642Dbit.
 type: docs
-weight: 390
+weight: 680
 url: /net/aspose.medical.dicom.elements/otherverylong/
 ---
 
@@ -19,8 +19,9 @@ public sealed class OtherVeryLong : ValueElement<ulong>
 
 | Name | Description |
 | --- | --- |
-| [OtherVeryLong](otherverylong#constructor)(Tag, Span&lt;ulong&gt;) |  |
-| [OtherVeryLong](otherverylong#constructor_1)(Tag, ulong) | Initializes a new instance of the [`OtherVeryLong`](../otherverylong) with the given *value* and *tag*. |
+| [OtherVeryLong](otherverylong#constructor)(Tag, ReadOnlySpan&lt;ulong&gt;) |  |
+| [OtherVeryLong](otherverylong#constructor_1)(Tag, Span&lt;ulong&gt;) |  |
+| [OtherVeryLong](otherverylong#constructor_2)(Tag, ulong) | Initializes a new instance of the [`OtherVeryLong`](../otherverylong) with the given *value* and *tag*. |
 
 ## Properties
 

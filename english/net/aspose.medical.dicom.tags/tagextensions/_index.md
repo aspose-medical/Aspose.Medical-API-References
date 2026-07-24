@@ -3,7 +3,7 @@ title: TagExtensions
 second_title: Aspose.Medical for .NET API Reference
 description: Provide extension methods for Tag./tag.
 type: docs
-weight: 1120
+weight: 2960
 url: /net/aspose.medical.dicom.tags/tagextensions/
 ---
 
@@ -19,7 +19,7 @@ public static class TagExtensions
 
 | Name | Description |
 | --- | --- |
-| static [WithGroup](../../aspose.medical.dicom.tags/tagextensions/withgroup)(this Tag, ushort) | Creates a new instance of the [`Tag`](../tag) with the [`Group`](../tag/group) equal to the given *group* and [`Element`](../tag/element) equal to the given *tag*'s [`Element`](../tag/element). |
+| static [WithGroup](../../aspose.medical.dicom.tags/tagextensions/withgroup)(this Tag, ushort) |  |
 
 ### See Also
 

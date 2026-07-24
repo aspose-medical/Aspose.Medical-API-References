@@ -1,7 +1,7 @@
 ---
 title: GetByUid
 second_title: Aspose.Medical for .NET API Reference
-description: 
+description: Gets the registered transfer syntax identified by the specified UID.
 type: docs
 weight: 580
 url: /net/aspose.medical.dicom/transfersyntax/getbyuid/
@@ -9,13 +9,19 @@ url: /net/aspose.medical.dicom/transfersyntax/getbyuid/
 
 ## TransferSyntax.GetByUid method
 
+Gets the registered transfer syntax identified by the specified UID.
+
 ```csharp
 public static TransferSyntax GetByUid(Uid uid)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uid | Uid |  |
+| uid | Uid | The transfer syntax UID to resolve. |
+
+### Return Value
+
+The registered transfer syntax.
 
 ### Exceptions
 

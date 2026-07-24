@@ -1,7 +1,7 @@
 ---
 title: PaletteColorLut
 second_title: Aspose.Medical for .NET API Reference
-description: The palette color LUT valid for PALETTE COLOR PhotometricInterpretationaspose.medical.dicom.imaging/pixeldata/photometricinterpretation. Read-only Bgra32aspose.medical.imaging.pixelformats/bgra32 array.
+description: The palette color LUT valid for PALETTE COLOR PhotometricInterpretationaspose.medical.dicom.imaging/pixeldata/photometricinterpretation. Read-only Bgra32aspose.medical.imaging.pixels/bgra32 array.
 type: docs
 weight: 140
 url: /net/aspose.medical.dicom.imaging/pixeldata/palettecolorlut/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.imaging/pixeldata/palettecolorlut/
 
 ## PixelData.PaletteColorLut property
 
-The palette color LUT, valid for PALETTE COLOR [`PhotometricInterpretation`](../photometricinterpretation). Read-only [`Bgra32`](../../../aspose.medical.imaging.pixelformats/bgra32) array.
+The palette color LUT, valid for PALETTE COLOR [`PhotometricInterpretation`](../photometricinterpretation). Read-only [`Bgra32`](../../../aspose.medical.imaging.pixels/bgra32) array.
 
 ```csharp
 public Bgra32[] PaletteColorLut { get; }
@@ -23,7 +23,7 @@ public Bgra32[] PaletteColorLut { get; }
 
 ### See Also
 
-* struct [Bgra32](../../../aspose.medical.imaging.pixelformats/bgra32)
+* struct [Bgra32](../../../aspose.medical.imaging.pixels/bgra32)
 * class [PixelData](../../pixeldata)
 * namespace [Aspose.Medical.Dicom.Imaging](../../pixeldata)
 * assembly [Aspose.Medical](../../../)

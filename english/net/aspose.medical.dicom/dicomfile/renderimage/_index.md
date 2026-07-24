@@ -1,7 +1,7 @@
 ---
 title: RenderImage
 second_title: Aspose.Medical for .NET API Reference
-description: Renders the DICOM image stored at the given frameIndex in Pixel Data into RawImageaspose.medical.imaging/rawimage.
+description: Renders a frame from the DICOM Pixel Data element as a BGRA pixel image.
 type: docs
 weight: 60
 url: /net/aspose.medical.dicom/dicomfile/renderimage/
@@ -9,23 +9,24 @@ url: /net/aspose.medical.dicom/dicomfile/renderimage/
 
 ## RenderImage(int) {#renderimage_1}
 
-Renders the DICOM image stored at the given *frameIndex* in `Pixel Data` into [`RawImage`](../../../aspose.medical.imaging/rawimage).
+Renders a frame from the DICOM `Pixel Data` element as a BGRA pixel image.
 
 ```csharp
-public IRawImage RenderImage(int frameIndex = 0)
+public PixelImage<Bgra32> RenderImage(int frameIndex = 0)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| frameIndex | Int32 | Zero-based indexed frame number. |
+| frameIndex | Int32 | The zero-based frame index. |
 
 ### Return Value
 
-The [`RawImage`](../../../aspose.medical.imaging/rawimage).
+The rendered image.
 
 ### See Also
 
-* interface [IRawImage](../../../aspose.medical.imaging/irawimage)
+* class [PixelImage&lt;TPixel&gt;](../../../aspose.medical.imaging/pixelimage-1)
+* struct [Bgra32](../../../aspose.medical.imaging.pixels/bgra32)
 * class [DicomFile](../../dicomfile)
 * namespace [Aspose.Medical.Dicom](../../dicomfile)
 * assembly [Aspose.Medical](../../../)
@@ -34,24 +35,25 @@ The [`RawImage`](../../../aspose.medical.imaging/rawimage).
 
 ## RenderImage(RenderOptions, int) {#renderimage}
 
-Renders the DICOM image stored at the given *frameIndex* in `Pixel Data` into [`RawImage`](../../../aspose.medical.imaging/rawimage).
+Renders a frame from the DICOM `Pixel Data` element as a BGRA 32 pixel image.
 
 ```csharp
-public IRawImage RenderImage(RenderOptions options, int frameIndex = 0)
+public PixelImage<Bgra32> RenderImage(RenderOptions options, int frameIndex = 0)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | RenderOptions | Options that control rendering process. |
-| frameIndex | Int32 | Zero-based indexed frame number. |
+| options | RenderOptions | The rendering options. |
+| frameIndex | Int32 | The zero-based frame index. |
 
 ### Return Value
 
-The [`RawImage`](../../../aspose.medical.imaging/rawimage).
+The rendered pixel image.
 
 ### See Also
 
-* interface [IRawImage](../../../aspose.medical.imaging/irawimage)
+* class [PixelImage&lt;TPixel&gt;](../../../aspose.medical.imaging/pixelimage-1)
+* struct [Bgra32](../../../aspose.medical.imaging.pixels/bgra32)
 * record [RenderOptions](../../../aspose.medical.dicom.imaging.options/renderoptions)
 * class [DicomFile](../../dicomfile)
 * namespace [Aspose.Medical.Dicom](../../dicomfile)

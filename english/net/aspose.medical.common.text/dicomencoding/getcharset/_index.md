@@ -1,34 +1,17 @@
 ---
 title: GetCharset
 second_title: Aspose.Medical for .NET API Reference
-description: Get DICOM character set from .NET Encoding.
+description: 
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.medical.common.text/dicomencoding/getcharset/
 ---
 
 ## DicomEncoding.GetCharset method
 
-Get DICOM character set from .NET Encoding.
-
 ```csharp
 public virtual string GetCharset(Encoding encoding, bool extended = false)
 ```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| encoding | Encoding | .NET Encoding. |
-| extended | Boolean | If `true`, the extended version of the character set is returned. |
-
-### Return Value
-
-The String Specific Character Set as defined in DICOM.
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentException | No character set found for the encoding. |
 
 ### See Also
 

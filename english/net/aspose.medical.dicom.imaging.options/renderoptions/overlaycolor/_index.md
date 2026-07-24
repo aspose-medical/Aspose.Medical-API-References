@@ -1,7 +1,7 @@
 ---
 title: OverlayColor
 second_title: Aspose.Medical for .NET API Reference
-description: The color used for displaying DICOM overlays. Default is white Whiteaspose.medical.imaging.pixelformats/bgra32/white. Read-only Bgra32aspose.medical.imaging.pixelformats/bgra32
+description: The color used for displaying DICOM overlays. Default is white Whiteaspose.medical.imaging.pixels/bgra32/white. Read-only Bgra32aspose.medical.imaging.pixels/bgra32
 type: docs
 weight: 30
 url: /net/aspose.medical.dicom.imaging.options/renderoptions/overlaycolor/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.imaging.options/renderoptions/overlaycolor/
 
 ## RenderOptions.OverlayColor property
 
-The color used for displaying DICOM overlays. Default is white ([`White`](../../../aspose.medical.imaging.pixelformats/bgra32/white)). Read-only [`Bgra32`](../../../aspose.medical.imaging.pixelformats/bgra32)
+The color used for displaying DICOM overlays. Default is white ([`White`](../../../aspose.medical.imaging.pixels/bgra32/white)). Read-only [`Bgra32`](../../../aspose.medical.imaging.pixels/bgra32)
 
 ```csharp
 public Bgra32 OverlayColor { get; set; }
@@ -17,7 +17,7 @@ public Bgra32 OverlayColor { get; set; }
 
 ### See Also
 
-* struct [Bgra32](../../../aspose.medical.imaging.pixelformats/bgra32)
+* struct [Bgra32](../../../aspose.medical.imaging.pixels/bgra32)
 * record [RenderOptions](../../renderoptions)
 * namespace [Aspose.Medical.Dicom.Imaging.Options](../../renderoptions)
 * assembly [Aspose.Medical](../../../)

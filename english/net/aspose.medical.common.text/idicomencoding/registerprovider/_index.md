@@ -1,15 +1,15 @@
 ---
 title: RegisterProvider
 second_title: Aspose.Medical for .NET API Reference
-description: Registers an encoding provider.
+description: Registers an encoding provider used to resolve additional .NET encodings.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.medical.common.text/idicomencoding/registerprovider/
 ---
 
 ## IDicomEncoding.RegisterProvider method
 
-Registers an encoding provider.
+Registers an encoding provider used to resolve additional .NET encodings.
 
 ```csharp
 public void RegisterProvider(EncodingProvider provider)
@@ -17,7 +17,7 @@ public void RegisterProvider(EncodingProvider provider)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| provider | EncodingProvider | A subclass of EncodingProvider that provides access to additional character encodings. |
+| provider | EncodingProvider | The provider that exposes additional character encodings. |
 
 ### See Also
 

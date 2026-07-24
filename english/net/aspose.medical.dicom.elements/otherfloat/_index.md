@@ -3,7 +3,7 @@ title: OtherFloat
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Other Float OF VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextOF-Other20Float-A20stream20of.
 type: docs
-weight: 370
+weight: 660
 url: /net/aspose.medical.dicom.elements/otherfloat/
 ---
 
@@ -20,7 +20,8 @@ public sealed class OtherFloat : ValueElement<float>
 | Name | Description |
 | --- | --- |
 | [OtherFloat](otherfloat#constructor)(Tag, float) | Initializes a new instance of the [`OtherFloat`](../otherfloat) with the given *value* and *tag*. |
-| [OtherFloat](otherfloat#constructor_1)(Tag, Span&lt;float&gt;) |  |
+| [OtherFloat](otherfloat#constructor_1)(Tag, ReadOnlySpan&lt;float&gt;) |  |
+| [OtherFloat](otherfloat#constructor_2)(Tag, Span&lt;float&gt;) |  |
 
 ## Properties
 

@@ -3,7 +3,7 @@ title: OverlayFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Provides factory methods to create OverlayData./overlaydata.
 type: docs
-weight: 660
+weight: 950
 url: /net/aspose.medical.dicom.imaging.overlays/overlayfactory/
 ---
 
@@ -20,8 +20,8 @@ public static class OverlayFactory
 | Name | Description |
 | --- | --- |
 | static [CreateRegionOfInterestOverlay](../../aspose.medical.dicom.imaging.overlays/overlayfactory/createregionofinterestoverlay)(Dataset, ushort) | Creates 'Range Of Interest' DICOM overlay and adds it to the given *dataset*. |
-| static [FromImage](../../aspose.medical.dicom.imaging.overlays/overlayfactory/fromimage#fromimage)(Dataset, RawImage, Bgra32) | Creates a DICOM overlay from an image and adds it to the given *dataset*. |
-| static [FromImage](../../aspose.medical.dicom.imaging.overlays/overlayfactory/fromimage#fromimage_1)(Dataset, RawImage, Bgra32, ushort) | Creates a DICOM overlay from an image and adds it to the given *dataset*. |
+| static [FromImage](../../aspose.medical.dicom.imaging.overlays/overlayfactory/fromimage#fromimage)(Dataset, PixelImage&lt;Bgra32&gt;, Bgra32) | Creates a DICOM overlay from an image and adds it to the given *dataset*. |
+| static [FromImage](../../aspose.medical.dicom.imaging.overlays/overlayfactory/fromimage#fromimage_1)(Dataset, PixelImage&lt;Bgra32&gt;, Bgra32, ushort) | Creates a DICOM overlay from an image and adds it to the given *dataset*. |
 
 ### See Also
 

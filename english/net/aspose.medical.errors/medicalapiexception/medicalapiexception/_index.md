@@ -1,7 +1,7 @@
 ---
 title: MedicalApiException
 second_title: Aspose.Medical for .NET API Reference
-description: The default constructor.
+description: Initializes a new instance of the MedicalApiExceptionaspose.medical.errors/medicalapiexception class.
 type: docs
 weight: 10
 url: /net/aspose.medical.errors/medicalapiexception/medicalapiexception/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.errors/medicalapiexception/medicalapiexception/
 
 ## MedicalApiException() {#constructor}
 
-The default constructor.
+Initializes a new instance of the [`MedicalApiException`](../../medicalapiexception) class.
 
 ```csharp
 public MedicalApiException()
@@ -25,9 +25,15 @@ public MedicalApiException()
 
 ## MedicalApiException(string) {#constructor_1}
 
+Initializes a new instance of the [`MedicalApiException`](../../medicalapiexception) class with a specified error message.
+
 ```csharp
 public MedicalApiException(string? message)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | String | The message that describes the error. |
 
 ### See Also
 
@@ -39,9 +45,16 @@ public MedicalApiException(string? message)
 
 ## MedicalApiException(string, Exception) {#constructor_2}
 
+Initializes a new instance of the [`MedicalApiException`](../../medicalapiexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
+
 ```csharp
 public MedicalApiException(string? message, Exception? innerException)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | String | The message that describes the error. |
+| innerException | Exception | The exception that is the cause of the current exception, or `null` if no inner exception is specified. |
 
 ### See Also
 

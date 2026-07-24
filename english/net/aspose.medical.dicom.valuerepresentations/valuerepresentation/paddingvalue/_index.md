@@ -3,7 +3,7 @@ title: PaddingValue
 second_title: Aspose.Medical for .NET API Reference
 description: Byte value used to pad value to even length. Read-only Byte.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.medical.dicom.valuerepresentations/valuerepresentation/paddingvalue/
 ---
 

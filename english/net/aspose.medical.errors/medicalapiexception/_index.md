@@ -3,7 +3,7 @@ title: MedicalApiException
 second_title: Aspose.Medical for .NET API Reference
 description: A generic exception that may occur in Aspose.Medical.
 type: docs
-weight: 1280
+weight: 3120
 url: /net/aspose.medical.errors/medicalapiexception/
 ---
 
@@ -19,9 +19,13 @@ public class MedicalApiException : Exception
 
 | Name | Description |
 | --- | --- |
-| [MedicalApiException](medicalapiexception#constructor)() | The default constructor. |
-| [MedicalApiException](medicalapiexception#constructor_1)(string) |  |
-| [MedicalApiException](medicalapiexception#constructor_2)(string, Exception) |  |
+| [MedicalApiException](medicalapiexception#constructor)() | Initializes a new instance of the [`MedicalApiException`](../medicalapiexception) class. |
+| [MedicalApiException](medicalapiexception#constructor_1)(string) | Initializes a new instance of the [`MedicalApiException`](../medicalapiexception) class with a specified error message. |
+| [MedicalApiException](medicalapiexception#constructor_2)(string, Exception) | Initializes a new instance of the [`MedicalApiException`](../medicalapiexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+
+### Remarks
+
+This exception serves as the base class for all Aspose.Medical exceptions. It supports proper serialization/deserialization according to Microsoft standards.
 
 ### See Also
 

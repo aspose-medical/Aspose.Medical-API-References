@@ -3,7 +3,7 @@ title: Aspose.Medical.Dicom.Traversal
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 310
 url: /net/aspose.medical.dicom.traversal/
 ---
 

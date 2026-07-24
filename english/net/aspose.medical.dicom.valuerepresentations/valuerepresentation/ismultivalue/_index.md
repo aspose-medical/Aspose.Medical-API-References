@@ -3,7 +3,7 @@ title: IsMultiValue
 second_title: Aspose.Medical for .NET API Reference
 description: Specifies whether the value can contain multiple items. Read-only Boolean.
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.medical.dicom.valuerepresentations/valuerepresentation/ismultivalue/
 ---
 

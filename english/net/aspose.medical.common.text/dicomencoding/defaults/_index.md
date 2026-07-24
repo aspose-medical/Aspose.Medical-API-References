@@ -1,15 +1,15 @@
 ---
 title: Defaults
 second_title: Aspose.Medical for .NET API Reference
-description: Default encodings used in DICOM.
+description: The default DICOM character set sequence.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.medical.common.text/dicomencoding/defaults/
 ---
 
 ## DicomEncoding.Defaults field
 
-Default encodings used in DICOM.
+The default DICOM character set sequence.
 
 ```csharp
 public static readonly Encoding[] Defaults;

@@ -3,7 +3,7 @@ title: OtherDouble
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Other Double OD VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextOD-Other20Double-A20stream20of.
 type: docs
-weight: 360
+weight: 650
 url: /net/aspose.medical.dicom.elements/otherdouble/
 ---
 
@@ -20,7 +20,8 @@ public sealed class OtherDouble : ValueElement<double>
 | Name | Description |
 | --- | --- |
 | [OtherDouble](otherdouble#constructor)(Tag, double) | Initializes a new instance of the [`OtherDouble`](../otherdouble) with the given *value* and *tag*. |
-| [OtherDouble](otherdouble#constructor_1)(Tag, Span&lt;double&gt;) |  |
+| [OtherDouble](otherdouble#constructor_1)(Tag, ReadOnlySpan&lt;double&gt;) |  |
+| [OtherDouble](otherdouble#constructor_2)(Tag, Span&lt;double&gt;) |  |
 
 ## Properties
 

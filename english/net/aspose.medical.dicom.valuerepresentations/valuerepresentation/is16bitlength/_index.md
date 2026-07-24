@@ -3,7 +3,7 @@ title: Is16BitLength
 second_title: Aspose.Medical for .NET API Reference
 description: Specifies that length field of value is a 16-bit short integer. Read-only Boolean.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.medical.dicom.valuerepresentations/valuerepresentation/is16bitlength/
 ---
 

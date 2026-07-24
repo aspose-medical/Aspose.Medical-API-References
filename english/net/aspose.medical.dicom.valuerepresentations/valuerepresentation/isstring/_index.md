@@ -3,7 +3,7 @@ title: IsString
 second_title: Aspose.Medical for .NET API Reference
 description: Specifies that the value is a string. Read-only Boolean.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.medical.dicom.valuerepresentations/valuerepresentation/isstring/
 ---
 

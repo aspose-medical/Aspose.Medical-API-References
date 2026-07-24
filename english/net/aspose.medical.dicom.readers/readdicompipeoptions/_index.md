@@ -3,7 +3,7 @@ title: ReadDicomPipeOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Options for reading from a PipeReader.
 type: docs
-weight: 970
+weight: 2810
 url: /net/aspose.medical.dicom.readers/readdicompipeoptions/
 ---
 

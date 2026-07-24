@@ -3,7 +3,7 @@ title: OtherWordFragment
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a fragment sequence of Other Word OW items. Intended for handling OW fragments of encapsulated compressed pixel data.
 type: docs
-weight: 410
+weight: 700
 url: /net/aspose.medical.dicom.elements/otherwordfragment/
 ---
 
@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom.elements/otherwordfragment/
 Represents a fragment sequence of Other Word (OW) items. Intended for handling OW fragments of encapsulated (compressed) pixel data.
 
 ```csharp
-public class OtherWordFragment : FragmentSequence
+public sealed class OtherWordFragment : FragmentSequence
 ```
 
 ## Properties

@@ -3,7 +3,7 @@ title: ValueRepresentation
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates DICOM VR value representation. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmlhttps//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html
 type: docs
-weight: 1210
+weight: 3050
 url: /net/aspose.medical.dicom.valuerepresentations/valuerepresentation/
 ---
 
@@ -21,6 +21,7 @@ public sealed class ValueRepresentation : IEquatable<ValueRepresentation>, IStru
 | --- | --- |
 | [ByteSwap](../../aspose.medical.dicom.valuerepresentations/valuerepresentation/byteswap) { get; } | Number of bytes to swap when changing endian representation of value. Usually equal to the [`UnitSize`](./unitsize). Read-only Int32. |
 | [Code](../../aspose.medical.dicom.valuerepresentations/valuerepresentation/code) { get; set; } | Code used to represent VR. Read-only String. |
+| [Delimiters](../../aspose.medical.dicom.valuerepresentations/valuerepresentation/delimiters) { get; set; } | A list of characters that are used to revert the encoding to the default encoding. Read-only IReadOnlyCollection of Byte. |
 | [Is16BitLength](../../aspose.medical.dicom.valuerepresentations/valuerepresentation/is16bitlength) { get; } | Specifies that length field of value is a 16-bit short integer. Read-only Boolean. |
 | [IsMultiValue](../../aspose.medical.dicom.valuerepresentations/valuerepresentation/ismultivalue) { get; } | Specifies whether the value can contain multiple items. Read-only Boolean. |
 | [IsString](../../aspose.medical.dicom.valuerepresentations/valuerepresentation/isstring) { get; } | Specifies that the value is a string. Read-only Boolean. |

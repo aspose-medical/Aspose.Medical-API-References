@@ -7,10 +7,25 @@ weight: 10
 url: /net/aspose.medical.dicom.elements/otherdouble/otherdouble/
 ---
 
-## OtherDouble(Tag, Span&lt;double&gt;) {#constructor_1}
+## OtherDouble(Tag, Span&lt;double&gt;) {#constructor_2}
 
 ```csharp
 public OtherDouble(Tag tag, Span<double> data)
+```
+
+### See Also
+
+* class [Tag](../../../aspose.medical.dicom.tags/tag)
+* class [OtherDouble](../../otherdouble)
+* namespace [Aspose.Medical.Dicom.Elements](../../otherdouble)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## OtherDouble(Tag, ReadOnlySpan&lt;double&gt;) {#constructor_1}
+
+```csharp
+public OtherDouble(Tag tag, ReadOnlySpan<double> data)
 ```
 
 ### See Also

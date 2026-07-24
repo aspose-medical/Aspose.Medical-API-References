@@ -21,6 +21,20 @@ public Span<TValue> GetValues<TValue>()
 
 ---
 
+## GetValues&lt;TValue&gt;(Range) {#getvalues_1}
+
+```csharp
+public Span<TValue> GetValues<TValue>(Range range)
+```
+
+### See Also
+
+* class [ValueElement&lt;T&gt;](../../valueelement-1)
+* namespace [Aspose.Medical.Dicom.Elements](../../valueelement-1)
+* assembly [Aspose.Medical](../../../)
+
+---
+
 ## GetValues() {#getvalues_2}
 
 Returns the element's values.
@@ -32,20 +46,6 @@ public Span<T> GetValues()
 ### Return Value
 
 The element's data.
-
-### See Also
-
-* class [ValueElement&lt;T&gt;](../../valueelement-1)
-* namespace [Aspose.Medical.Dicom.Elements](../../valueelement-1)
-* assembly [Aspose.Medical](../../../)
-
----
-
-## GetValues&lt;TValue&gt;(Range) {#getvalues_1}
-
-```csharp
-public Span<TValue> GetValues<TValue>(Range range)
-```
 
 ### See Also
 

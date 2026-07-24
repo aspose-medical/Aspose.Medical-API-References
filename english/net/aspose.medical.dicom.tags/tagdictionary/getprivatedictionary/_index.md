@@ -19,6 +19,10 @@ public TagDictionary GetPrivateDictionary(PrivateCreator privateCreator)
 | --- | --- | --- |
 | privateCreator | PrivateCreator | A private creator for which private dictionary to be found / created. |
 
+### Return Value
+
+The dictionary associated with the private creator.
+
 ### Exceptions
 
 | exception | condition |
