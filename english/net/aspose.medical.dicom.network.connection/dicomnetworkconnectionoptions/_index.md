@@ -3,7 +3,7 @@ title: DicomNetworkConnectionOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Settings required to configure a connection.
 type: docs
-weight: 1620
+weight: 1670
 url: /net/aspose.medical.dicom.network.connection/dicomnetworkconnectionoptions/
 ---
 

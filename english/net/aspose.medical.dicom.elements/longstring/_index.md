@@ -3,7 +3,7 @@ title: LongString
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Long String LO VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextLO-Long20String-A20character20string.
 type: docs
-weight: 580
+weight: 630
 url: /net/aspose.medical.dicom.elements/longstring/
 ---
 
@@ -12,7 +12,8 @@ url: /net/aspose.medical.dicom.elements/longstring/
 Encapsulates the Long String (LO) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=LO-,Long%20String,-A%20character%20string.
 
 ```csharp
-public sealed class LongString : EncodableMultiValuedTextElement
+public sealed class LongString : EncodableMultiValuedTextElement, 
+    IBufferBackedElement<LongString, string>
 ```
 
 ## Constructors
@@ -28,7 +29,8 @@ public sealed class LongString : EncodableMultiValuedTextElement
 | Name | Description |
 | --- | --- |
 | override [Count](../../aspose.medical.dicom.elements/multivaluetextelement/count) { get; } | The number of elements contained in this element. Read-only Int32. |
-| [Data](../../aspose.medical.dicom.elements/multivaluetextelement/data) { get; } | Multivalued Data Element value. Read-only IReadOnlyCollection of String. |
+| [Data](../../aspose.medical.dicom.elements/multivaluetextelement/data) { get; } | Gets writable memory containing the element's text values. |
+| [Item](../../aspose.medical.dicom.elements/multivaluetextelement/item) { get; set; } | Gets or sets the text value at the specified position. |
 | [SerializationEncodings](../../aspose.medical.dicom.elements/encodablemultivaluedtextelement/serializationencodings) { get; set; } | A collection of specific character set used to serialize / deserialize this text element data. Read/Write IReadOnlyCollection of Encoding. |
 | [Tag](../../aspose.medical.dicom.elements/textelement/tag) { get; } |  |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/longstring/valuerepresentation) { get; } |  |
@@ -37,8 +39,12 @@ public sealed class LongString : EncodableMultiValuedTextElement
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/longstring/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;string&gt;? TypedBuffer)) |  |
 | [Add](../../aspose.medical.dicom.elements/multivaluetextelement/add)(string) | Adds the given *value* to the collection of values of this element. |
 | [AddRange](../../aspose.medical.dicom.elements/multivaluetextelement/addrange)(IEnumerable&lt;string&gt;) | Adds the given *values* to the collection of values of this element. |
+| override [Bootstrap](../../aspose.medical.dicom.elements/multivaluetextelement/bootstrap)() |  |
+| override [BootstrapAsync](../../aspose.medical.dicom.elements/multivaluetextelement/bootstrapasync)(CancellationToken) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/multivaluetextelement/copydatatoarray)() | Copies the element's text values to a new array. |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/get)(Index) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/get)(int) |  |
 | override [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/getordefault)(Index) |  |
@@ -56,6 +62,7 @@ public sealed class LongString : EncodableMultiValuedTextElement
 ### See Also
 
 * class [EncodableMultiValuedTextElement](../encodablemultivaluedtextelement)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

@@ -3,7 +3,7 @@ title: AssociationRejectSource
 second_title: Aspose.Medical for .NET API Reference
 description: Identifies which UL component reported the A-ASSOCIATE rejection.
 type: docs
-weight: 2370
+weight: 2420
 url: /net/aspose.medical.dicom.network.protocol/associationrejectsource/
 ---
 

@@ -3,7 +3,7 @@ title: DimseQueryRetrieveLevel
 second_title: Aspose.Medical for .NET API Reference
 description: Specifies the DICOM Query/Retrieve level for C-FIND C-GET and C-MOVE operations.
 type: docs
-weight: 1930
+weight: 1980
 url: /net/aspose.medical.dicom.network.messages/dimsequeryretrievelevel/
 ---
 

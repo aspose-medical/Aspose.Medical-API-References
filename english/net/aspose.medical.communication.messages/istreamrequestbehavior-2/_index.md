@@ -3,7 +3,7 @@ title: IStreamRequestBehaviorTRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Wraps stream request enumeration.
 type: docs
-weight: 180
+weight: 220
 url: /net/aspose.medical.communication.messages/istreamrequestbehavior-2/
 ---
 

@@ -3,7 +3,7 @@ title: UserIdentityNegotiationDefinition
 second_title: Aspose.Medical for .NET API Reference
 description: Describes the User Identity Negotiation request carried in an A-ASSOCIATE-RQ PDU.
 type: docs
-weight: 2470
+weight: 2520
 url: /net/aspose.medical.dicom.network.protocol/useridentitynegotiationdefinition/
 ---
 

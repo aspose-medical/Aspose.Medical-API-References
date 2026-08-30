@@ -3,7 +3,7 @@ title: DicomNetworkException
 second_title: Aspose.Medical for .NET API Reference
 description: A generic exception that may occur in DICOM Network module.
 type: docs
-weight: 1730
+weight: 1780
 url: /net/aspose.medical.dicom.network.errors/dicomnetworkexception/
 ---
 

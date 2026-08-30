@@ -3,7 +3,7 @@ title: Get
 second_title: Aspose.Medical for .NET API Reference
 description: Returns the T of the specified tag or default if the tag is not in the dataset.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.medical.dicom/dataset/get/
 ---
 

@@ -3,7 +3,7 @@ title: OtherByte
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Other Byte OB VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextOB-Other20Byte-An20octet2Dstream.
 type: docs
-weight: 630
+weight: 680
 url: /net/aspose.medical.dicom.elements/otherbyte/
 ---
 
@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom.elements/otherbyte/
 Encapsulates the Other Byte (OB) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=OB-,Other%20Byte,-An%20octet%2Dstream.
 
 ```csharp
-public sealed class OtherByte : ValueElement<byte>
+public sealed class OtherByte : ValueElement<byte>, IBufferBackedElement<OtherByte, byte>
 ```
 
 ## Constructors
@@ -28,6 +28,7 @@ public sealed class OtherByte : ValueElement<byte>
 | --- | --- |
 | [Count](../../aspose.medical.dicom.elements/valueelement`1/count) { get; } |  |
 | [Data](../../aspose.medical.dicom.elements/valueelement`1/data) { get; } |  |
+| [Item](../../aspose.medical.dicom.elements/valueelement`1/item) { get; set; } |  |
 | [Tag](../../aspose.medical.dicom.elements/valueelement`1/tag) { get; } |  |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/otherbyte/valuerepresentation) { get; } |  |
 
@@ -35,9 +36,13 @@ public sealed class OtherByte : ValueElement<byte>
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/otherbyte/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;byte&gt;? TypedBuffer)) |  |
 | [Add](../../aspose.medical.dicom.elements/valueelement`1/add)(byte) |  |
 | [AddRange](../../aspose.medical.dicom.elements/valueelement`1/addrange)(Span&lt;byte&gt;) |  |
+| [Bootstrap](../../aspose.medical.dicom.elements/valueelement`1/bootstrap)() |  |
+| [BootstrapAsync](../../aspose.medical.dicom.elements/valueelement`1/bootstrapasync)(CancellationToken) |  |
 | [ConvertData&lt;TOutput&gt;](../../aspose.medical.dicom.elements/valueelement`1/convertdata)(Func&lt;byte, TOutput&gt;) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/valueelement`1/copydatatoarray)() |  |
 | [Get](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(Index) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
@@ -59,6 +64,7 @@ public sealed class OtherByte : ValueElement<byte>
 ### See Also
 
 * class [ValueElement&lt;T&gt;](../valueelement-1)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

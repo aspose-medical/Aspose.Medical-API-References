@@ -3,7 +3,7 @@ title: ILogger
 second_title: Aspose.Medical for .NET API Reference
 description: Logger abstraction used throughout the DIMSE SDK.
 type: docs
-weight: 3320
+weight: 3380
 url: /net/aspose.medical.logging/ilogger/
 ---
 

@@ -3,7 +3,7 @@ title: NullLogger
 second_title: Aspose.Medical for .NET API Reference
 description: Default no-op logger used when no logging sink is configured. It rejects every level and never renders message templates or property values.
 type: docs
-weight: 3360
+weight: 3420
 url: /net/aspose.medical.logging/nulllogger/
 ---
 

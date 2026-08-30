@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Medical for .NET API Reference
 description: Removes the value at the specified index of the element.
 type: docs
-weight: 100
+weight: 140
 url: /net/aspose.medical.dicom.elements/multivaluetextelement/removeat/
 ---
 

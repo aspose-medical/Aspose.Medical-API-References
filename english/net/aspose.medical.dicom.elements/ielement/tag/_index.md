@@ -1,7 +1,7 @@
 ---
 title: Tag
 second_title: Aspose.Medical for .NET API Reference
-description: The DICOM tag associated with the element. Read-only Tagaspose.medical.dicom.elements/ielement/tag.
+description: Gets the DICOM tag that identifies the element.
 type: docs
 weight: 30
 url: /net/aspose.medical.dicom.elements/ielement/tag/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.elements/ielement/tag/
 
 ## IElement.Tag property
 
-The DICOM tag associated with the element. Read-only `Tag`.
+Gets the DICOM tag that identifies the element.
 
 ```csharp
 public Tag Tag { get; }

@@ -3,7 +3,7 @@ title: PresentationContextDefinition
 second_title: Aspose.Medical for .NET API Reference
 description: Describes one presentation context proposed in an A-ASSOCIATE-RQ PDU.
 type: docs
-weight: 2420
+weight: 2470
 url: /net/aspose.medical.dicom.network.protocol/presentationcontextdefinition/
 ---
 

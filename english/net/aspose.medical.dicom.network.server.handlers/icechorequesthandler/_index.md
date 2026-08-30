@@ -3,7 +3,7 @@ title: ICEchoRequestHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Handles inbound C-ECHO requests on the SCP side. Use this handler to verify end-to-end communication on an established association and return the verification status. See  DICOM PS3.7 9.1.5 C-ECHO Service https//dicom.nema.org/medical/dicom/current/output/chtml/part07/chapter_9.html and  9.3.5 C-ECHO-RQ / C-ECHO-RSP https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_9.3.5.html.
 type: docs
-weight: 2530
+weight: 2580
 url: /net/aspose.medical.dicom.network.server.handlers/icechorequesthandler/
 ---
 

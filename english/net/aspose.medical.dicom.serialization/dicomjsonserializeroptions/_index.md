@@ -1,15 +1,15 @@
 ---
 title: DicomJsonSerializerOptions
 second_title: Aspose.Medical for .NET API Reference
-description: Provides options that controls serialization/deserialization JSON process of DICOM objects.
+description: Provides options that control DICOM JSON serialization and deserialization.
 type: docs
-weight: 2880
+weight: 2920
 url: /net/aspose.medical.dicom.serialization/dicomjsonserializeroptions/
 ---
 
 ## DicomJsonSerializerOptions record
 
-Provides options that controls serialization/deserialization (JSON) process of DICOM objects.
+Provides options that control DICOM JSON serialization and deserialization.
 
 ```csharp
 public record DicomJsonSerializerOptions
@@ -26,10 +26,10 @@ public record DicomJsonSerializerOptions
 | Name | Description |
 | --- | --- |
 | static [Default](../../aspose.medical.dicom.serialization/dicomjsonserializeroptions/default) { get; } | Default DICOM serialization options. Read-only, [`DicomJsonSerializerOptions`](../dicomjsonserializeroptions). |
-| [BulkDataConverter](../../aspose.medical.dicom.serialization/dicomjsonserializeroptions/bulkdataconverter) { get; set; } | A converter that allows writing DICOM Element data as a reference to a blob of data specified in the BulkData element. See https://dicom.nema.org/medical/dicom/current/output/chtml/part19/chapter_A.html#table_A.1.5-2. Read-only, [`IBulkDataConverter`](../ibulkdataconverter). |
-| [BulkDataLoader](../../aspose.medical.dicom.serialization/dicomjsonserializeroptions/bulkdataloader) { get; set; } | A loader used to load blob data referenced in BulkData element. See https://dicom.nema.org/medical/dicom/current/output/chtml/part19/chapter_A.html#table_A.1.5-2. Read-only, [`IBulkDataLoader`](../ibulkdataloader). |
+| [BulkDataConverter](../../aspose.medical.dicom.serialization/dicomjsonserializeroptions/bulkdataconverter) { get; set; } | A converter that allows writing DICOM Element data as a BulkDataURI reference. See https://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_F.2.2.html. Read-only, [`IBulkDataConverter`](../ibulkdataconverter). |
+| [BulkDataLoader](../../aspose.medical.dicom.serialization/dicomjsonserializeroptions/bulkdataloader) { get; set; } | Gets the loader used to resolve data referenced by a Bulk Data URI. |
 | [NumberHandling](../../aspose.medical.dicom.serialization/dicomjsonserializeroptions/numberhandling) { get; set; } | Determines how the DICOM numbers will be handled during serialization. Read-only, [`DicomJsonNumberHandling`](../dicomjsonnumberhandling). |
-| [UseKeywordsAsJsonKeys](../../aspose.medical.dicom.serialization/dicomjsonserializeroptions/usekeywordsasjsonkeys) { get; set; } | Indicates whether to write the JSON keys as DICOM keywords instead of tags. Read-only, Boolean. |
+| [UseKeywordsAsJsonKeys](../../aspose.medical.dicom.serialization/dicomjsonserializeroptions/usekeywordsasjsonkeys) { get; set; } | Indicates whether DICOM keywords are written as JSON property names instead of tag numbers. |
 | [WriteKeyword](../../aspose.medical.dicom.serialization/dicomjsonserializeroptions/writekeyword) { get; set; } | Specifies whether DICOM Tag keyword will be written as a distinct JSON attribute or not. |
 | [WriteName](../../aspose.medical.dicom.serialization/dicomjsonserializeroptions/writename) { get; set; } | Specifies whether DICOM Tag name will be written as a distinct JSON attribute or not. |
 

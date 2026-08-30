@@ -3,7 +3,7 @@ title: IStreamRequestBehaviorFactoryTRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Creates stream request behaviors for a configured request-response route.
 type: docs
-weight: 170
+weight: 210
 url: /net/aspose.medical.communication.messages/istreamrequestbehaviorfactory-2/
 ---
 

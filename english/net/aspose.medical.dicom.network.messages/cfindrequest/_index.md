@@ -3,7 +3,7 @@ title: CFindRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a C-FIND request used to query a remote SCP for matching DICOM objects.
 type: docs
-weight: 1800
+weight: 1850
 url: /net/aspose.medical.dicom.network.messages/cfindrequest/
 ---
 

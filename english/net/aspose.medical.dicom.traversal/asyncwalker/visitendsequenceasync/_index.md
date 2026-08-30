@@ -1,7 +1,7 @@
 ---
 title: VisitEndSequenceAsync
 second_title: Aspose.Medical for .NET API Reference
-description: Indicates that sequence element has been visited.
+description: Defines the asynchronous operation invoked after every item of the sequence has been visited.
 type: docs
 weight: 60
 url: /net/aspose.medical.dicom.traversal/asyncwalker/visitendsequenceasync/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.traversal/asyncwalker/visitendsequenceasync/
 
 ## AsyncWalker.VisitEndSequenceAsync method
 
-Indicates that *sequence* element has been visited.
+Defines the asynchronous operation invoked after every item of the sequence has been visited.
 
 ```csharp
 public virtual Task VisitEndSequenceAsync(Sequence sequence)
@@ -17,7 +17,11 @@ public virtual Task VisitEndSequenceAsync(Sequence sequence)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sequence | Sequence | A Sequence element that has been visited. |
+| sequence | Sequence | The sequence whose traversal has completed. |
+
+### Return Value
+
+An operation that completes when traversal of the sequence has finished.
 
 ### See Also
 

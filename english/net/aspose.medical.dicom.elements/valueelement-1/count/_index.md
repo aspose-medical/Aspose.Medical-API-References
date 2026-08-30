@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Medical for .NET API Reference
-description: The number of elements contained in this element. Read-only Int32.
+description: The number of elements contained in this element.
 type: docs
 weight: 10
 url: /net/aspose.medical.dicom.elements/valueelement-1/count/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.elements/valueelement-1/count/
 
 ## ValueElement&lt;T&gt;.Count property
 
-The number of elements contained in this element. Read-only Int32.
+The number of elements contained in this element.
 
 ```csharp
 public int Count { get; }

@@ -3,7 +3,7 @@ title: NCreateRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Represents an N-CREATE request used to create a new SOP Instance on a remote SCP.
 type: docs
-weight: 2030
+weight: 2080
 url: /net/aspose.medical.dicom.network.messages/ncreaterequest/
 ---
 

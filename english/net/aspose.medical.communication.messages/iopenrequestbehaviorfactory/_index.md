@@ -3,7 +3,7 @@ title: IOpenRequestBehaviorFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Provides unary request behaviors for any supported request-response route.
 type: docs
-weight: 110
+weight: 150
 url: /net/aspose.medical.communication.messages/iopenrequestbehaviorfactory/
 ---
 

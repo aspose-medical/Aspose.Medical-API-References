@@ -3,7 +3,7 @@ title: Aspose.Medical.Dicom.Network.Negotiation
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.medical.dicom.network.negotiation/
 ---
 

@@ -3,7 +3,7 @@ title: IPixelImageEncoder
 second_title: Aspose.Medical for .NET API Reference
 description: Defines an encoder capable of writing a typed pixel image to a pipe.
 type: docs
-weight: 3140
+weight: 3200
 url: /net/aspose.medical.imaging.codecs/ipixelimageencoder/
 ---
 

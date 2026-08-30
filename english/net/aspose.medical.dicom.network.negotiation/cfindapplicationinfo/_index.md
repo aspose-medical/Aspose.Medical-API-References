@@ -3,7 +3,7 @@ title: CFindApplicationInfo
 second_title: Aspose.Medical for .NET API Reference
 description: C-FIND Service Class Application Information for the SOP Class Extended Negotiation Sub-item. See http//dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_C.5.htmlsect_C.5.1.1.
 type: docs
-weight: 2210
+weight: 2260
 url: /net/aspose.medical.dicom.network.negotiation/cfindapplicationinfo/
 ---
 

@@ -3,7 +3,7 @@ title: TryGetValue
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 170
 url: /net/aspose.medical.dicom.elements/multivaluetextelement/trygetvalue/
 ---
 

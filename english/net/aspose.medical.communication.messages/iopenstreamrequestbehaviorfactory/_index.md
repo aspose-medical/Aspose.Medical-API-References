@@ -3,7 +3,7 @@ title: IOpenStreamRequestBehaviorFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Provides stream request behaviors for any supported stream request route.
 type: docs
-weight: 120
+weight: 160
 url: /net/aspose.medical.communication.messages/iopenstreamrequestbehaviorfactory/
 ---
 

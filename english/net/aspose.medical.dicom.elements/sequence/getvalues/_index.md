@@ -3,7 +3,7 @@ title: GetValues
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 110
 url: /net/aspose.medical.dicom.elements/sequence/getvalues/
 ---
 
@@ -11,6 +11,26 @@ url: /net/aspose.medical.dicom.elements/sequence/getvalues/
 
 ```csharp
 public Span<T> GetValues<T>()
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [MedicalApiException](../../../aspose.medical.errors/medicalapiexception) | Sequence can only return Dataset as a value. |
+
+### See Also
+
+* class [Sequence](../../sequence)
+* namespace [Aspose.Medical.Dicom.Elements](../../sequence)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## GetValues&lt;T&gt;(Range) {#getvalues_3}
+
+```csharp
+public Span<T> GetValues<T>(Range range)
 ```
 
 ### Exceptions
@@ -42,26 +62,6 @@ The element's data.
 ### See Also
 
 * class [Dataset](../../../aspose.medical.dicom/dataset)
-* class [Sequence](../../sequence)
-* namespace [Aspose.Medical.Dicom.Elements](../../sequence)
-* assembly [Aspose.Medical](../../../)
-
----
-
-## GetValues&lt;T&gt;(Range) {#getvalues_3}
-
-```csharp
-public Span<T> GetValues<T>(Range range)
-```
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| [MedicalApiException](../../../aspose.medical.errors/medicalapiexception) | Sequence can only return Dataset as a value. |
-
-### See Also
-
 * class [Sequence](../../sequence)
 * namespace [Aspose.Medical.Dicom.Elements](../../sequence)
 * assembly [Aspose.Medical](../../../)

@@ -3,7 +3,7 @@ title: GetSingleOrDefault
 second_title: Aspose.Medical for .NET API Reference
 description: Gets the element value whose value multiplicity has to be 1.
 type: docs
-weight: 100
+weight: 140
 url: /net/aspose.medical.dicom.elements/valueelement-1/getsingleordefault/
 ---
 

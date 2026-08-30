@@ -3,7 +3,7 @@ title: CStoreRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a C-STORE request used to store a DICOM dataset on a remote SCP.
 type: docs
-weight: 1890
+weight: 1940
 url: /net/aspose.medical.dicom.network.messages/cstorerequest/
 ---
 

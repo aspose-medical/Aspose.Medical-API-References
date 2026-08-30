@@ -3,7 +3,7 @@ title: DicomNetworkClientOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Configures outbound DICOM client connections and association-level client settings.
 type: docs
-weight: 1370
+weight: 1420
 url: /net/aspose.medical.dicom.network.client/dicomnetworkclientoptions/
 ---
 

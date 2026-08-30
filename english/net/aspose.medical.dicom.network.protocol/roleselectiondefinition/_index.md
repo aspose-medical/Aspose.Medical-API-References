@@ -3,7 +3,7 @@ title: RoleSelectionDefinition
 second_title: Aspose.Medical for .NET API Reference
 description: Describes a SCP/SCU Role Selection item proposed in an A-ASSOCIATE-RQ PDU.
 type: docs
-weight: 2450
+weight: 2500
 url: /net/aspose.medical.dicom.network.protocol/roleselectiondefinition/
 ---
 

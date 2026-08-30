@@ -3,7 +3,7 @@ title: Get
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 90
 url: /net/aspose.medical.dicom.elements/multivaluetextelement/get/
 ---
 

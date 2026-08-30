@@ -3,7 +3,7 @@ title: PresentationContextReason
 second_title: Aspose.Medical for .NET API Reference
 description: Outcome of negotiating a DICOM Presentation Context during the A-ASSOCIATE handshake.
 type: docs
-weight: 2430
+weight: 2480
 url: /net/aspose.medical.dicom.network.protocol/presentationcontextreason/
 ---
 

@@ -3,7 +3,7 @@ title: ExtendedNegotiation
 second_title: Aspose.Medical for .NET API Reference
 description: Represents immutable configuration for SOP Class Extended Negotiation or SOP Class Common Extended Negotiation.
 type: docs
-weight: 2250
+weight: 2300
 url: /net/aspose.medical.dicom.network.negotiation/extendednegotiation/
 ---
 

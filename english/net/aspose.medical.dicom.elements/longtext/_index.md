@@ -3,7 +3,7 @@ title: LongText
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Long Text LT VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextLT-Long20Text-A20character20string.
 type: docs
-weight: 590
+weight: 640
 url: /net/aspose.medical.dicom.elements/longtext/
 ---
 
@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom.elements/longtext/
 Encapsulates the Long Text (LT) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=LT-,Long%20Text,-A%20character%20string.
 
 ```csharp
-public sealed class LongText : SingleValueTextElement
+public sealed class LongText : SingleValueTextElement, IBufferBackedElement<LongText, string>
 ```
 
 ## Constructors
@@ -37,6 +37,9 @@ public sealed class LongText : SingleValueTextElement
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/longtext/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;string&gt;? TypedBuffer)) |  |
+| override [Bootstrap](../../aspose.medical.dicom.elements/singlevaluetextelement/bootstrap)() |  |
+| override [BootstrapAsync](../../aspose.medical.dicom.elements/singlevaluetextelement/bootstrapasync)(CancellationToken) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/singlevaluetextelement/get)(Index) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/singlevaluetextelement/get)(int) |  |
 | override [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/singlevaluetextelement/getordefault)(Index) |  |
@@ -50,6 +53,7 @@ public sealed class LongText : SingleValueTextElement
 ### See Also
 
 * class [SingleValueTextElement](../singlevaluetextelement)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

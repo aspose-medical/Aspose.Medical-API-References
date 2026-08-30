@@ -3,7 +3,7 @@ title: AssociationReleasedNotification
 second_title: Aspose.Medical for .NET API Reference
 description: Notifies that the current association was released.
 type: docs
-weight: 1310
+weight: 1360
 url: /net/aspose.medical.dicom.network/associationreleasednotification/
 ---
 

@@ -3,7 +3,7 @@ title: CMoveResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a C-MOVE response reporting transfer progress and status.
 type: docs
-weight: 1870
+weight: 1920
 url: /net/aspose.medical.dicom.network.messages/cmoveresponse/
 ---
 

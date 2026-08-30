@@ -3,7 +3,7 @@ title: DicomNetworkRuntimeOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Configures runtime services shared by DICOM network clients and servers.
 type: docs
-weight: 1670
+weight: 1720
 url: /net/aspose.medical.dicom.network/dicomnetworkruntimeoptions/
 ---
 

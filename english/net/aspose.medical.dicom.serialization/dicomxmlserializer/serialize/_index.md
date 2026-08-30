@@ -1,15 +1,15 @@
 ---
 title: Serialize
 second_title: Aspose.Medical for .NET API Reference
-description: Converts a Datasetaspose.medical.dicom/dataset to XML.
+description: Serializes a DICOM dataset as a Native DICOM Model XML document.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.medical.dicom.serialization/dicomxmlserializer/serialize/
 ---
 
 ## Serialize(Dataset, DicomXmlSerializerOptions?) {#serialize}
 
-Converts a [`Dataset`](../../../aspose.medical.dicom/dataset) to XML.
+Serializes a DICOM dataset as a Native DICOM Model XML document.
 
 ```csharp
 public static string Serialize(Dataset dataset, DicomXmlSerializerOptions? options = null)
@@ -17,12 +17,12 @@ public static string Serialize(Dataset dataset, DicomXmlSerializerOptions? optio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataset | Dataset | DICOM Dataset to be serialized. |
-| options | DicomXmlSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
+| dataset | Dataset | The DICOM dataset to serialize. |
+| options | DicomXmlSerializerOptions | Options that control whether element values are written inline or as Bulk Data references. |
 
 ### Return Value
 
-XML with serialized DICOM Dataset.
+The serialized Native DICOM Model XML document.
 
 ### See Also
 
@@ -36,7 +36,7 @@ XML with serialized DICOM Dataset.
 
 ## Serialize(Stream, Dataset, DicomXmlSerializerOptions?) {#serialize_1}
 
-Converts a [`Dataset`](../../../aspose.medical.dicom/dataset) to XML.
+Serializes a DICOM dataset as a Native DICOM Model XML document and writes it to a stream.
 
 ```csharp
 public static void Serialize(Stream output, Dataset dataset, 
@@ -45,9 +45,15 @@ public static void Serialize(Stream output, Dataset dataset,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | Stream | The stream to which you want to write. |
-| dataset | Dataset | DICOM Dataset to be serialized. |
-| options | DicomXmlSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
+| output | Stream | The stream that receives the UTF-8 encoded XML document. The stream remains open. |
+| dataset | Dataset | The DICOM dataset to serialize. |
+| options | DicomXmlSerializerOptions | Options that control whether element values are written inline or as Bulk Data references. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *output* is `null`. |
 
 ### See Also
 

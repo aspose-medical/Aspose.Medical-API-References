@@ -3,7 +3,7 @@ title: IRequestBehaviorTRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Wraps unary request execution.
 type: docs
-weight: 140
+weight: 180
 url: /net/aspose.medical.communication.messages/irequestbehavior-2/
 ---
 

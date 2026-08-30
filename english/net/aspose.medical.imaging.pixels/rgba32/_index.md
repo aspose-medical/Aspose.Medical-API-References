@@ -3,7 +3,7 @@ title: Rgba32
 second_title: Aspose.Medical for .NET API Reference
 description: Pixel value that stores red green blue and alpha 8-bit components.
 type: docs
-weight: 3300
+weight: 3360
 url: /net/aspose.medical.imaging.pixels/rgba32/
 ---
 

@@ -3,7 +3,7 @@ title: PduReadException
 second_title: Aspose.Medical for .NET API Reference
 description: An exception that is thrown when a DICOM UL PDU cannot be read.
 type: docs
-weight: 1750
+weight: 1800
 url: /net/aspose.medical.dicom.network.errors/pdureadexception/
 ---
 

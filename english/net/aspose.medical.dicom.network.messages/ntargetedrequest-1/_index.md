@@ -3,7 +3,7 @@ title: NTargetedRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Base class for N-Service requests that target an existing SOP Instance N-ACTION N-GET N-SET.
 type: docs
-weight: 2140
+weight: 2190
 url: /net/aspose.medical.dicom.network.messages/ntargetedrequest-1/
 ---
 

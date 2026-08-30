@@ -3,7 +3,7 @@ title: DimseCommandField
 second_title: Aspose.Medical for .NET API Reference
 description: Specifies the DICOM network services as defined by the DICOM upper-layer protocol. Each value corresponds to a unique command field used in DICOM message communication between Application Entities over a network. In addition services are split into request/response when applicable.
 type: docs
-weight: 1680
+weight: 1730
 url: /net/aspose.medical.dicom.network/dimsecommandfield/
 ---
 

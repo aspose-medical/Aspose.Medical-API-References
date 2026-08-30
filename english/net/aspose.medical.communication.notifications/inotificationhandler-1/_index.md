@@ -3,7 +3,7 @@ title: INotificationHandlerTNotification
 second_title: Aspose.Medical for .NET API Reference
 description: Handles notifications of the specified type.
 type: docs
-weight: 220
+weight: 260
 url: /net/aspose.medical.communication.notifications/inotificationhandler-1/
 ---
 

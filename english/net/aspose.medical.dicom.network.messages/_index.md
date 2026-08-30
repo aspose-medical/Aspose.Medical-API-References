@@ -3,7 +3,7 @@ title: Aspose.Medical.Dicom.Network.Messages
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.medical.dicom.network.messages/
 ---
 

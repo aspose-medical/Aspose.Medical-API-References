@@ -3,7 +3,7 @@ title: NActionRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Represents an N-ACTION request used to invoke an action on a SOP Instance managed by a remote SCP.
 type: docs
-weight: 2010
+weight: 2060
 url: /net/aspose.medical.dicom.network.messages/nactionrequest/
 ---
 

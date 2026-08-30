@@ -3,7 +3,7 @@ title: DicomEncoding
 second_title: Aspose.Medical for .NET API Reference
 description: Encodes and decodes DICOM character string value fields using DICOM Specific Character Set rules.
 type: docs
-weight: 10
+weight: 50
 url: /net/aspose.medical.common.text/dicomencoding/
 ---
 
@@ -34,7 +34,8 @@ public class DicomEncoding : IDicomEncoding
 | virtual [GetBytes](../../aspose.medical.common.text/dicomencoding/getbytes#getbytes_2)(ReadOnlySpan&lt;string&gt;, char, Encoding[], byte, ReadOnlySpan&lt;byte&gt;, Span&lt;byte&gt;) |  |
 | virtual [GetCharset](../../aspose.medical.common.text/dicomencoding/getcharset)(Encoding, bool) |  |
 | [GetEncoding](../../aspose.medical.common.text/dicomencoding/getencoding)(string) |  |
-| [GetEncodings](../../aspose.medical.common.text/dicomencoding/getencodings)(string[]) |  |
+| [GetEncodings](../../aspose.medical.common.text/dicomencoding/getencodings#getencodings)(Span&lt;string&gt;) |  |
+| [GetEncodings](../../aspose.medical.common.text/dicomencoding/getencodings#getencodings_1)(string[]) |  |
 | [RegisterEncoding](../../aspose.medical.common.text/dicomencoding/registerencoding)(string, string) |  |
 | [RegisterProvider](../../aspose.medical.common.text/dicomencoding/registerprovider)(EncodingProvider) |  |
 

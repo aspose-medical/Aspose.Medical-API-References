@@ -3,7 +3,7 @@ title: DicomTextSeparators
 second_title: Aspose.Medical for .NET API Reference
 description: Provides separator characters used by DICOM text value serialization.
 type: docs
-weight: 510
+weight: 550
 url: /net/aspose.medical.dicom.elements/dicomtextseparators/
 ---
 

@@ -3,7 +3,7 @@ title: CMoveOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Defines the C-MOVE extended negotiation options supported by an Application Entity AE. These flags indicate additional retrieval capabilities negotiated during association setup.
 type: docs
-weight: 1850
+weight: 1900
 url: /net/aspose.medical.dicom.network.messages/cmoveoptions/
 ---
 

@@ -3,7 +3,7 @@ title: ICEchoExchangeHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: A factory that creates handlers that observe C-ECHO exchanges on the SCU side. Invoked after the remote SCP returns a C-ECHO-RSP allowing the implementer to inspect the verification status e.g. success or failure of a DICOM association connectivity check.
 type: docs
-weight: 1410
+weight: 1460
 url: /net/aspose.medical.dicom.network.client.handlers/icechoexchangehandlerfactory/
 ---
 

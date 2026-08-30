@@ -3,7 +3,7 @@ title: INSetRequestHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Handles inbound N-SET requests on the SCP side. See  DICOM PS3.7 10.1.2 N-SET Service https//dicom.nema.org/medical/dicom/current/output/chtml/part07/chapter_10.html and  10.3.2 N-SET-RQ / N-SET-RSP https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_10.3.2.html.
 type: docs
-weight: 2730
+weight: 2780
 url: /net/aspose.medical.dicom.network.server.handlers/insetrequesthandler/
 ---
 

@@ -3,7 +3,7 @@ title: IOpenNotificationHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Provides notification handlers for any supported notification type.
 type: docs
-weight: 230
+weight: 270
 url: /net/aspose.medical.communication.notifications/iopennotificationhandlerfactory/
 ---
 

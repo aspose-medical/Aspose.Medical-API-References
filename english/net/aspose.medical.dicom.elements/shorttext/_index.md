@@ -3,7 +3,7 @@ title: ShortText
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Short Text ST VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextST-Short20Text-A20character20string.
 type: docs
-weight: 740
+weight: 790
 url: /net/aspose.medical.dicom.elements/shorttext/
 ---
 
@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom.elements/shorttext/
 Encapsulates the Short Text (ST) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=ST-,Short%20Text,-A%20character%20string.
 
 ```csharp
-public sealed class ShortText : SingleValueTextElement
+public sealed class ShortText : SingleValueTextElement, IBufferBackedElement<ShortText, string>
 ```
 
 ## Constructors
@@ -37,6 +37,9 @@ public sealed class ShortText : SingleValueTextElement
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/shorttext/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;string&gt;? TypedBuffer)) |  |
+| override [Bootstrap](../../aspose.medical.dicom.elements/singlevaluetextelement/bootstrap)() |  |
+| override [BootstrapAsync](../../aspose.medical.dicom.elements/singlevaluetextelement/bootstrapasync)(CancellationToken) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/singlevaluetextelement/get)(Index) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/singlevaluetextelement/get)(int) |  |
 | override [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/singlevaluetextelement/getordefault)(Index) |  |
@@ -50,6 +53,7 @@ public sealed class ShortText : SingleValueTextElement
 ### See Also
 
 * class [SingleValueTextElement](../singlevaluetextelement)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

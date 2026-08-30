@@ -1,7 +1,7 @@
 ---
 title: UseKeywordsAsJsonKeys
 second_title: Aspose.Medical for .NET API Reference
-description: Indicates whether to write the JSON keys as DICOM keywords instead of tags. Read-only Boolean.
+description: Indicates whether DICOM keywords are written as JSON property names instead of tag numbers.
 type: docs
 weight: 60
 url: /net/aspose.medical.dicom.serialization/dicomjsonserializeroptions/usekeywordsasjsonkeys/
@@ -9,13 +9,15 @@ url: /net/aspose.medical.dicom.serialization/dicomjsonserializeroptions/usekeywo
 
 ## DicomJsonSerializerOptions.UseKeywordsAsJsonKeys property
 
-Indicates whether to write the JSON keys as DICOM keywords instead of tags. Read-only, Boolean.
-
-ATTENTION: This makes the JSON non-compliant to DICOM JSON.
+Indicates whether DICOM keywords are written as JSON property names instead of tag numbers.
 
 ```csharp
 public bool UseKeywordsAsJsonKeys { get; set; }
 ```
+
+### Remarks
+
+Enabling this option produces JSON that does not conform to the DICOM JSON Model.
 
 ### See Also
 

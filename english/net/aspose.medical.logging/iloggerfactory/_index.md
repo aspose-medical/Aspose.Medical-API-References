@@ -3,7 +3,7 @@ title: ILoggerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Factory abstraction for creating ILogger./ilogger instances.
 type: docs
-weight: 3330
+weight: 3390
 url: /net/aspose.medical.logging/iloggerfactory/
 ---
 

@@ -3,7 +3,7 @@ title: AssociationRejectedResult
 second_title: Aspose.Medical for .NET API Reference
 description: Represents the rejection response returned for an inbound association request.
 type: docs
-weight: 1280
+weight: 1330
 url: /net/aspose.medical.dicom.network/associationrejectedresult/
 ---
 

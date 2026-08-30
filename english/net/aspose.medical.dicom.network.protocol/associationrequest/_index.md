@@ -3,7 +3,7 @@ title: AssociationRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Captures the A-ASSOCIATE-RQ parameters proposed by an association requestor.
 type: docs
-weight: 2380
+weight: 2430
 url: /net/aspose.medical.dicom.network.protocol/associationrequest/
 ---
 

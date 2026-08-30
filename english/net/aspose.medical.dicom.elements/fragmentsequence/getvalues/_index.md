@@ -3,7 +3,7 @@ title: GetValues
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.medical.dicom.elements/fragmentsequence/getvalues/
 ---
 

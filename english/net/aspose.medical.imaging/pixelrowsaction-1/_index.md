@@ -3,7 +3,7 @@ title: PixelRowsActionTPixel
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a callback that receives synchronous access to an images pixel rows.
 type: docs
-weight: 3210
+weight: 3270
 url: /net/aspose.medical.imaging/pixelrowsaction-1/
 ---
 

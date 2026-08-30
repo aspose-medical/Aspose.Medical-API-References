@@ -3,7 +3,7 @@ title: SingleValueTextElement
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates basic functionality for single-valued text VR types that customizable charset.
 type: docs
-weight: 780
+weight: 830
 url: /net/aspose.medical.dicom.elements/singlevaluetextelement/
 ---
 
@@ -29,6 +29,8 @@ public abstract class SingleValueTextElement : TextElement
 
 | Name | Description |
 | --- | --- |
+| override [Bootstrap](../../aspose.medical.dicom.elements/singlevaluetextelement/bootstrap)() |  |
+| override [BootstrapAsync](../../aspose.medical.dicom.elements/singlevaluetextelement/bootstrapasync)(CancellationToken) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/singlevaluetextelement/get#get_1)(Index) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/singlevaluetextelement/get#get)(int) |  |
 | override [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/singlevaluetextelement/getordefault#getordefault_1)(Index) |  |

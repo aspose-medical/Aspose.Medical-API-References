@@ -3,7 +3,7 @@ title: ISignalBehaviorTSignalTResult
 second_title: Aspose.Medical for .NET API Reference
 description: Wraps signal processing.
 type: docs
-weight: 270
+weight: 310
 url: /net/aspose.medical.communication.processing/isignalbehavior-2/
 ---
 

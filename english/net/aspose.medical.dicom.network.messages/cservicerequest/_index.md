@@ -3,7 +3,7 @@ title: CServiceRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Base class for DIMSE C-Service requests C-ECHO C-FIND C-GET C-MOVE C-STORE.
 type: docs
-weight: 1880
+weight: 1930
 url: /net/aspose.medical.dicom.network.messages/cservicerequest/
 ---
 

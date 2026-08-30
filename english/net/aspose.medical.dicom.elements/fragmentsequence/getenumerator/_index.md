@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 110
 url: /net/aspose.medical.dicom.elements/fragmentsequence/getenumerator/
 ---
 

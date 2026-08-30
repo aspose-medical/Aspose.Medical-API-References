@@ -3,7 +3,7 @@ title: ConvertData
 second_title: Aspose.Medical for .NET API Reference
 description: Converts the element data to the specified type and returns the converted data.
 type: docs
-weight: 70
+weight: 100
 url: /net/aspose.medical.dicom.elements/valueelement-1/convertdata/
 ---
 

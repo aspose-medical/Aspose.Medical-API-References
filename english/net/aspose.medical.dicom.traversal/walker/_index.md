@@ -3,7 +3,7 @@ title: Walker
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a IElement../aspose.medical.dicom.elements/ielement visitor that descends an entire DicomFile../aspose.medical.dicom/dicomfile or Dataset../aspose.medical.dicom/dataset or MetaInformation../aspose.medical.dicom/metainformation graph visiting each IElement../aspose.medical.dicom.elements/ielement and its nested Dataset../aspose.medical.dicom/datasets in depth-first order.
 type: docs
-weight: 3010
+weight: 3070
 url: /net/aspose.medical.dicom.traversal/walker/
 ---
 
@@ -27,7 +27,7 @@ public abstract class Walker
 | virtual [Visit](../../aspose.medical.dicom.traversal/walker/visit#visit_6)(Date) | Visits the [`Date`](../../aspose.medical.dicom.elements/date)*element*. |
 | virtual [Visit](../../aspose.medical.dicom.traversal/walker/visit#visit_7)(DateTime) | Visits the [`DateTime`](../../aspose.medical.dicom.elements/datetime)*element*. |
 | virtual [Visit](../../aspose.medical.dicom.traversal/walker/visit#visit_8)(DecimalString) | Visits the [`DecimalString`](../../aspose.medical.dicom.elements/decimalstring)*element*. |
-| [Visit](../../aspose.medical.dicom.traversal/walker/visit#visit_1)(DicomFile) | Visits the entire graph of elements of the given *file*. The method visits both [`MetaInfo`](../../aspose.medical.dicom/dicomfile/metainfo) and [`Dataset`](../../aspose.medical.dicom/dicomfile/dataset). |
+| virtual [Visit](../../aspose.medical.dicom.traversal/walker/visit#visit_1)(DicomFile) | Visits the entire graph of elements of the given *file*. The method visits both [`MetaInfo`](../../aspose.medical.dicom/dicomfile/metainfo) and [`Dataset`](../../aspose.medical.dicom/dicomfile/dataset). |
 | virtual [Visit](../../aspose.medical.dicom.traversal/walker/visit#visit_9)(FloatingPointDouble) | Visits the [`FloatingPointDouble`](../../aspose.medical.dicom.elements/floatingpointdouble)*element*. |
 | virtual [Visit](../../aspose.medical.dicom.traversal/walker/visit#visit_10)(FloatingPointSingle) | Visits the [`FloatingPointSingle`](../../aspose.medical.dicom.elements/floatingpointsingle)*element*. |
 | virtual [Visit](../../aspose.medical.dicom.traversal/walker/visit#visit_11)(IElement) | Visits the *element*. |

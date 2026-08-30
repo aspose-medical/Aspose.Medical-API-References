@@ -1,15 +1,15 @@
 ---
 title: IElement
 second_title: Aspose.Medical for .NET API Reference
-description: Represents a basic DICOM data element.
+description: Represents a DICOM data element identified by a tag and value representation and exposing its ordered values.
 type: docs
-weight: 560
+weight: 610
 url: /net/aspose.medical.dicom.elements/ielement/
 ---
 
 ## IElement interface
 
-Represents a basic DICOM data element.
+Represents a DICOM data element identified by a tag and value representation and exposing its ordered values.
 
 ```csharp
 public interface IElement
@@ -19,23 +19,23 @@ public interface IElement
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.medical.dicom.elements/ielement/count) { get; } | The number of elements contained in this element. Read-only Int32. |
-| [Data](../../aspose.medical.dicom.elements/ielement/data) { get; } | This element's untyped data. Read-only IEnumerable of Object. |
-| [Tag](../../aspose.medical.dicom.elements/ielement/tag) { get; } | The DICOM tag associated with the element. Read-only [`Tag`](./tag). |
-| [ValueRepresentation](../../aspose.medical.dicom.elements/ielement/valuerepresentation) { get; } | The Value Representation of the element. Read-only [`ValueRepresentation`](./valuerepresentation). |
+| [Count](../../aspose.medical.dicom.elements/ielement/count) { get; } | Gets the number of values contained in the element. |
+| [Data](../../aspose.medical.dicom.elements/ielement/data) { get; } | Gets the element values as objects in element order. |
+| [Tag](../../aspose.medical.dicom.elements/ielement/tag) { get; } | Gets the DICOM tag that identifies the element. |
+| [ValueRepresentation](../../aspose.medical.dicom.elements/ielement/valuerepresentation) { get; } | Gets the value representation that defines the element's value semantics and encoding. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Get&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/get#get_1)(Index) | Returns the element's value at the specified position. |
-| [Get&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/get#get)(int) | Returns the element's value at the specified position. |
-| [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/getordefault#getordefault_1)(Index) | Returns the element's value at the specified position or a default value if the index is out of range. |
-| [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/getordefault#getordefault)(int) | Returns the element's value at the specified position or a default value if the index is out of range. |
-| [GetValues&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/getvalues#getvalues)() | Returns the element's values. |
-| [GetValues&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/getvalues#getvalues_1)(Range) | Returns the element's values at the specified range. |
-| [TryGetValue&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/trygetvalue#trygetvalue_1)(Index, out T) | Gets the element's value at the specified position. |
-| [TryGetValue&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/trygetvalue#trygetvalue)(int, out T) | Gets the element's value at the specified position. |
+| [Get&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/get#get_1)(Index) | Gets the element value at the specified position as the requested type. |
+| [Get&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/get#get)(int) | Gets the element value at the specified zero-based position as the requested type. |
+| [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/getordefault#getordefault_1)(Index) | Gets the element value at the specified position as the requested type, or returns the default value when no value exists there. |
+| [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/getordefault#getordefault)(int) | Gets the element value at the specified zero-based position as the requested type, or returns the default value when no value exists there. |
+| [GetValues&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/getvalues#getvalues)() | Gets all element values as the requested type. |
+| [GetValues&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/getvalues#getvalues_1)(Range) | Gets the selected element values as the requested type. |
+| [TryGetValue&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/trygetvalue#trygetvalue_1)(Index, out T) | Attempts to get the element value at the specified position as the requested type. |
+| [TryGetValue&lt;T&gt;](../../aspose.medical.dicom.elements/ielement/trygetvalue#trygetvalue)(int, out T) | Attempts to get the element value at the specified zero-based position as the requested type. |
 
 ### See Also
 

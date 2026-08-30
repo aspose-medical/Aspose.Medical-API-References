@@ -3,7 +3,7 @@ title: IRequestBehaviorFactoryTRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Creates unary request behaviors for a configured request-response route.
 type: docs
-weight: 130
+weight: 170
 url: /net/aspose.medical.communication.messages/irequestbehaviorfactory-2/
 ---
 

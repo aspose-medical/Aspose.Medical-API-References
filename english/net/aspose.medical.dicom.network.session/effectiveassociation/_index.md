@@ -3,7 +3,7 @@ title: EffectiveAssociation
 second_title: Aspose.Medical for .NET API Reference
 description: Captures the endpoint-local association contract that controls DIMSE payload exchange after A-ASSOCIATE acceptance.
 type: docs
-weight: 2750
+weight: 2800
 url: /net/aspose.medical.dicom.network.session/effectiveassociation/
 ---
 

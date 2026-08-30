@@ -3,7 +3,7 @@ title: AssociationAcceptedResult
 second_title: Aspose.Medical for .NET API Reference
 description: Represents the accept response returned for an inbound association request.
 type: docs
-weight: 1250
+weight: 1300
 url: /net/aspose.medical.dicom.network/associationacceptedresult/
 ---
 

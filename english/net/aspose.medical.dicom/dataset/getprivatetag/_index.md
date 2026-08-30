@@ -3,7 +3,7 @@ title: GetPrivateTag
 second_title: Aspose.Medical for .NET API Reference
 description: Converts a dictionary tag to a valid private tag for this dataset.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.medical.dicom/dataset/getprivatetag/
 ---
 

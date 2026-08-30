@@ -3,7 +3,7 @@ title: DicomNetworkServer
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a DICOM association acceptor that listens for peer associations and dispatches inbound DIMSE requests.
 type: docs
-weight: 2480
+weight: 2530
 url: /net/aspose.medical.dicom.network.server/dicomnetworkserver/
 ---
 

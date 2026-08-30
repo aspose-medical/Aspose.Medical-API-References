@@ -3,7 +3,7 @@ title: UniversalResource
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Universal Resource Identifier or Universal Resource Locator UR VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextDICOM20Value20Representations-UR-Universal20Resource20Identifier.
 type: docs
-weight: 820
+weight: 870
 url: /net/aspose.medical.dicom.elements/universalresource/
 ---
 
@@ -12,7 +12,8 @@ url: /net/aspose.medical.dicom.elements/universalresource/
 Encapsulates the Universal Resource Identifier or Universal Resource Locator (UR) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=DICOM%20Value%20Representations-,UR,-Universal%20Resource%20Identifier.
 
 ```csharp
-public sealed class UniversalResource : SingleValueTextElement
+public sealed class UniversalResource : SingleValueTextElement, 
+    IBufferBackedElement<UniversalResource, string>
 ```
 
 ## Constructors
@@ -37,6 +38,9 @@ public sealed class UniversalResource : SingleValueTextElement
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/universalresource/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;string&gt;? TypedBuffer)) |  |
+| override [Bootstrap](../../aspose.medical.dicom.elements/singlevaluetextelement/bootstrap)() |  |
+| override [BootstrapAsync](../../aspose.medical.dicom.elements/singlevaluetextelement/bootstrapasync)(CancellationToken) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/singlevaluetextelement/get)(Index) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/singlevaluetextelement/get)(int) |  |
 | override [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/singlevaluetextelement/getordefault)(Index) |  |
@@ -50,6 +54,7 @@ public sealed class UniversalResource : SingleValueTextElement
 ### See Also
 
 * class [SingleValueTextElement](../singlevaluetextelement)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

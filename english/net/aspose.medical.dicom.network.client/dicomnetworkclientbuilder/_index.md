@@ -3,7 +3,7 @@ title: DicomNetworkClientBuilder
 second_title: Aspose.Medical for .NET API Reference
 description: Configures DICOM network clients before they are built.
 type: docs
-weight: 1360
+weight: 1410
 url: /net/aspose.medical.dicom.network.client/dicomnetworkclientbuilder/
 ---
 

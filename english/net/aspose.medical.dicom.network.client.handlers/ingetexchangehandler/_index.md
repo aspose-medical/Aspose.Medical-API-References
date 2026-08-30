@@ -3,7 +3,7 @@ title: INGetExchangeHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Observes completed N-GET exchanges on the SCU side. Invoked after the remote SCP returns an N-GET-RSP allowing the implementer to read the requested attribute values from the managed SOP instance and inspect the response status.
 type: docs
-weight: 1580
+weight: 1630
 url: /net/aspose.medical.dicom.network.client.handlers/ingetexchangehandler/
 ---
 

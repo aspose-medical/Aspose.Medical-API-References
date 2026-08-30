@@ -3,7 +3,7 @@ title: INCreateRequestHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Factory that creates handlers for inbound N-CREATE requests on the SCP side. Use this handler to create a managed SOP Instance and return the creation status together with any created attributes. See  DICOM PS3.7 10.1.5 N-CREATE Service https//dicom.nema.org/medical/dicom/current/output/chtml/part07/chapter_10.html and  10.3.5 N-CREATE-RQ / N-CREATE-RSP https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_10.3.5.html.
 type: docs
-weight: 2660
+weight: 2710
 url: /net/aspose.medical.dicom.network.server.handlers/increaterequesthandlerfactory/
 ---
 

@@ -3,7 +3,7 @@ title: PresentationContext
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a presentation context configured for association negotiation.
 type: docs
-weight: 2270
+weight: 2320
 url: /net/aspose.medical.dicom.network.negotiation/presentationcontext/
 ---
 

@@ -3,7 +3,7 @@ title: ICStoreExchangeHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Observes completed C-STORE exchanges on the SCU side. Invoked after the remote SCP returns a C-STORE-RSP allowing the implementer to confirm that a composite SOP instance was accepted inspect refusal reasons or perform post-storage bookkeeping e.g. marking a study as uploaded.
 type: docs
-weight: 1480
+weight: 1530
 url: /net/aspose.medical.dicom.network.client.handlers/icstoreexchangehandler/
 ---
 

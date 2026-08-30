@@ -3,7 +3,7 @@ title: IDicomEncoding
 second_title: Aspose.Medical for .NET API Reference
 description: Encodes and decodes DICOM character string value fields using DICOM Specific Character Set rules.
 type: docs
-weight: 20
+weight: 60
 url: /net/aspose.medical.common.text/idicomencoding/
 ---
 
@@ -28,7 +28,8 @@ public interface IDicomEncoding
 | [GetBytes](../../aspose.medical.common.text/idicomencoding/getbytes#getbytes_2)(ReadOnlySpan&lt;string&gt;, char, Encoding[], byte, ReadOnlySpan&lt;byte&gt;, Span&lt;byte&gt;) | Encodes a multi-valued DICOM character string value into a caller-provided byte span. |
 | [GetCharset](../../aspose.medical.common.text/idicomencoding/getcharset)(Encoding, bool) | Gets the DICOM Specific Character Set value for a .NET Encoding. |
 | [GetEncoding](../../aspose.medical.common.text/idicomencoding/getencoding)(string) | Gets the .NET Encoding for a DICOM Specific Character Set value. |
-| [GetEncodings](../../aspose.medical.common.text/idicomencoding/getencodings)(string[]) | Gets the .NET encodings for a DICOM Specific Character Set value sequence. |
+| [GetEncodings](../../aspose.medical.common.text/idicomencoding/getencodings#getencodings)(Span&lt;string&gt;) | Gets the .NET encodings for a DICOM Specific Character Set value sequence. |
+| [GetEncodings](../../aspose.medical.common.text/idicomencoding/getencodings#getencodings_1)(string[]) | Gets the .NET encodings for a DICOM Specific Character Set value sequence. |
 | [RegisterEncoding](../../aspose.medical.common.text/idicomencoding/registerencoding)(string, string) | Registers a .NET encoding name for a DICOM Specific Character Set value. |
 | [RegisterProvider](../../aspose.medical.common.text/idicomencoding/registerprovider)(EncodingProvider) | Registers an encoding provider used to resolve additional .NET encodings. |
 

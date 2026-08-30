@@ -3,7 +3,7 @@ title: AssociationRejectResult
 second_title: Aspose.Medical for .NET API Reference
 description: Enumerates the result class of an A-ASSOCIATE rejection in DICOM UL PS 3.8.
 type: docs
-weight: 2360
+weight: 2410
 url: /net/aspose.medical.dicom.network.protocol/associationrejectresult/
 ---
 

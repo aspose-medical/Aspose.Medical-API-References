@@ -3,7 +3,7 @@ title: AssociationRejectedNotification
 second_title: Aspose.Medical for .NET API Reference
 description: Notifies that an association request was rejected.
 type: docs
-weight: 1270
+weight: 1320
 url: /net/aspose.medical.dicom.network/associationrejectednotification/
 ---
 

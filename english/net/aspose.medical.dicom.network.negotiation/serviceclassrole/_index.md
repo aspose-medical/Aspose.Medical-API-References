@@ -3,7 +3,7 @@ title: ServiceClassRole
 second_title: Aspose.Medical for .NET API Reference
 description: Defines the DICOM Service Class roles that an Application Entity can assume during association negotiation. This is a flags enum so multiple roles can be combined.
 type: docs
-weight: 2300
+weight: 2350
 url: /net/aspose.medical.dicom.network.negotiation/serviceclassrole/
 ---
 

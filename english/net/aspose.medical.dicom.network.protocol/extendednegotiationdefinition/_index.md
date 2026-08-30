@@ -3,7 +3,7 @@ title: ExtendedNegotiationDefinition
 second_title: Aspose.Medical for .NET API Reference
 description: Describes a SOP Class Extended Negotiation item proposed in an A-ASSOCIATE-RQ PDU.
 type: docs
-weight: 2400
+weight: 2450
 url: /net/aspose.medical.dicom.network.protocol/extendednegotiationdefinition/
 ---
 

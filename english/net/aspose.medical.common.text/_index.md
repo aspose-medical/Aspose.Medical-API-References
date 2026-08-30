@@ -3,7 +3,7 @@ title: Aspose.Medical.Common.Text
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.medical.common.text/
 ---
 

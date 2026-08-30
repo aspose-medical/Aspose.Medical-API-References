@@ -7,10 +7,24 @@ weight: 70
 url: /net/aspose.medical.common.text/dicomencoding/getencodings/
 ---
 
-## DicomEncoding.GetEncodings method
+## GetEncodings(string[]) {#getencodings_1}
 
 ```csharp
 public Encoding[] GetEncodings(string[] charsets)
+```
+
+### See Also
+
+* class [DicomEncoding](../../dicomencoding)
+* namespace [Aspose.Medical.Common.Text](../../dicomencoding)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## GetEncodings(Span&lt;string&gt;) {#getencodings}
+
+```csharp
+public Encoding[] GetEncodings(Span<string> charsets)
 ```
 
 ### See Also

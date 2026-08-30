@@ -3,7 +3,7 @@ title: INDeleteRequestHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Handles inbound N-DELETE requests on the SCP side. Use this handler to delete a managed SOP Instance and return the deletion status to the invoking peer. See  DICOM PS3.7 10.1.6 N-DELETE Service https//dicom.nema.org/medical/dicom/current/output/chtml/part07/chapter_10.html and  10.3.6 N-DELETE-RQ / N-DELETE-RSP https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_10.3.6.html.
 type: docs
-weight: 2670
+weight: 2720
 url: /net/aspose.medical.dicom.network.server.handlers/indeleterequesthandler/
 ---
 

@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Medical for .NET API Reference
 description: Removes element for given tag.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.medical.dicom/dataset/remove/
 ---
 

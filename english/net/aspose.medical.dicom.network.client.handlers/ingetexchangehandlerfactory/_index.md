@@ -3,7 +3,7 @@ title: INGetExchangeHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: A factory that creates handlers that observe N-GET exchanges on the SCU side. Invoked after the remote SCP returns an N-GET-RSP allowing the implementer to read the requested attribute values from the managed SOP instance and inspect the response status.
 type: docs
-weight: 1590
+weight: 1640
 url: /net/aspose.medical.dicom.network.client.handlers/ingetexchangehandlerfactory/
 ---
 

@@ -3,7 +3,7 @@ title: GetOrDefault
 second_title: Aspose.Medical for .NET API Reference
 description: Returns the IElementaspose.medical.dicom.elements/ielement of the specified tag or default if the tag is not in the dataset.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.medical.dicom/dataset/getordefault/
 ---
 

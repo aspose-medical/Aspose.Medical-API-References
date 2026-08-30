@@ -3,7 +3,7 @@ title: INDeleteExchangeHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Observes completed N-DELETE exchanges on the SCU side. Invoked after the remote SCP returns an N-DELETE-RSP allowing the implementer to confirm that the managed SOP instance was deleted and inspect the response status.
 type: docs
-weight: 1540
+weight: 1590
 url: /net/aspose.medical.dicom.network.client.handlers/indeleteexchangehandler/
 ---
 

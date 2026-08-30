@@ -3,7 +3,7 @@ title: ICMoveExchangeHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Observes completed C-MOVE exchanges on the SCU side. Invoked for each C-MOVE-RSP received from the remote SCP allowing the implementer to track retrieval progress remaining / completed / failed / warning sub-operations and inspect the final composite status of the move operation.
 type: docs
-weight: 1460
+weight: 1510
 url: /net/aspose.medical.dicom.network.client.handlers/icmoveexchangehandler/
 ---
 

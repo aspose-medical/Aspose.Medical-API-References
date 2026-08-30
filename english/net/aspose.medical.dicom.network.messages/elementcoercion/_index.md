@@ -3,7 +3,7 @@ title: ElementCoercion
 second_title: Aspose.Medical for .NET API Reference
 description: Whether the SCP may modify certain attributes e.g. patient name during storage.
 type: docs
-weight: 1940
+weight: 1990
 url: /net/aspose.medical.dicom.network.messages/elementcoercion/
 ---
 

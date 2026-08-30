@@ -3,7 +3,7 @@ title: INDeleteExchangeHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: A factory that creates handlers that observe N-DELETE exchanges on the SCU side. Invoked after the remote SCP returns an N-DELETE-RSP allowing the implementer to confirm that the managed SOP instance was deleted and inspect the response status.
 type: docs
-weight: 1550
+weight: 1600
 url: /net/aspose.medical.dicom.network.client.handlers/indeleteexchangehandlerfactory/
 ---
 

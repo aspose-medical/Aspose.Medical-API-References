@@ -3,7 +3,7 @@ title: UniqueIdentifier
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Unique Identifier UI VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextUI-Unique20Identifier-UID.
 type: docs
-weight: 810
+weight: 860
 url: /net/aspose.medical.dicom.elements/uniqueidentifier/
 ---
 
@@ -12,7 +12,8 @@ url: /net/aspose.medical.dicom.elements/uniqueidentifier/
 Encapsulates the Unique Identifier (UI) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=UI-,Unique%20Identifier,-(UID).
 
 ```csharp
-public sealed class UniqueIdentifier : MultiValueTextElement
+public sealed class UniqueIdentifier : MultiValueTextElement, 
+    IBufferBackedElement<UniqueIdentifier, string>
 ```
 
 ## Constructors
@@ -28,7 +29,8 @@ public sealed class UniqueIdentifier : MultiValueTextElement
 | Name | Description |
 | --- | --- |
 | override [Count](../../aspose.medical.dicom.elements/multivaluetextelement/count) { get; } | The number of elements contained in this element. Read-only Int32. |
-| [Data](../../aspose.medical.dicom.elements/multivaluetextelement/data) { get; } | Multivalued Data Element value. Read-only IReadOnlyCollection of String. |
+| [Data](../../aspose.medical.dicom.elements/multivaluetextelement/data) { get; } | Gets writable memory containing the element's text values. |
+| [Item](../../aspose.medical.dicom.elements/multivaluetextelement/item) { get; set; } | Gets or sets the text value at the specified position. |
 | [Tag](../../aspose.medical.dicom.elements/textelement/tag) { get; } |  |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/uniqueidentifier/valuerepresentation) { get; } |  |
 
@@ -36,8 +38,12 @@ public sealed class UniqueIdentifier : MultiValueTextElement
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/uniqueidentifier/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;string&gt;? TypedBuffer)) |  |
 | [Add](../../aspose.medical.dicom.elements/multivaluetextelement/add)(string) | Adds the given *value* to the collection of values of this element. |
 | [AddRange](../../aspose.medical.dicom.elements/multivaluetextelement/addrange)(IEnumerable&lt;string&gt;) | Adds the given *values* to the collection of values of this element. |
+| override [Bootstrap](../../aspose.medical.dicom.elements/multivaluetextelement/bootstrap)() |  |
+| override [BootstrapAsync](../../aspose.medical.dicom.elements/multivaluetextelement/bootstrapasync)(CancellationToken) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/multivaluetextelement/copydatatoarray)() | Copies the element's text values to a new array. |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/get)(Index) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/get)(int) |  |
 | [GetIdentifiers](../../aspose.medical.dicom.elements/uniqueidentifier/getidentifiers)() | Returns UIDs stored in the element. Supplements the data property. |
@@ -56,6 +62,7 @@ public sealed class UniqueIdentifier : MultiValueTextElement
 ### See Also
 
 * class [MultiValueTextElement](../multivaluetextelement)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

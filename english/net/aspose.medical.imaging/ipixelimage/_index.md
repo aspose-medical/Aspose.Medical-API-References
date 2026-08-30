@@ -3,7 +3,7 @@ title: IPixelImage
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a raster image with pixel dimensions.
 type: docs
-weight: 3180
+weight: 3240
 url: /net/aspose.medical.imaging/ipixelimage/
 ---
 

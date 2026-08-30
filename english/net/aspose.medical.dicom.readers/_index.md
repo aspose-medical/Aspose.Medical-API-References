@@ -3,7 +3,7 @@ title: Aspose.Medical.Dicom.Readers
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.medical.dicom.readers/
 ---
 

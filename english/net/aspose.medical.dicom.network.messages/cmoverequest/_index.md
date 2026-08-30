@@ -3,7 +3,7 @@ title: CMoveRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a C-MOVE request used to instruct a remote SCP to transfer DICOM objects to a specified destination.
 type: docs
-weight: 1860
+weight: 1910
 url: /net/aspose.medical.dicom.network.messages/cmoverequest/
 ---
 

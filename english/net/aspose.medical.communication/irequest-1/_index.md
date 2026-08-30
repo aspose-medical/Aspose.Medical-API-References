@@ -3,7 +3,7 @@ title: IRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a request that completes with exactly one response.
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.medical.communication/irequest-1/
 ---
 

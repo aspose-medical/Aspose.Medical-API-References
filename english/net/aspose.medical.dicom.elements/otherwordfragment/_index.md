@@ -3,7 +3,7 @@ title: OtherWordFragment
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a fragment sequence of Other Word OW items. Intended for handling OW fragments of encapsulated compressed pixel data.
 type: docs
-weight: 700
+weight: 750
 url: /net/aspose.medical.dicom.elements/otherwordfragment/
 ---
 
@@ -20,9 +20,9 @@ public sealed class OtherWordFragment : FragmentSequence
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.medical.dicom.elements/fragmentsequence/count) { get; } |  |
-| [Fragments](../../aspose.medical.dicom.elements/fragmentsequence/fragments) { get; } | The collection of fragments. Read-only Byte[][]. |
-| [OffsetTable](../../aspose.medical.dicom.elements/fragmentsequence/offsettable) { get; } | The fragment offset table. Read-only UInt32[]. |
-| [Tag](../../aspose.medical.dicom.elements/fragmentsequence/tag) { get; } | The DICOM tag associated with the element. Read-only [`Tag`](../fragmentsequence/tag). |
+| [Fragments](../../aspose.medical.dicom.elements/fragmentsequence/fragments) { get; } | The collection of fragments. |
+| [OffsetTable](../../aspose.medical.dicom.elements/fragmentsequence/offsettable) { get; } | The fragment offset table. |
+| [Tag](../../aspose.medical.dicom.elements/fragmentsequence/tag) { get; } | The DICOM tag associated with the element. |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/otherwordfragment/valuerepresentation) { get; } |  |
 
 ## Methods
@@ -30,6 +30,8 @@ public sealed class OtherWordFragment : FragmentSequence
 | Name | Description |
 | --- | --- |
 | [AddFragment](../../aspose.medical.dicom.elements/fragmentsequence/addfragment)(Span&lt;byte&gt;) | Adds the given *fragment* to the collection of fragments. |
+| [Bootstrap](../../aspose.medical.dicom.elements/fragmentsequence/bootstrap)() |  |
+| [BootstrapAsync](../../aspose.medical.dicom.elements/fragmentsequence/bootstrapasync)(CancellationToken) |  |
 | [Get&lt;T&gt;](../../aspose.medical.dicom.elements/fragmentsequence/get)(Index) |  |
 | [Get&lt;T&gt;](../../aspose.medical.dicom.elements/fragmentsequence/get)(int) |  |
 | [GetEnumerator](../../aspose.medical.dicom.elements/fragmentsequence/getenumerator)() |  |

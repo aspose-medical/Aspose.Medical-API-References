@@ -3,7 +3,7 @@ title: UnaryExchangeNotificationTRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a strongly typed notification for a unary request/response exchange.
 type: docs
-weight: 250
+weight: 290
 url: /net/aspose.medical.communication.notifications/unaryexchangenotification-2/
 ---
 

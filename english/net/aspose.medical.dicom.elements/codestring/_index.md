@@ -3,7 +3,7 @@ title: CodeString
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Code String CS VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextCS-Code20String-A20string20of.
 type: docs
-weight: 460
+weight: 500
 url: /net/aspose.medical.dicom.elements/codestring/
 ---
 
@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom.elements/codestring/
 Encapsulates the Code String (CS) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=CS-,Code%20String,-A%20string%20of.
 
 ```csharp
-public sealed class CodeString : MultiValueTextElement
+public sealed class CodeString : MultiValueTextElement, IBufferBackedElement<CodeString, string>
 ```
 
 ## Constructors
@@ -26,7 +26,8 @@ public sealed class CodeString : MultiValueTextElement
 | Name | Description |
 | --- | --- |
 | override [Count](../../aspose.medical.dicom.elements/multivaluetextelement/count) { get; } | The number of elements contained in this element. Read-only Int32. |
-| [Data](../../aspose.medical.dicom.elements/multivaluetextelement/data) { get; } | Multivalued Data Element value. Read-only IReadOnlyCollection of String. |
+| [Data](../../aspose.medical.dicom.elements/multivaluetextelement/data) { get; } | Gets writable memory containing the element's text values. |
+| [Item](../../aspose.medical.dicom.elements/multivaluetextelement/item) { get; set; } | Gets or sets the text value at the specified position. |
 | [Tag](../../aspose.medical.dicom.elements/textelement/tag) { get; } |  |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/codestring/valuerepresentation) { get; } |  |
 
@@ -34,8 +35,12 @@ public sealed class CodeString : MultiValueTextElement
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/codestring/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;string&gt;? TypedBuffer)) |  |
 | [Add](../../aspose.medical.dicom.elements/multivaluetextelement/add)(string) | Adds the given *value* to the collection of values of this element. |
 | [AddRange](../../aspose.medical.dicom.elements/multivaluetextelement/addrange)(IEnumerable&lt;string&gt;) | Adds the given *values* to the collection of values of this element. |
+| override [Bootstrap](../../aspose.medical.dicom.elements/multivaluetextelement/bootstrap)() |  |
+| override [BootstrapAsync](../../aspose.medical.dicom.elements/multivaluetextelement/bootstrapasync)(CancellationToken) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/multivaluetextelement/copydatatoarray)() | Copies the element's text values to a new array. |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/get)(Index) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/get)(int) |  |
 | override [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/getordefault)(Index) |  |
@@ -53,6 +58,7 @@ public sealed class CodeString : MultiValueTextElement
 ### See Also
 
 * class [MultiValueTextElement](../multivaluetextelement)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

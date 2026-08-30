@@ -3,7 +3,7 @@ title: AssociationAbortException
 second_title: Aspose.Medical for .NET API Reference
 description: An exception that is thrown when a DICOM association is aborted.
 type: docs
-weight: 1690
+weight: 1740
 url: /net/aspose.medical.dicom.network.errors/associationabortexception/
 ---
 

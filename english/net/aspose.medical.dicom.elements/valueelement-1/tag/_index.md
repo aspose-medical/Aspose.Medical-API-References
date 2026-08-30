@@ -3,7 +3,7 @@ title: Tag
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.medical.dicom.elements/valueelement-1/tag/
 ---
 

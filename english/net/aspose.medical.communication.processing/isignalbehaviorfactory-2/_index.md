@@ -3,7 +3,7 @@ title: ISignalBehaviorFactoryTSignalTResult
 second_title: Aspose.Medical for .NET API Reference
 description: Provides a signal behavior for one route dispatch.
 type: docs
-weight: 260
+weight: 300
 url: /net/aspose.medical.communication.processing/isignalbehaviorfactory-2/
 ---
 

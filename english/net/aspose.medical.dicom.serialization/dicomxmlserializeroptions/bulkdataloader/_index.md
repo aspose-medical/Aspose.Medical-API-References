@@ -1,7 +1,7 @@
 ---
 title: BulkDataLoader
 second_title: Aspose.Medical for .NET API Reference
-description: A loader used to load blob data referenced in BulkData element. See https//dicom.nema.org/medical/dicom/current/output/chtml/part19/chapter_A.htmltable_A.1.5-2. Read-only IBulkDataLoaderaspose.medical.dicom.serialization/ibulkdataloader.
+description: Gets the loader used to resolve data referenced by a Bulk Data element.
 type: docs
 weight: 40
 url: /net/aspose.medical.dicom.serialization/dicomxmlserializeroptions/bulkdataloader/
@@ -9,10 +9,10 @@ url: /net/aspose.medical.dicom.serialization/dicomxmlserializeroptions/bulkdatal
 
 ## DicomXmlSerializerOptions.BulkDataLoader property
 
-A loader used to load blob data referenced in BulkData element. See https://dicom.nema.org/medical/dicom/current/output/chtml/part19/chapter_A.html#table_A.1.5-2. Read-only, [`IBulkDataLoader`](../../ibulkdataloader).
+Gets the loader used to resolve data referenced by a Bulk Data element.
 
 ```csharp
-public IBulkDataLoader BulkDataLoader { get; set; }
+public IBulkDataLoader? BulkDataLoader { get; set; }
 ```
 
 ### See Also

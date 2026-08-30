@@ -3,7 +3,7 @@ title: UndefinedResultExceptionTError
 second_title: Aspose.Medical for .NET API Reference
 description: Indicates that the result of the operation is unavailable.
 type: docs
-weight: 3130
+weight: 3190
 url: /net/aspose.medical.errors/undefinedresultexception-1/
 ---
 

@@ -3,7 +3,7 @@ title: NSetRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Represents an N-SET request used to modify attribute values on a SOP Instance managed by a remote SCP.
 type: docs
-weight: 2120
+weight: 2170
 url: /net/aspose.medical.dicom.network.messages/nsetrequest/
 ---
 

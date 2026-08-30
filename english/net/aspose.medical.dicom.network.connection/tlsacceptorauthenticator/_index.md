@@ -3,7 +3,7 @@ title: TlsAcceptorAuthenticator
 second_title: Aspose.Medical for .NET API Reference
 description: Default TLS authenticator for the side that accepts the underlying transport connection.
 type: docs
-weight: 1640
+weight: 1690
 url: /net/aspose.medical.dicom.network.connection/tlsacceptorauthenticator/
 ---
 

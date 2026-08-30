@@ -1,15 +1,15 @@
 ---
 title: NameSuffix
 second_title: Aspose.Medical for .NET API Reference
-description: Name suffix or empty string. Read-only String.
+description: Name suffix or empty string.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.medical.dicom.elements/personname/namesuffix/
 ---
 
 ## PersonName.NameSuffix property
 
-Name suffix or empty string. Read-only String.
+Name suffix or empty string.
 
 ```csharp
 public string? NameSuffix { get; }

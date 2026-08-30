@@ -3,7 +3,7 @@ title: IDicomRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a DIMSE request message that expects a specific response type.
 type: docs
-weight: 1980
+weight: 2030
 url: /net/aspose.medical.dicom.network.messages/idicomrequest-1/
 ---
 

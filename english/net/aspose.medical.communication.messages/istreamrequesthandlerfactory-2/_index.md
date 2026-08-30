@@ -3,7 +3,7 @@ title: IStreamRequestHandlerFactoryTRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Provides stream request handlers for request dispatch.
 type: docs
-weight: 190
+weight: 230
 url: /net/aspose.medical.communication.messages/istreamrequesthandlerfactory-2/
 ---
 

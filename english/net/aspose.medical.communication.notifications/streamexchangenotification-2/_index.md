@@ -3,7 +3,7 @@ title: StreamExchangeNotificationTRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a strongly typed notification for a stream request/response exchange.
 type: docs
-weight: 240
+weight: 280
 url: /net/aspose.medical.communication.notifications/streamexchangenotification-2/
 ---
 

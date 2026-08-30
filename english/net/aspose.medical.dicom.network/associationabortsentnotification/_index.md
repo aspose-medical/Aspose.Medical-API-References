@@ -3,7 +3,7 @@ title: AssociationAbortSentNotification
 second_title: Aspose.Medical for .NET API Reference
 description: Notifies that the local association sent an A-ABORT PDU.
 type: docs
-weight: 1230
+weight: 1280
 url: /net/aspose.medical.dicom.network/associationabortsentnotification/
 ---
 

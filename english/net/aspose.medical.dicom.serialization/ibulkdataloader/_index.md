@@ -1,28 +1,23 @@
 ---
 title: IBulkDataLoader
 second_title: Aspose.Medical for .NET API Reference
-description: Defines the contract for objects that allows the recipient to retrieve data from a reference to a blob of data specified in BulkData element. See https//dicom.nema.org/medical/dicom/current/output/chtml/part19/chapter_A.htmltable_A.1.5-2.
+description: Defines synchronous retrieval of DICOM bulk data identified by a URI or UUID reference.
 type: docs
-weight: 2920
+weight: 2970
 url: /net/aspose.medical.dicom.serialization/ibulkdataloader/
 ---
 
 ## IBulkDataLoader interface
 
-Defines the contract for objects that allows the recipient to retrieve data from a reference to a blob of data specified in BulkData element. See: https://dicom.nema.org/medical/dicom/current/output/chtml/part19/chapter_A.html#table_A.1.5-2.
+Defines synchronous retrieval of DICOM bulk data identified by a URI or UUID reference.
 
 ```csharp
-public interface IBulkDataLoader
+public interface IBulkDataLoader : IDataLoader
 ```
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [GetData](../../aspose.medical.dicom.serialization/ibulkdataloader/getdata)(string) | Retrieves data from a reference to a blob of data specified in BulkData element. |
 
 ### See Also
 
+* interface [IDataLoader](../../aspose.medical.common.buffers/idataloader)
 * namespace [Aspose.Medical.Dicom.Serialization](../../aspose.medical.dicom.serialization)
 * assembly [Aspose.Medical](../../)
 

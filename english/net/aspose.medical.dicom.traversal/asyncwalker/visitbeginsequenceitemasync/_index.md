@@ -1,7 +1,7 @@
 ---
 title: VisitBeginSequenceItemAsync
 second_title: Aspose.Medical for .NET API Reference
-description: Indicates that sequence element with nested data to be visited.
+description: Defines the asynchronous operation invoked immediately before a sequence item is visited.
 type: docs
 weight: 40
 url: /net/aspose.medical.dicom.traversal/asyncwalker/visitbeginsequenceitemasync/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.traversal/asyncwalker/visitbeginsequenceitemasync
 
 ## AsyncWalker.VisitBeginSequenceItemAsync method
 
-Indicates that *sequence* element (with nested data) to be visited.
+Defines the asynchronous operation invoked immediately before a sequence item is visited.
 
 ```csharp
 public virtual Task VisitBeginSequenceItemAsync(Sequence sequence, Dataset sequenceItem)
@@ -17,8 +17,12 @@ public virtual Task VisitBeginSequenceItemAsync(Sequence sequence, Dataset seque
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sequence | Sequence | A Sequence that is currently visiting. |
-| sequenceItem | Dataset | A Sequence item to be visited. |
+| sequence | Sequence | The sequence being traversed. |
+| sequenceItem | Dataset | The item dataset whose traversal is beginning. |
+
+### Return Value
+
+An operation that completes when traversal may enter the item dataset.
 
 ### See Also
 

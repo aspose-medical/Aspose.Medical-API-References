@@ -3,7 +3,7 @@ title: Aspose.Medical.Errors
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.medical.errors/
 ---
 

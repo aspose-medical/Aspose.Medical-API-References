@@ -1,15 +1,15 @@
 ---
 title: Serialize
 second_title: Aspose.Medical for .NET API Reference
-description: Converts a Datasetaspose.medical.dicom/dataset to JSON.
+description: Serializes a DICOM dataset to JSON text.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.medical.dicom.serialization/dicomjsonserializer/serialize/
 ---
 
 ## Serialize(Dataset, DicomJsonSerializerOptions?, bool) {#serialize}
 
-Converts a [`Dataset`](../../../aspose.medical.dicom/dataset) to JSON.
+Serializes a DICOM dataset to JSON text.
 
 ```csharp
 public static string Serialize(Dataset dataset, 
@@ -18,59 +18,13 @@ public static string Serialize(Dataset dataset,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataset | Dataset | DICOM Dataset to be serialized. |
-| dicomJsonOptions | DicomJsonSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
-| writeIndented | Boolean | Specifies whether JSON should use pretty printing. By default, JSON is serialized without any extra white space. |
+| dataset | Dataset | The dataset to serialize. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
 
-### See Also
+### Return Value
 
-* class [Dataset](../../../aspose.medical.dicom/dataset)
-* record [DicomJsonSerializerOptions](../../dicomjsonserializeroptions)
-* class [DicomJsonSerializer](../../dicomjsonserializer)
-* namespace [Aspose.Medical.Dicom.Serialization](../../dicomjsonserializer)
-* assembly [Aspose.Medical](../../../)
-
----
-
-## Serialize(DicomFile, DicomJsonSerializerOptions?, bool) {#serialize_2}
-
-Converts a [`DicomFile`](../../../aspose.medical.dicom/dicomfile) to JSON.
-
-```csharp
-public static string Serialize(DicomFile dicomFile, 
-    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dicomFile | DicomFile | DICOM File to be serialized. |
-| dicomJsonOptions | DicomJsonSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
-| writeIndented | Boolean | Specifies whether JSON should use pretty printing. By default, JSON is serialized without any extra white space. |
-
-### See Also
-
-* class [DicomFile](../../../aspose.medical.dicom/dicomfile)
-* record [DicomJsonSerializerOptions](../../dicomjsonserializeroptions)
-* class [DicomJsonSerializer](../../dicomjsonserializer)
-* namespace [Aspose.Medical.Dicom.Serialization](../../dicomjsonserializer)
-* assembly [Aspose.Medical](../../../)
-
----
-
-## Serialize(Dataset[], DicomJsonSerializerOptions?, bool) {#serialize_1}
-
-Converts a collection of the [`Dataset`](../../../aspose.medical.dicom/dataset) to JSON.
-
-```csharp
-public static string Serialize(Dataset[] datasets, 
-    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| datasets | Dataset[] | A list of DICOM Datasets to be serialized. |
-| dicomJsonOptions | DicomJsonSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
-| writeIndented | Boolean | Specifies whether JSON should use pretty printing. By default, JSON is serialized without any extra white space. |
+The JSON representation of *dataset*.
 
 ### See Also
 
@@ -84,7 +38,7 @@ public static string Serialize(Dataset[] datasets,
 
 ## Serialize(Stream, Dataset, DicomJsonSerializerOptions?, bool) {#serialize_3}
 
-Converts a [`Dataset`](../../../aspose.medical.dicom/dataset) to JSON.
+Writes a DICOM dataset as UTF-8 JSON to a stream.
 
 ```csharp
 public static void Serialize(Stream utf8Json, Dataset dataset, 
@@ -93,10 +47,10 @@ public static void Serialize(Stream utf8Json, Dataset dataset,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| utf8Json | Stream | The UTF-8 Stream to write to. |
-| dataset | Dataset | DICOM Dataset to be serialized. |
-| dicomJsonOptions | DicomJsonSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
-| writeIndented | Boolean | Specifies whether JSON should use pretty printing. By default, JSON is serialized without any extra white space. |
+| utf8Json | Stream | The stream that receives the UTF-8 JSON data. |
+| dataset | Dataset | The dataset to serialize. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
 
 ### See Also
 
@@ -108,21 +62,24 @@ public static void Serialize(Stream utf8Json, Dataset dataset,
 
 ---
 
-## Serialize(Stream, DicomFile, DicomJsonSerializerOptions?, bool) {#serialize_5}
+## Serialize(DicomFile, DicomJsonSerializerOptions?, bool) {#serialize_2}
 
-Converts a [`DicomFile`](../../../aspose.medical.dicom/dicomfile) to JSON.
+Serializes a DICOM file to JSON text.
 
 ```csharp
-public static void Serialize(Stream utf8Json, DicomFile dataset, 
+public static string Serialize(DicomFile dicomFile, 
     DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| utf8Json | Stream | The UTF-8 Stream to write to. |
-| dataset | DicomFile | DICOM File to be serialized. |
-| dicomJsonOptions | DicomJsonSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
-| writeIndented | Boolean | Specifies whether JSON should use pretty printing. By default, JSON is serialized without any extra white space. |
+| dicomFile | DicomFile | The DICOM file to serialize. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
+
+### Return Value
+
+The JSON representation of *dicomFile*.
 
 ### See Also
 
@@ -134,9 +91,64 @@ public static void Serialize(Stream utf8Json, DicomFile dataset,
 
 ---
 
+## Serialize(Stream, DicomFile, DicomJsonSerializerOptions?, bool) {#serialize_5}
+
+Writes a DICOM file as UTF-8 JSON to a stream.
+
+```csharp
+public static void Serialize(Stream utf8Json, DicomFile dicomFile, 
+    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| utf8Json | Stream | The stream that receives the UTF-8 JSON data. |
+| dicomFile | DicomFile | The DICOM file to serialize. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
+
+### See Also
+
+* class [DicomFile](../../../aspose.medical.dicom/dicomfile)
+* record [DicomJsonSerializerOptions](../../dicomjsonserializeroptions)
+* class [DicomJsonSerializer](../../dicomjsonserializer)
+* namespace [Aspose.Medical.Dicom.Serialization](../../dicomjsonserializer)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## Serialize(Dataset[], DicomJsonSerializerOptions?, bool) {#serialize_1}
+
+Serializes an array of DICOM datasets to JSON text.
+
+```csharp
+public static string Serialize(Dataset[] datasets, 
+    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| datasets | Dataset[] | The datasets to serialize as one JSON array. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
+
+### Return Value
+
+The JSON array containing the serialized datasets.
+
+### See Also
+
+* class [Dataset](../../../aspose.medical.dicom/dataset)
+* record [DicomJsonSerializerOptions](../../dicomjsonserializeroptions)
+* class [DicomJsonSerializer](../../dicomjsonserializer)
+* namespace [Aspose.Medical.Dicom.Serialization](../../dicomjsonserializer)
+* assembly [Aspose.Medical](../../../)
+
+---
+
 ## Serialize(Stream, Dataset[], DicomJsonSerializerOptions?, bool) {#serialize_4}
 
-Converts a collection of the [`Dataset`](../../../aspose.medical.dicom/dataset) to UTF-8 JSON.
+Writes an array of DICOM datasets as UTF-8 JSON to a stream.
 
 ```csharp
 public static void Serialize(Stream utf8Json, Dataset[] datasets, 
@@ -145,10 +157,10 @@ public static void Serialize(Stream utf8Json, Dataset[] datasets,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| utf8Json | Stream | The UTF-8 Stream to write to. |
-| datasets | Dataset[] | A list of DICOM Datasets to be serialized. |
-| dicomJsonOptions | DicomJsonSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
-| writeIndented | Boolean | Specifies whether JSON should use pretty printing. By default, JSON is serialized without any extra white space. |
+| utf8Json | Stream | The stream that receives the UTF-8 JSON data. |
+| datasets | Dataset[] | The datasets to serialize as one JSON array. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
 
 ### See Also
 

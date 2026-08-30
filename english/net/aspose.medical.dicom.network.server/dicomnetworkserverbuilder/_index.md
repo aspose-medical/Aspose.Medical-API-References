@@ -3,7 +3,7 @@ title: DicomNetworkServerBuilder
 second_title: Aspose.Medical for .NET API Reference
 description: Configures DICOM network servers before they are built.
 type: docs
-weight: 2490
+weight: 2540
 url: /net/aspose.medical.dicom.network.server/dicomnetworkserverbuilder/
 ---
 

@@ -3,7 +3,7 @@ title: AssociationTimeoutOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Configures timeout budgets for DICOM association lifecycle operations.
 type: docs
-weight: 2190
+weight: 2240
 url: /net/aspose.medical.dicom.network.negotiation/associationtimeoutoptions/
 ---
 

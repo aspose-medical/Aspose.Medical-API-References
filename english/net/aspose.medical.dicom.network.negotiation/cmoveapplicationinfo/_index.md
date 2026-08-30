@@ -3,7 +3,7 @@ title: CMoveApplicationInfo
 second_title: Aspose.Medical for .NET API Reference
 description: C-MOVE Service Class Application Information for the SOP Class Extended Negotiation Sub-item. See http//dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_C.5.2.html.
 type: docs
-weight: 2230
+weight: 2280
 url: /net/aspose.medical.dicom.network.negotiation/cmoveapplicationinfo/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Default
 second_title: Aspose.Medical for .NET API Reference
-description: Default DICOM serialization options. Read-only DicomXmlSerializerOptionsaspose.medical.dicom.serialization/dicomxmlserializeroptions.
+description: Gets the default DICOM Native XML serialization options.
 type: docs
 weight: 20
 url: /net/aspose.medical.dicom.serialization/dicomxmlserializeroptions/default/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.serialization/dicomxmlserializeroptions/default/
 
 ## DicomXmlSerializerOptions.Default property
 
-Default DICOM serialization options. Read-only, [`DicomXmlSerializerOptions`](../../dicomxmlserializeroptions).
+Gets the default DICOM Native XML serialization options.
 
 ```csharp
 public static DicomXmlSerializerOptions Default { get; }

@@ -3,7 +3,7 @@ title: OtherDouble
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Other Double OD VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextOD-Other20Double-A20stream20of.
 type: docs
-weight: 650
+weight: 700
 url: /net/aspose.medical.dicom.elements/otherdouble/
 ---
 
@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom.elements/otherdouble/
 Encapsulates the Other Double (OD) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=OD-,Other%20Double,-A%20stream%20of.
 
 ```csharp
-public sealed class OtherDouble : ValueElement<double>
+public sealed class OtherDouble : ValueElement<double>, IBufferBackedElement<OtherDouble, double>
 ```
 
 ## Constructors
@@ -29,6 +29,7 @@ public sealed class OtherDouble : ValueElement<double>
 | --- | --- |
 | [Count](../../aspose.medical.dicom.elements/valueelement`1/count) { get; } |  |
 | [Data](../../aspose.medical.dicom.elements/valueelement`1/data) { get; } |  |
+| [Item](../../aspose.medical.dicom.elements/valueelement`1/item) { get; set; } |  |
 | [Tag](../../aspose.medical.dicom.elements/valueelement`1/tag) { get; } |  |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/otherdouble/valuerepresentation) { get; } |  |
 
@@ -36,9 +37,13 @@ public sealed class OtherDouble : ValueElement<double>
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/otherdouble/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;double&gt;? TypedBuffer)) |  |
 | [Add](../../aspose.medical.dicom.elements/valueelement`1/add)(double) |  |
 | [AddRange](../../aspose.medical.dicom.elements/valueelement`1/addrange)(Span&lt;double&gt;) |  |
+| [Bootstrap](../../aspose.medical.dicom.elements/valueelement`1/bootstrap)() |  |
+| [BootstrapAsync](../../aspose.medical.dicom.elements/valueelement`1/bootstrapasync)(CancellationToken) |  |
 | [ConvertData&lt;TOutput&gt;](../../aspose.medical.dicom.elements/valueelement`1/convertdata)(Func&lt;double, TOutput&gt;) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/valueelement`1/copydatatoarray)() |  |
 | [Get](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(Index) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
@@ -60,6 +65,7 @@ public sealed class OtherDouble : ValueElement<double>
 ### See Also
 
 * class [ValueElement&lt;T&gt;](../valueelement-1)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

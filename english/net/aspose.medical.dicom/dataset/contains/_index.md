@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Medical for .NET API Reference
 description: Determines whether the DICOM dataset contains an element with the specified tag.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.medical.dicom/dataset/contains/
 ---
 

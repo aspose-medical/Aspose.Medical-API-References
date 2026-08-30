@@ -1,30 +1,61 @@
 ---
 title: DeserializeListAsync
 second_title: Aspose.Medical for .NET API Reference
-description: Asynchronously reads the UTF-8 encoded text representing a JSON value into a collection of the Datasetaspose.medical.dicom/dataset.
+description: Asynchronously reads a DICOM JSON array from a UTF-8 stream.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.medical.dicom.serialization/dicomjsonserializer/deserializelistasync/
 ---
 
-## DicomJsonSerializer.DeserializeListAsync method
+## DeserializeListAsync(Stream, DicomJsonSerializerOptions?, CancellationToken) {#deserializelistasync_1}
 
-Asynchronously reads the UTF-8 encoded text representing a JSON value into a collection of the [`Dataset`](../../../aspose.medical.dicom/dataset).
+Asynchronously reads a DICOM JSON array from a UTF-8 stream.
 
 ```csharp
 public static ValueTask<Dataset[]?> DeserializeListAsync(Stream utf8Json, 
-    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false)
+    DicomJsonSerializerOptions? dicomJsonOptions = null, 
+    CancellationToken cancellationToken = default)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| utf8Json | Stream | JSON data to parse. |
-| dicomJsonOptions | DicomJsonSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
-| writeIndented | Boolean | Specifies whether JSON should use pretty printing. By default, JSON is serialized without any extra white space. |
+| utf8Json | Stream | The stream that supplies UTF-8 JSON data. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling DICOM JSON materialization. |
+| cancellationToken | CancellationToken | A token used to cancel reading or asynchronous Bulk Data loading. |
 
 ### Return Value
 
-The [`Dataset`](../../../aspose.medical.dicom/dataset) or `null`.
+The deserialized datasets, or `null` when the JSON root is `null`.
+
+### See Also
+
+* class [Dataset](../../../aspose.medical.dicom/dataset)
+* record [DicomJsonSerializerOptions](../../dicomjsonserializeroptions)
+* class [DicomJsonSerializer](../../dicomjsonserializer)
+* namespace [Aspose.Medical.Dicom.Serialization](../../dicomjsonserializer)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## DeserializeListAsync(PipeReader, DicomJsonSerializerOptions?, CancellationToken) {#deserializelistasync}
+
+Asynchronously reads a DICOM JSON array from a pipe.
+
+```csharp
+public static ValueTask<Dataset[]?> DeserializeListAsync(PipeReader utf8Json, 
+    DicomJsonSerializerOptions? dicomJsonOptions = null, 
+    CancellationToken cancellationToken = default)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| utf8Json | PipeReader | The pipe that supplies UTF-8 JSON data. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling DICOM JSON materialization. |
+| cancellationToken | CancellationToken | A token used to cancel reading or asynchronous Bulk Data loading. |
+
+### Return Value
+
+The deserialized datasets, or `null` when the JSON root is `null`.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: CEchoRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a C-ECHO request which is used to verify communication between DICOM Application Entities.
 type: docs
-weight: 1770
+weight: 1820
 url: /net/aspose.medical.dicom.network.messages/cechorequest/
 ---
 

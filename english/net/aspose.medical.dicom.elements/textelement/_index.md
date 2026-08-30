@@ -3,7 +3,7 @@ title: TextElement
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates basic functionality for VR types that depend on text encodings.
 type: docs
-weight: 790
+weight: 840
 url: /net/aspose.medical.dicom.elements/textelement/
 ---
 
@@ -27,6 +27,8 @@ public abstract class TextElement : IElement
 
 | Name | Description |
 | --- | --- |
+| abstract [Bootstrap](../../aspose.medical.dicom.elements/textelement/bootstrap)() |  |
+| abstract [BootstrapAsync](../../aspose.medical.dicom.elements/textelement/bootstrapasync)(CancellationToken) |  |
 | abstract [Get&lt;T&gt;](../../aspose.medical.dicom.elements/textelement/get#get_1)(Index) |  |
 | abstract [Get&lt;T&gt;](../../aspose.medical.dicom.elements/textelement/get#get)(int) |  |
 | abstract [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/textelement/getordefault#getordefault_1)(Index) |  |

@@ -3,7 +3,7 @@ title: INSetRequestHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Factory that creates handlers for inbound N-SET requests on the SCP side. See  DICOM PS3.7 10.1.2 N-SET Service https//dicom.nema.org/medical/dicom/current/output/chtml/part07/chapter_10.html and  10.3.2 N-SET-RQ / N-SET-RSP https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_10.3.2.html.
 type: docs
-weight: 2740
+weight: 2790
 url: /net/aspose.medical.dicom.network.server.handlers/insetrequesthandlerfactory/
 ---
 

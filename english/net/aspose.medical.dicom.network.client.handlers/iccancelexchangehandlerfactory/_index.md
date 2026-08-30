@@ -3,7 +3,7 @@ title: ICCancelExchangeHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: A factory that creates handlers that observe C-CANCEL exchanges on the SCU side. Invoked after a C-CANCEL-RQ is sent to the remote SCP allowing the implementer to log or audit the cancellation attempt. Because C-CANCEL has no corresponding response from the SCP the response slot carries NoneDicomNetworkResponse../aspose.medical.dicom.network.messages/nonedicomnetworkresponse.
 type: docs
-weight: 1390
+weight: 1440
 url: /net/aspose.medical.dicom.network.client.handlers/iccancelexchangehandlerfactory/
 ---
 

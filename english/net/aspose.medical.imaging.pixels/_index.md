@@ -3,7 +3,7 @@ title: Aspose.Medical.Imaging.Pixels
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.medical.imaging.pixels/
 ---
 

@@ -3,7 +3,7 @@ title: DicomNetworkClient
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a DICOM association requestor that opens associations to a remote Application Entity and sends DIMSE requests.
 type: docs
-weight: 1350
+weight: 1400
 url: /net/aspose.medical.dicom.network.client/dicomnetworkclient/
 ---
 

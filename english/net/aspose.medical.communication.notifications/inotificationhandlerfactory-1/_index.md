@@ -3,7 +3,7 @@ title: INotificationHandlerFactoryTNotification
 second_title: Aspose.Medical for .NET API Reference
 description: Provides notification handlers for specific notification types.
 type: docs
-weight: 210
+weight: 250
 url: /net/aspose.medical.communication.notifications/inotificationhandlerfactory-1/
 ---
 

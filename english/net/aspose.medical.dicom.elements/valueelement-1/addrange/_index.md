@@ -3,7 +3,7 @@ title: AddRange
 second_title: Aspose.Medical for .NET API Reference
 description: Adds the given values to the collection of values of this element.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.medical.dicom.elements/valueelement-1/addrange/
 ---
 

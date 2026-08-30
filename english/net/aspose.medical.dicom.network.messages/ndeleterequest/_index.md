@@ -3,7 +3,7 @@ title: NDeleteRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Represents an N-DELETE request used to delete a SOP Instance on a remote SCP.
 type: docs
-weight: 2050
+weight: 2100
 url: /net/aspose.medical.dicom.network.messages/ndeleterequest/
 ---
 

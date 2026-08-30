@@ -3,7 +3,7 @@ title: UnsignedShort
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Unsigned Short US VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextUS-Unsigned20Short-Unsigned20binary20integer.
 type: docs
-weight: 870
+weight: 920
 url: /net/aspose.medical.dicom.elements/unsignedshort/
 ---
 
@@ -12,7 +12,8 @@ url: /net/aspose.medical.dicom.elements/unsignedshort/
 Encapsulates the Unsigned Short (US) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=US-,Unsigned%20Short,-Unsigned%20binary%20integer.
 
 ```csharp
-public sealed class UnsignedShort : ValueElement<ushort>
+public sealed class UnsignedShort : ValueElement<ushort>, 
+    IBufferBackedElement<UnsignedShort, ushort>
 ```
 
 ## Constructors
@@ -28,6 +29,7 @@ public sealed class UnsignedShort : ValueElement<ushort>
 | --- | --- |
 | [Count](../../aspose.medical.dicom.elements/valueelement`1/count) { get; } |  |
 | [Data](../../aspose.medical.dicom.elements/valueelement`1/data) { get; } |  |
+| [Item](../../aspose.medical.dicom.elements/valueelement`1/item) { get; set; } |  |
 | [Tag](../../aspose.medical.dicom.elements/valueelement`1/tag) { get; } |  |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/unsignedshort/valuerepresentation) { get; } |  |
 
@@ -35,9 +37,13 @@ public sealed class UnsignedShort : ValueElement<ushort>
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/unsignedshort/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;ushort&gt;? TypedBuffer)) |  |
 | [Add](../../aspose.medical.dicom.elements/valueelement`1/add)(ushort) |  |
 | [AddRange](../../aspose.medical.dicom.elements/valueelement`1/addrange)(Span&lt;ushort&gt;) |  |
+| [Bootstrap](../../aspose.medical.dicom.elements/valueelement`1/bootstrap)() |  |
+| [BootstrapAsync](../../aspose.medical.dicom.elements/valueelement`1/bootstrapasync)(CancellationToken) |  |
 | [ConvertData&lt;TOutput&gt;](../../aspose.medical.dicom.elements/valueelement`1/convertdata)(Func&lt;ushort, TOutput&gt;) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/valueelement`1/copydatatoarray)() |  |
 | [Get](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(Index) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
@@ -59,6 +65,7 @@ public sealed class UnsignedShort : ValueElement<ushort>
 ### See Also
 
 * class [ValueElement&lt;T&gt;](../valueelement-1)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

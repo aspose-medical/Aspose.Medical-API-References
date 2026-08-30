@@ -1,15 +1,15 @@
 ---
 title: DicomXmlSerializerOptions
 second_title: Aspose.Medical for .NET API Reference
-description: Provides options that controls serialization/deserialization XML process of DICOM objects.
+description: Provides options for serializing and deserializing DICOM Native XML documents.
 type: docs
-weight: 2900
+weight: 2940
 url: /net/aspose.medical.dicom.serialization/dicomxmlserializeroptions/
 ---
 
 ## DicomXmlSerializerOptions record
 
-Provides options that controls serialization/deserialization (XML) process of DICOM objects.
+Provides options for serializing and deserializing DICOM Native XML documents.
 
 ```csharp
 public record DicomXmlSerializerOptions
@@ -25,9 +25,9 @@ public record DicomXmlSerializerOptions
 
 | Name | Description |
 | --- | --- |
-| static [Default](../../aspose.medical.dicom.serialization/dicomxmlserializeroptions/default) { get; } | Default DICOM serialization options. Read-only, [`DicomXmlSerializerOptions`](../dicomxmlserializeroptions). |
-| [BulkDataConverter](../../aspose.medical.dicom.serialization/dicomxmlserializeroptions/bulkdataconverter) { get; set; } | A converter that allows writing DICOM Element data as a reference to a blob of data specified in the BulkData element. See https://dicom.nema.org/medical/dicom/current/output/chtml/part19/chapter_A.html#table_A.1.5-2. Read-only, [`IBulkDataConverter`](../ibulkdataconverter). |
-| [BulkDataLoader](../../aspose.medical.dicom.serialization/dicomxmlserializeroptions/bulkdataloader) { get; set; } | A loader used to load blob data referenced in BulkData element. See https://dicom.nema.org/medical/dicom/current/output/chtml/part19/chapter_A.html#table_A.1.5-2. Read-only, [`IBulkDataLoader`](../ibulkdataloader). |
+| static [Default](../../aspose.medical.dicom.serialization/dicomxmlserializeroptions/default) { get; } | Gets the default DICOM Native XML serialization options. |
+| [BulkDataConverter](../../aspose.medical.dicom.serialization/dicomxmlserializeroptions/bulkdataconverter) { get; set; } | Gets the converter that selects element values to write as Bulk Data URI references. |
+| [BulkDataLoader](../../aspose.medical.dicom.serialization/dicomxmlserializeroptions/bulkdataloader) { get; set; } | Gets the loader used to resolve data referenced by a Bulk Data element. |
 
 ### See Also
 

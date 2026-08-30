@@ -3,7 +3,7 @@ title: CGetOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Defines the extended negotiation options for the C-GET SOP Class used to communicate additional retrieval capabilities supported by an Application Entity AE.
 type: docs
-weight: 1820
+weight: 1870
 url: /net/aspose.medical.dicom.network.messages/cgetoptions/
 ---
 

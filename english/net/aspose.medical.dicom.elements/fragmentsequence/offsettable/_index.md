@@ -1,7 +1,7 @@
 ---
 title: OffsetTable
 second_title: Aspose.Medical for .NET API Reference
-description: The fragment offset table. Read-only UInt32.
+description: The fragment offset table.
 type: docs
 weight: 40
 url: /net/aspose.medical.dicom.elements/fragmentsequence/offsettable/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.elements/fragmentsequence/offsettable/
 
 ## FragmentSequence.OffsetTable property
 
-The fragment offset table. Read-only UInt32[].
+The fragment offset table.
 
 ```csharp
 public uint[]? OffsetTable { get; }

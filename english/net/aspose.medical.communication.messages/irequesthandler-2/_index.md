@@ -3,7 +3,7 @@ title: IRequestHandlerTRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Handles a unary request and produces its response.
 type: docs
-weight: 160
+weight: 200
 url: /net/aspose.medical.communication.messages/irequesthandler-2/
 ---
 

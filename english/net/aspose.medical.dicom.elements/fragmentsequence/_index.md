@@ -3,7 +3,7 @@ title: FragmentSequence
 second_title: Aspose.Medical for .NET API Reference
 description: Represents fragment sequences of DICOM pixel data. Intended for handling encapsulated compressed pixel data.
 type: docs
-weight: 550
+weight: 590
 url: /net/aspose.medical.dicom.elements/fragmentsequence/
 ---
 
@@ -20,10 +20,10 @@ public abstract class FragmentSequence : IElement, IEnumerable<byte[]>
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.medical.dicom.elements/fragmentsequence/count) { get; } |  |
-| [Fragments](../../aspose.medical.dicom.elements/fragmentsequence/fragments) { get; } | The collection of fragments. Read-only Byte[][]. |
-| [OffsetTable](../../aspose.medical.dicom.elements/fragmentsequence/offsettable) { get; } | The fragment offset table. Read-only UInt32[]. |
-| [Tag](../../aspose.medical.dicom.elements/fragmentsequence/tag) { get; } | The DICOM tag associated with the element. Read-only [`Tag`](./tag). |
-| abstract [ValueRepresentation](../../aspose.medical.dicom.elements/fragmentsequence/valuerepresentation) { get; } | The Value Representation of the element. Read-only [`ValueRepresentation`](./valuerepresentation). |
+| [Fragments](../../aspose.medical.dicom.elements/fragmentsequence/fragments) { get; } | The collection of fragments. |
+| [OffsetTable](../../aspose.medical.dicom.elements/fragmentsequence/offsettable) { get; } | The fragment offset table. |
+| [Tag](../../aspose.medical.dicom.elements/fragmentsequence/tag) { get; } | The DICOM tag associated with the element. |
+| abstract [ValueRepresentation](../../aspose.medical.dicom.elements/fragmentsequence/valuerepresentation) { get; } | The Value Representation of the element. |
 
 ## Methods
 
@@ -32,6 +32,8 @@ public abstract class FragmentSequence : IElement, IEnumerable<byte[]>
 | static [Create](../../aspose.medical.dicom.elements/fragmentsequence/create#create)(Tag, ValueRepresentation) | Creates a new [`FragmentSequence`](../fragmentsequence) with the given *tag* and *vr*. |
 | static [Create](../../aspose.medical.dicom.elements/fragmentsequence/create#create_1)(Tag, ValueRepresentation, byte[][]) | Creates a new [`FragmentSequence`](../fragmentsequence) with the given *tag* and *vr*. |
 | [AddFragment](../../aspose.medical.dicom.elements/fragmentsequence/addfragment)(Span&lt;byte&gt;) | Adds the given *fragment* to the collection of fragments. |
+| [Bootstrap](../../aspose.medical.dicom.elements/fragmentsequence/bootstrap)() |  |
+| [BootstrapAsync](../../aspose.medical.dicom.elements/fragmentsequence/bootstrapasync)(CancellationToken) |  |
 | [Get&lt;T&gt;](../../aspose.medical.dicom.elements/fragmentsequence/get#get_1)(Index) |  |
 | [Get&lt;T&gt;](../../aspose.medical.dicom.elements/fragmentsequence/get#get)(int) |  |
 | [GetEnumerator](../../aspose.medical.dicom.elements/fragmentsequence/getenumerator)() |  |

@@ -3,7 +3,7 @@ title: ISignal
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a semantic unit that can be processed by the communication dispatch infrastructure.
 type: docs
-weight: 90
+weight: 130
 url: /net/aspose.medical.communication/isignal/
 ---
 

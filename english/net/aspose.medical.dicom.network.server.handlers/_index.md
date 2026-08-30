@@ -3,7 +3,7 @@ title: Aspose.Medical.Dicom.Network.Server.Handlers
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.medical.dicom.network.server.handlers/
 ---
 

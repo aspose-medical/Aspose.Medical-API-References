@@ -3,7 +3,7 @@ title: OverlayType
 second_title: Aspose.Medical for .NET API Reference
 description: DICOM overlay types.
 type: docs
-weight: 960
+weight: 1010
 url: /net/aspose.medical.dicom.imaging.overlays/overlaytype/
 ---
 

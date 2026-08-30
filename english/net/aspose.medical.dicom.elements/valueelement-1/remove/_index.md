@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Medical for .NET API Reference
 description: Removes the first occurrence of a specific value from the element.
 type: docs
-weight: 130
+weight: 170
 url: /net/aspose.medical.dicom.elements/valueelement-1/remove/
 ---
 

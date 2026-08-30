@@ -3,7 +3,7 @@ title: INEventReportRequestHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Factory that creates handlers for inbound N-EVENT-REPORT requests on the SCP side. Use this handler to process an event report for a managed SOP Instance and return the reporting status with any event reply dataset. See  DICOM PS3.7 10.1.1 N-EVENT-REPORT Service https//dicom.nema.org/medical/dicom/current/output/chtml/part07/chapter_10.html and  10.3.1 N-EVENT-REPORT-RQ / N-EVENT-REPORT-RSP https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_10.3.1.html.
 type: docs
-weight: 2700
+weight: 2750
 url: /net/aspose.medical.dicom.network.server.handlers/ineventreportrequesthandlerfactory/
 ---
 

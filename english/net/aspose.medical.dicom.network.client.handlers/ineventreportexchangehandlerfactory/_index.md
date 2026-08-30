@@ -3,7 +3,7 @@ title: INEventReportExchangeHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: A factory that creates handlers that observe N-EVENT-REPORT exchanges on the SCU side. Invoked after the remote SCP returns an N-EVENT-REPORT-RSP allowing the implementer to process event information event type ID event data and inspect the response status.
 type: docs
-weight: 1570
+weight: 1620
 url: /net/aspose.medical.dicom.network.client.handlers/ineventreportexchangehandlerfactory/
 ---
 

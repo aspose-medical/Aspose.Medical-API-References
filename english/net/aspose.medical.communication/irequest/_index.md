@@ -3,7 +3,7 @@ title: IRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Marker interface for requests.
 type: docs
-weight: 50
+weight: 90
 url: /net/aspose.medical.communication/irequest/
 ---
 

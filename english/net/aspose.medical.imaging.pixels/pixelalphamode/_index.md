@@ -3,7 +3,7 @@ title: PixelAlphaMode
 second_title: Aspose.Medical for .NET API Reference
 description: Describes how a pixel value type represents alpha.
 type: docs
-weight: 3250
+weight: 3310
 url: /net/aspose.medical.imaging.pixels/pixelalphamode/
 ---
 

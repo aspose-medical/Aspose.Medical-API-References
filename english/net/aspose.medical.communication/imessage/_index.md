@@ -3,7 +3,7 @@ title: IMessage
 second_title: Aspose.Medical for .NET API Reference
 description: Marker interface for all messages  both requests and responses  flowing through the messaging system.
 type: docs
-weight: 30
+weight: 70
 url: /net/aspose.medical.communication/imessage/
 ---
 

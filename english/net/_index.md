@@ -12,6 +12,7 @@ is_root: true
 | Namespace | Description |
 | --- | --- |
 | [Aspose.Medical](./aspose.medical) |  |
+| [Aspose.Medical.Common.Buffers](./aspose.medical.common.buffers) |  |
 | [Aspose.Medical.Common.Text](./aspose.medical.common.text) |  |
 | [Aspose.Medical.Communication](./aspose.medical.communication) |  |
 | [Aspose.Medical.Communication.Messages](./aspose.medical.communication.messages) |  |

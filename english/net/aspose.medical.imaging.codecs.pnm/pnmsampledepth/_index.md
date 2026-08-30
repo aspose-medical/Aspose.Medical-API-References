@@ -3,7 +3,7 @@ title: PnmSampleDepth
 second_title: Aspose.Medical for .NET API Reference
 description: Specifies the bit depth of a single PNM sample.
 type: docs
-weight: 3170
+weight: 3230
 url: /net/aspose.medical.imaging.codecs.pnm/pnmsampledepth/
 ---
 

@@ -3,7 +3,7 @@ title: PixelFormatTPixel
 second_title: Aspose.Medical for .NET API Reference
 description: Provides metadata and conversion services for a pixel value type.
 type: docs
-weight: 3270
+weight: 3330
 url: /net/aspose.medical.imaging.pixels/pixelformat-1/
 ---
 

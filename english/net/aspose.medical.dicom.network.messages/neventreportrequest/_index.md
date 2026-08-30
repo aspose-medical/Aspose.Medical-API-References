@@ -3,7 +3,7 @@ title: NEventReportRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Represents an N-EVENT-REPORT request used to report an event that occurred on a SOP Instance.
 type: docs
-weight: 2070
+weight: 2120
 url: /net/aspose.medical.dicom.network.messages/neventreportrequest/
 ---
 

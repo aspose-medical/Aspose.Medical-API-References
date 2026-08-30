@@ -1,15 +1,15 @@
 ---
 title: DicomXmlSerializer
 second_title: Aspose.Medical for .NET API Reference
-description: Provides functionality to serialize DICOM objects to XML and to deserialize XML into DICOM objects.
+description: Provides conversion between Dataset../aspose.medical.dicom/dataset instances and Native DICOM Model XML documents.
 type: docs
-weight: 2890
+weight: 2930
 url: /net/aspose.medical.dicom.serialization/dicomxmlserializer/
 ---
 
 ## DicomXmlSerializer class
 
-Provides functionality to serialize DICOM objects to XML and to deserialize XML into DICOM objects.
+Provides conversion between [`Dataset`](../../aspose.medical.dicom/dataset) instances and Native DICOM Model XML documents.
 
 ```csharp
 public static class DicomXmlSerializer
@@ -19,14 +19,18 @@ public static class DicomXmlSerializer
 
 | Name | Description |
 | --- | --- |
-| static [Deserialize](../../aspose.medical.dicom.serialization/dicomxmlserializer/deserialize#deserialize)(Stream, DicomXmlSerializerOptions?) | Parses the text representing a single XML value into an instance of the [`Dataset`](../../aspose.medical.dicom/dataset). |
-| static [Deserialize](../../aspose.medical.dicom.serialization/dicomxmlserializer/deserialize#deserialize_1)(string, DicomXmlSerializerOptions?) | Parses the text representing a single XML value into an instance of the [`Dataset`](../../aspose.medical.dicom/dataset). |
-| static [DeserializeAsync](../../aspose.medical.dicom.serialization/dicomxmlserializer/deserializeasync#deserializeasync)(Stream, DicomXmlSerializerOptions?) | Parses the text representing a single XML value into an instance of the [`Dataset`](../../aspose.medical.dicom/dataset). |
-| static [DeserializeAsync](../../aspose.medical.dicom.serialization/dicomxmlserializer/deserializeasync#deserializeasync_1)(string, DicomXmlSerializerOptions?) | Parses the text representing a single XML value into an instance of the [`Dataset`](../../aspose.medical.dicom/dataset). |
-| static [Serialize](../../aspose.medical.dicom.serialization/dicomxmlserializer/serialize#serialize)(Dataset, DicomXmlSerializerOptions?) | Converts a [`Dataset`](../../aspose.medical.dicom/dataset) to XML. |
-| static [Serialize](../../aspose.medical.dicom.serialization/dicomxmlserializer/serialize#serialize_1)(Stream, Dataset, DicomXmlSerializerOptions?) | Converts a [`Dataset`](../../aspose.medical.dicom/dataset) to XML. |
-| static [SerializeAsync](../../aspose.medical.dicom.serialization/dicomxmlserializer/serializeasync#serializeasync_1)(Dataset, DicomXmlSerializerOptions?) | Asynchronously converts a [`Dataset`](../../aspose.medical.dicom/dataset) to XML. |
-| static [SerializeAsync](../../aspose.medical.dicom.serialization/dicomxmlserializer/serializeasync#serializeasync)(Stream, Dataset, DicomXmlSerializerOptions?) | Asynchronously converts a [`Dataset`](../../aspose.medical.dicom/dataset) to XML. |
+| static [Deserialize](../../aspose.medical.dicom.serialization/dicomxmlserializer/deserialize#deserialize)(Stream, DicomXmlSerializerOptions?) | Deserializes a Native DICOM Model XML document from a stream into a DICOM dataset. |
+| static [Deserialize](../../aspose.medical.dicom.serialization/dicomxmlserializer/deserialize#deserialize_1)(string, DicomXmlSerializerOptions?) | Deserializes a Native DICOM Model XML document into a DICOM dataset. |
+| static [DeserializeAsync](../../aspose.medical.dicom.serialization/dicomxmlserializer/deserializeasync#deserializeasync)(PipeReader, DicomXmlSerializerOptions?, CancellationToken) | Asynchronously deserializes one Native DICOM Model XML document from a byte pipe. |
+| static [DeserializeAsync](../../aspose.medical.dicom.serialization/dicomxmlserializer/deserializeasync#deserializeasync_1)(Stream, DicomXmlSerializerOptions?, CancellationToken) | Asynchronously deserializes a Native DICOM Model XML document from a stream into a DICOM dataset. |
+| static [DeserializeAsync](../../aspose.medical.dicom.serialization/dicomxmlserializer/deserializeasync#deserializeasync_2)(string, DicomXmlSerializerOptions?, CancellationToken) | Asynchronously deserializes a Native DICOM Model XML document into a DICOM dataset. |
+| static [DeserializeAsyncEnumerable](../../aspose.medical.dicom.serialization/dicomxmlserializer/deserializeasyncenumerable#deserializeasyncenumerable)(PipeReader, DicomXmlSerializerOptions?, CancellationToken) | Asynchronously deserializes consecutive Native DICOM Model XML fragments from a byte pipe. |
+| static [DeserializeAsyncEnumerable](../../aspose.medical.dicom.serialization/dicomxmlserializer/deserializeasyncenumerable#deserializeasyncenumerable_1)(Stream, DicomXmlSerializerOptions?, CancellationToken) | Asynchronously deserializes consecutive Native DICOM Model XML fragments from a stream. |
+| static [Serialize](../../aspose.medical.dicom.serialization/dicomxmlserializer/serialize#serialize)(Dataset, DicomXmlSerializerOptions?) | Serializes a DICOM dataset as a Native DICOM Model XML document. |
+| static [Serialize](../../aspose.medical.dicom.serialization/dicomxmlserializer/serialize#serialize_1)(Stream, Dataset, DicomXmlSerializerOptions?) | Serializes a DICOM dataset as a Native DICOM Model XML document and writes it to a stream. |
+| static [SerializeAsync](../../aspose.medical.dicom.serialization/dicomxmlserializer/serializeasync#serializeasync_2)(Dataset, DicomXmlSerializerOptions?, CancellationToken) | Asynchronously serializes a DICOM dataset as a Native DICOM Model XML document. |
+| static [SerializeAsync](../../aspose.medical.dicom.serialization/dicomxmlserializer/serializeasync#serializeasync)(PipeWriter, Dataset, DicomXmlSerializerOptions?, CancellationToken) | Asynchronously serializes a DICOM dataset as a Native DICOM Model XML document and writes it to a byte pipe. |
+| static [SerializeAsync](../../aspose.medical.dicom.serialization/dicomxmlserializer/serializeasync#serializeasync_1)(Stream, Dataset, DicomXmlSerializerOptions?, CancellationToken) | Asynchronously serializes a DICOM dataset as a Native DICOM Model XML document and writes it to a stream. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: TagDataReadingStrategies
 second_title: Aspose.Medical for .NET API Reference
 description: Provides different strategies for controlling how DICOM tag data is accessed from a dataset.
 type: docs
-weight: 2830
+weight: 2880
 url: /net/aspose.medical.dicom.readers/tagdatareadingstrategies/
 ---
 

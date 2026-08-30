@@ -1,7 +1,7 @@
 ---
 title: ValueRepresentation
 second_title: Aspose.Medical for .NET API Reference
-description: The Value Representation of the element. Read-only ValueRepresentationaspose.medical.dicom.elements/fragmentsequence/valuerepresentation.
+description: The Value Representation of the element.
 type: docs
 weight: 60
 url: /net/aspose.medical.dicom.elements/fragmentsequence/valuerepresentation/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.elements/fragmentsequence/valuerepresentation/
 
 ## FragmentSequence.ValueRepresentation property
 
-The Value Representation of the element. Read-only `ValueRepresentation`.
+The Value Representation of the element.
 
 ```csharp
 public abstract ValueRepresentation ValueRepresentation { get; }

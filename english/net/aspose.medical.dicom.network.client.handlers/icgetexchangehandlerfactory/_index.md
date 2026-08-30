@@ -3,7 +3,7 @@ title: ICGetExchangeHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: A factory that creates handlers that observe C-GET exchanges on the SCU side. Invoked for each C-GET-RSP received from the remote SCP allowing the implementer to track retrieval progress remaining / completed / failed sub-operations and inspect the final composite status of the retrieve operation.
 type: docs
-weight: 1450
+weight: 1500
 url: /net/aspose.medical.dicom.network.client.handlers/icgetexchangehandlerfactory/
 ---
 

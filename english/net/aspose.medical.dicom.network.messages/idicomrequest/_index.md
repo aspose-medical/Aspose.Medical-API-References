@@ -3,7 +3,7 @@ title: IDicomRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a DIMSE request message sent by an SCU. Extends IRequest../aspose.medical.communication/irequest to allow type-erased dispatch through the messaging infrastructure.
 type: docs
-weight: 1960
+weight: 2010
 url: /net/aspose.medical.dicom.network.messages/idicomrequest/
 ---
 

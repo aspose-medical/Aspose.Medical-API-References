@@ -1,7 +1,7 @@
 ---
 title: VisitBeginFragmentAsync
 second_title: Aspose.Medical for .NET API Reference
-description: Indicates that fragment to be visited.
+description: Defines the asynchronous operation invoked before any item of the fragment sequence is visited.
 type: docs
 weight: 20
 url: /net/aspose.medical.dicom.traversal/asyncwalker/visitbeginfragmentasync/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.traversal/asyncwalker/visitbeginfragmentasync/
 
 ## AsyncWalker.VisitBeginFragmentAsync method
 
-Indicates that *fragment* to be visited.
+Defines the asynchronous operation invoked before any item of the fragment sequence is visited.
 
 ```csharp
 public virtual Task VisitBeginFragmentAsync(FragmentSequence fragment)
@@ -17,7 +17,11 @@ public virtual Task VisitBeginFragmentAsync(FragmentSequence fragment)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fragment | FragmentSequence | A fragment sequence element to be visited. |
+| fragment | FragmentSequence | The fragment sequence being traversed. |
+
+### Return Value
+
+An operation that completes when traversal may proceed to the fragment items.
 
 ### See Also
 

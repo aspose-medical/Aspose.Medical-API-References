@@ -1,15 +1,15 @@
 ---
 title: GivenName
 second_title: Aspose.Medical for .NET API Reference
-description: Given name or empty string. Read-only String.
+description: Given name or empty string.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.medical.dicom.elements/personname/givenname/
 ---
 
 ## PersonName.GivenName property
 
-Given name or empty string. Read-only String.
+Given name or empty string.
 
 ```csharp
 public string? GivenName { get; }

@@ -3,7 +3,7 @@ title: INCreateExchangeHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: A factory that creates handlers that observe N-CREATE exchanges on the SCU side. Invoked after the remote SCP returns an N-CREATE-RSP allowing the implementer to inspect the newly created SOP instance UID any attribute values assigned by the SCP and the response status.
 type: docs
-weight: 1530
+weight: 1580
 url: /net/aspose.medical.dicom.network.client.handlers/increateexchangehandlerfactory/
 ---
 

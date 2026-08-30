@@ -3,7 +3,7 @@ title: INActionRequestHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Handles inbound N-ACTION requests on the SCP side. Use this handler to execute an action on a managed SOP Instance and return the action status with any action reply dataset. See  DICOM PS3.7 10.1.4 N-ACTION Service https//dicom.nema.org/medical/dicom/current/output/chtml/part07/chapter_10.html and  10.3.4 N-ACTION-RQ / N-ACTION-RSP https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_10.3.4.html.
 type: docs
-weight: 2630
+weight: 2680
 url: /net/aspose.medical.dicom.network.server.handlers/inactionrequesthandler/
 ---
 

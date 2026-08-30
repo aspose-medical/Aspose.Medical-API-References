@@ -1,7 +1,7 @@
 ---
 title: VisitEndFragmentAsync
 second_title: Aspose.Medical for .NET API Reference
-description: Indicates that fragment to be visited.
+description: Defines the asynchronous operation invoked after every item of the fragment sequence has been visited.
 type: docs
 weight: 50
 url: /net/aspose.medical.dicom.traversal/asyncwalker/visitendfragmentasync/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.traversal/asyncwalker/visitendfragmentasync/
 
 ## AsyncWalker.VisitEndFragmentAsync method
 
-Indicates that *fragment* to be visited.
+Defines the asynchronous operation invoked after every item of the fragment sequence has been visited.
 
 ```csharp
 public virtual Task VisitEndFragmentAsync(FragmentSequence fragment)
@@ -17,7 +17,11 @@ public virtual Task VisitEndFragmentAsync(FragmentSequence fragment)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fragment | FragmentSequence | A fragment sequence element that has been visited. |
+| fragment | FragmentSequence | The fragment sequence whose traversal has completed. |
+
+### Return Value
+
+An operation that completes when traversal of the fragment sequence has finished.
 
 ### See Also
 

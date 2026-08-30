@@ -3,7 +3,7 @@ title: EffectivePresentationContext
 second_title: Aspose.Medical for .NET API Reference
 description: Describes one accepted presentation context available for DIMSE exchange after association negotiation.
 type: docs
-weight: 2760
+weight: 2810
 url: /net/aspose.medical.dicom.network.session/effectivepresentationcontext/
 ---
 

@@ -3,7 +3,7 @@ title: NLifecycleRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Base class for N-Service requests that manage SOP Instance lifecycle N-CREATE N-DELETE N-EVENT-REPORT.
 type: docs
-weight: 2110
+weight: 2160
 url: /net/aspose.medical.dicom.network.messages/nlifecyclerequest-1/
 ---
 

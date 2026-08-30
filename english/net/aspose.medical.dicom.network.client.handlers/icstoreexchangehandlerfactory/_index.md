@@ -3,7 +3,7 @@ title: ICStoreExchangeHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: A factory that creates handlers that observe C-STORE exchanges on the SCU side. Invoked after the remote SCP returns a C-STORE-RSP allowing the implementer to confirm that a composite SOP instance was accepted inspect refusal reasons or perform post-storage bookkeeping e.g. marking a study as uploaded.
 type: docs
-weight: 1490
+weight: 1540
 url: /net/aspose.medical.dicom.network.client.handlers/icstoreexchangehandlerfactory/
 ---
 

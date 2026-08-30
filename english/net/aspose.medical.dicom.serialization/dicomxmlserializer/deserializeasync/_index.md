@@ -1,28 +1,38 @@
 ---
 title: DeserializeAsync
 second_title: Aspose.Medical for .NET API Reference
-description: Parses the text representing a single XML value into an instance of the Datasetaspose.medical.dicom/dataset.
+description: Asynchronously deserializes a Native DICOM Model XML document into a DICOM dataset.
 type: docs
 weight: 20
 url: /net/aspose.medical.dicom.serialization/dicomxmlserializer/deserializeasync/
 ---
 
-## DeserializeAsync(string, DicomXmlSerializerOptions?) {#deserializeasync_1}
+## DeserializeAsync(string, DicomXmlSerializerOptions?, CancellationToken) {#deserializeasync_2}
 
-Parses the text representing a single XML value into an instance of the [`Dataset`](../../../aspose.medical.dicom/dataset).
+Asynchronously deserializes a Native DICOM Model XML document into a DICOM dataset.
 
 ```csharp
-public static Task<Dataset> DeserializeAsync(string xml, DicomXmlSerializerOptions? options = null)
+public static Task<Dataset> DeserializeAsync(string xml, DicomXmlSerializerOptions? options = null, 
+    CancellationToken cancellationToken = default)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml | String | The XML text to parse. |
-| options | DicomXmlSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
+| xml | String | The Native DICOM Model XML document to deserialize. |
+| options | DicomXmlSerializerOptions | Options that select the loader used to resolve Bulk Data references. |
+| cancellationToken | CancellationToken | The token used to cancel XML reading or Bulk Data loading. |
 
 ### Return Value
 
-The [`Dataset`](../../../aspose.medical.dicom/dataset) or `null`.
+A task whose result is the DICOM dataset represented by *xml*.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *xml* is `null`. |
+| OperationCanceledException | *cancellationToken* is canceled. |
+| XmlException | *xml* is malformed or is not a valid Native DICOM Model document. |
 
 ### See Also
 
@@ -34,23 +44,72 @@ The [`Dataset`](../../../aspose.medical.dicom/dataset) or `null`.
 
 ---
 
-## DeserializeAsync(Stream, DicomXmlSerializerOptions?) {#deserializeasync}
+## DeserializeAsync(Stream, DicomXmlSerializerOptions?, CancellationToken) {#deserializeasync_1}
 
-Parses the text representing a single XML value into an instance of the [`Dataset`](../../../aspose.medical.dicom/dataset).
+Asynchronously deserializes a Native DICOM Model XML document from a stream into a DICOM dataset.
 
 ```csharp
 public static Task<Dataset> DeserializeAsync(Stream stream, 
-    DicomXmlSerializerOptions? options = null)
+    DicomXmlSerializerOptions? options = null, CancellationToken cancellationToken = default)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The XML stream to parse. |
-| options | DicomXmlSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
+| stream | Stream | The stream containing the XML document. The stream remains open. |
+| options | DicomXmlSerializerOptions | Options that select the loader used to resolve Bulk Data references. |
+| cancellationToken | CancellationToken | The token used to cancel XML reading or Bulk Data loading. |
 
 ### Return Value
 
-The [`Dataset`](../../../aspose.medical.dicom/dataset) or `null`.
+A task whose result is the DICOM dataset represented by the XML document.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| OperationCanceledException | *cancellationToken* is canceled. |
+| XmlException | The input is malformed or is not a valid Native DICOM Model document. |
+
+### See Also
+
+* class [Dataset](../../../aspose.medical.dicom/dataset)
+* record [DicomXmlSerializerOptions](../../dicomxmlserializeroptions)
+* class [DicomXmlSerializer](../../dicomxmlserializer)
+* namespace [Aspose.Medical.Dicom.Serialization](../../dicomxmlserializer)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## DeserializeAsync(PipeReader, DicomXmlSerializerOptions?, CancellationToken) {#deserializeasync}
+
+Asynchronously deserializes one Native DICOM Model XML document from a byte pipe.
+
+```csharp
+public static Task<Dataset> DeserializeAsync(PipeReader input, 
+    DicomXmlSerializerOptions? options = null, CancellationToken cancellationToken = default)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input | PipeReader | The pipe containing the XML document. The method does not complete the pipe. |
+| options | DicomXmlSerializerOptions | Options that select the loader used to resolve Bulk Data references. |
+| cancellationToken | CancellationToken | The token used to cancel XML reading or Bulk Data loading. |
+
+### Return Value
+
+A task whose result is the DICOM dataset represented by the XML document.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *input* is `null`. |
+| OperationCanceledException | *cancellationToken* is canceled. |
+| XmlException | The input is malformed or is not a valid Native DICOM Model document. |
+
+### Remarks
+
+XML parsing may buffer beyond the document element. The pipe should therefore contain one complete XML document; use [`DeserializeAsyncEnumerable`](../deserializeasyncenumerable) for a sequence of Native DICOM Model XML fragments.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: RoleSelectionResult
 second_title: Aspose.Medical for .NET API Reference
 description: Captures an accepted SCP/SCU Role Selection result from an A-ASSOCIATE-AC PDU.
 type: docs
-weight: 2460
+weight: 2510
 url: /net/aspose.medical.dicom.network.protocol/roleselectionresult/
 ---
 

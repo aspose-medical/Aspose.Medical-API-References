@@ -3,7 +3,7 @@ title: DigitalSignatureSupportLevels
 second_title: Aspose.Medical for .NET API Reference
 description: Indicates whether the SCP supports DICOM digital signatures.
 type: docs
-weight: 1910
+weight: 1960
 url: /net/aspose.medical.dicom.network.messages/digitalsignaturesupportlevels/
 ---
 

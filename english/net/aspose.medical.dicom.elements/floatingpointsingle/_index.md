@@ -3,7 +3,7 @@ title: FloatingPointSingle
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Floating Point Single FL VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextFL-Floating20Point20Single-Single20precision20binary.c
 type: docs
-weight: 540
+weight: 580
 url: /net/aspose.medical.dicom.elements/floatingpointsingle/
 ---
 
@@ -12,7 +12,8 @@ url: /net/aspose.medical.dicom.elements/floatingpointsingle/
 Encapsulates the Floating Point Single (FL) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=FL-,Floating%20Point%20Single,-Single%20precision%20binary.c
 
 ```csharp
-public sealed class FloatingPointSingle : ValueElement<float>
+public sealed class FloatingPointSingle : ValueElement<float>, 
+    IBufferBackedElement<FloatingPointSingle, float>
 ```
 
 ## Constructors
@@ -28,6 +29,7 @@ public sealed class FloatingPointSingle : ValueElement<float>
 | --- | --- |
 | [Count](../../aspose.medical.dicom.elements/valueelement`1/count) { get; } |  |
 | [Data](../../aspose.medical.dicom.elements/valueelement`1/data) { get; } |  |
+| [Item](../../aspose.medical.dicom.elements/valueelement`1/item) { get; set; } |  |
 | [Tag](../../aspose.medical.dicom.elements/valueelement`1/tag) { get; } |  |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/floatingpointsingle/valuerepresentation) { get; } |  |
 
@@ -35,9 +37,13 @@ public sealed class FloatingPointSingle : ValueElement<float>
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/floatingpointsingle/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;float&gt;? TypedBuffer)) |  |
 | [Add](../../aspose.medical.dicom.elements/valueelement`1/add)(float) |  |
 | [AddRange](../../aspose.medical.dicom.elements/valueelement`1/addrange)(Span&lt;float&gt;) |  |
+| [Bootstrap](../../aspose.medical.dicom.elements/valueelement`1/bootstrap)() |  |
+| [BootstrapAsync](../../aspose.medical.dicom.elements/valueelement`1/bootstrapasync)(CancellationToken) |  |
 | [ConvertData&lt;TOutput&gt;](../../aspose.medical.dicom.elements/valueelement`1/convertdata)(Func&lt;float, TOutput&gt;) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/valueelement`1/copydatatoarray)() |  |
 | [Get](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(Index) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
@@ -59,6 +65,7 @@ public sealed class FloatingPointSingle : ValueElement<float>
 ### See Also
 
 * class [ValueElement&lt;T&gt;](../valueelement-1)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

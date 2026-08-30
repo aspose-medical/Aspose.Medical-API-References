@@ -3,7 +3,7 @@ title: LogLevel
 second_title: Aspose.Medical for .NET API Reference
 description: Represents the severity level of a log entry. Mirrors the common .NET log levels but keeps the SDK independent of any external logging framework.
 type: docs
-weight: 3340
+weight: 3400
 url: /net/aspose.medical.logging/loglevel/
 ---
 

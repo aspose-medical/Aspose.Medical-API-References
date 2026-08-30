@@ -3,7 +3,7 @@ title: INGetRequestHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Factory that creates handlers for inbound N-GET requests on the SCP side. Use this handler to retrieve attribute values from a managed SOP Instance and return them with the operation status. See  DICOM PS3.7 10.1.2 N-GET Service https//dicom.nema.org/medical/dicom/current/output/chtml/part07/chapter_10.html and  10.3.2 N-GET-RQ / N-GET-RSP https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_10.3.2.html.
 type: docs
-weight: 2720
+weight: 2770
 url: /net/aspose.medical.dicom.network.server.handlers/ingetrequesthandlerfactory/
 ---
 

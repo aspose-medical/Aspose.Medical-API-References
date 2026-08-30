@@ -3,7 +3,7 @@ title: PersonName
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Person Name PN VR type. A character string encoded using a 5 component convention. The character code 5CH the BACKSLASH  in ISO-IR 6 shall not be present as it is used as the delimiter between Values in multivalued Data Elements. The string may be padded with trailing spaces. For human use the five components in their order of occurrence are
 type: docs
-weight: 710
+weight: 760
 url: /net/aspose.medical.dicom.elements/personname/
 ---
 
@@ -24,7 +24,8 @@ Encapsulates the Person Name (PN) VR type. A character string encoded using a 5 
 https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=PN-,Person%20Name,-A%20character%20string.
 
 ```csharp
-public sealed class PersonName : EncodableMultiValuedTextElement
+public sealed class PersonName : EncodableMultiValuedTextElement, 
+    IBufferBackedElement<PersonName, string>
 ```
 
 ## Constructors
@@ -40,12 +41,13 @@ public sealed class PersonName : EncodableMultiValuedTextElement
 | Name | Description |
 | --- | --- |
 | override [Count](../../aspose.medical.dicom.elements/multivaluetextelement/count) { get; } | The number of elements contained in this element. Read-only Int32. |
-| [Data](../../aspose.medical.dicom.elements/multivaluetextelement/data) { get; } | Multivalued Data Element value. Read-only IReadOnlyCollection of String. |
-| [FamilyName](../../aspose.medical.dicom.elements/personname/familyname) { get; } | Family name or empty string. Read-only String. |
-| [GivenName](../../aspose.medical.dicom.elements/personname/givenname) { get; } | Given name or empty string. Read-only String. |
-| [MiddleName](../../aspose.medical.dicom.elements/personname/middlename) { get; } | Middle name or empty string. Read-only String. |
-| [NamePrefix](../../aspose.medical.dicom.elements/personname/nameprefix) { get; } | Name prefix or empty string. Read-only String. |
-| [NameSuffix](../../aspose.medical.dicom.elements/personname/namesuffix) { get; } | Name suffix or empty string. Read-only String. |
+| [Data](../../aspose.medical.dicom.elements/multivaluetextelement/data) { get; } | Gets writable memory containing the element's text values. |
+| [FamilyName](../../aspose.medical.dicom.elements/personname/familyname) { get; } | Family name or empty string. |
+| [GivenName](../../aspose.medical.dicom.elements/personname/givenname) { get; } | Given name or empty string. |
+| [Item](../../aspose.medical.dicom.elements/multivaluetextelement/item) { get; set; } | Gets or sets the text value at the specified position. |
+| [MiddleName](../../aspose.medical.dicom.elements/personname/middlename) { get; } | Middle name or empty string. |
+| [NamePrefix](../../aspose.medical.dicom.elements/personname/nameprefix) { get; } | Name prefix or empty string. |
+| [NameSuffix](../../aspose.medical.dicom.elements/personname/namesuffix) { get; } | Name suffix or empty string. |
 | [SerializationEncodings](../../aspose.medical.dicom.elements/encodablemultivaluedtextelement/serializationencodings) { get; set; } | A collection of specific character set used to serialize / deserialize this text element data. Read/Write IReadOnlyCollection of Encoding. |
 | [Tag](../../aspose.medical.dicom.elements/textelement/tag) { get; } |  |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/personname/valuerepresentation) { get; } |  |
@@ -54,8 +56,12 @@ public sealed class PersonName : EncodableMultiValuedTextElement
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/personname/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;string&gt;? TypedBuffer)) |  |
 | [Add](../../aspose.medical.dicom.elements/multivaluetextelement/add)(string) | Adds the given *value* to the collection of values of this element. |
 | [AddRange](../../aspose.medical.dicom.elements/multivaluetextelement/addrange)(IEnumerable&lt;string&gt;) | Adds the given *values* to the collection of values of this element. |
+| override [Bootstrap](../../aspose.medical.dicom.elements/multivaluetextelement/bootstrap)() |  |
+| override [BootstrapAsync](../../aspose.medical.dicom.elements/multivaluetextelement/bootstrapasync)(CancellationToken) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/multivaluetextelement/copydatatoarray)() | Copies the element's text values to a new array. |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/get)(Index) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/get)(int) |  |
 | override [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/getordefault)(Index) |  |
@@ -73,6 +79,7 @@ public sealed class PersonName : EncodableMultiValuedTextElement
 ### See Also
 
 * class [EncodableMultiValuedTextElement](../encodablemultivaluedtextelement)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

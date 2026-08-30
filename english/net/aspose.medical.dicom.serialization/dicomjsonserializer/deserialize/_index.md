@@ -1,30 +1,29 @@
 ---
 title: Deserialize
 second_title: Aspose.Medical for .NET API Reference
-description: Parses the text representing a single JSON value into an instance of the Datasetaspose.medical.dicom/dataset.
+description: Deserializes a DICOM dataset from JSON text.
 type: docs
 weight: 10
 url: /net/aspose.medical.dicom.serialization/dicomjsonserializer/deserialize/
 ---
 
-## Deserialize(ReadOnlySpan&lt;char&gt;, DicomJsonSerializerOptions, bool) {#deserialize_1}
+## Deserialize(ReadOnlySpan&lt;char&gt;, DicomJsonSerializerOptions) {#deserialize_1}
 
-Parses the text representing a single JSON value into an instance of the [`Dataset`](../../../aspose.medical.dicom/dataset).
+Deserializes a DICOM dataset from JSON text.
 
 ```csharp
 public static Dataset? Deserialize(ReadOnlySpan<char> json, 
-    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false)
+    DicomJsonSerializerOptions? dicomJsonOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | json | ReadOnlySpan`1 | The JSON text to parse. |
-| dicomJsonOptions | DicomJsonSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
-| writeIndented | Boolean | Specifies whether JSON should use pretty printing. By default, JSON is serialized without any extra white space. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling DICOM JSON materialization. |
 
 ### Return Value
 
-The [`Dataset`](../../../aspose.medical.dicom/dataset) or `null`.
+The deserialized dataset, or `null` when the JSON root is `null`.
 
 ### See Also
 
@@ -36,24 +35,23 @@ The [`Dataset`](../../../aspose.medical.dicom/dataset) or `null`.
 
 ---
 
-## Deserialize(Stream, DicomJsonSerializerOptions, bool) {#deserialize}
+## Deserialize(Stream, DicomJsonSerializerOptions) {#deserialize}
 
-Reads the UTF-8 encoded text representing a single JSON value into a [`Dataset`](../../../aspose.medical.dicom/dataset).
+Reads a DICOM dataset from a UTF-8 JSON stream.
 
 ```csharp
 public static Dataset? Deserialize(Stream utf8Json, 
-    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false)
+    DicomJsonSerializerOptions? dicomJsonOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| utf8Json | Stream | JSON data to parse. |
-| dicomJsonOptions | DicomJsonSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
-| writeIndented | Boolean | Specifies whether JSON should use pretty printing. By default, JSON is serialized without any extra white space. |
+| utf8Json | Stream | The stream that supplies UTF-8 JSON data. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling DICOM JSON materialization. |
 
 ### Return Value
 
-The [`Dataset`](../../../aspose.medical.dicom/dataset) or `null`.
+The deserialized dataset, or `null` when the JSON root is `null`.
 
 ### See Also
 

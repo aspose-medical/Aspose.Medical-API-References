@@ -3,7 +3,7 @@ title: Date
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Date DA VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextDA-Date-A20string20of.
 type: docs
-weight: 470
+weight: 510
 url: /net/aspose.medical.dicom.elements/date/
 ---
 
@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom.elements/date/
 Encapsulates the Date (DA) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=DA-,Date,-A%20string%20of.
 
 ```csharp
-public sealed class Date : MultiValueDateTextElement<DateOnly>
+public sealed class Date : MultiValueDateTextElement<DateOnly>, IBufferBackedElement<Date, string>
 ```
 
 ## Constructors
@@ -27,7 +27,8 @@ public sealed class Date : MultiValueDateTextElement<DateOnly>
 | Name | Description |
 | --- | --- |
 | override [Count](../../aspose.medical.dicom.elements/multivaluetextelement/count) { get; } | The number of elements contained in this element. Read-only Int32. |
-| [Data](../../aspose.medical.dicom.elements/multivaluetextelement/data) { get; } | Multivalued Data Element value. Read-only IReadOnlyCollection of String. |
+| [Data](../../aspose.medical.dicom.elements/multivaluetextelement/data) { get; } | Gets writable memory containing the element's text values. |
+| [Item](../../aspose.medical.dicom.elements/multivaluetextelement/item) { get; set; } | Gets or sets the text value at the specified position. |
 | [Tag](../../aspose.medical.dicom.elements/textelement/tag) { get; } |  |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/date/valuerepresentation) { get; } |  |
 
@@ -35,8 +36,12 @@ public sealed class Date : MultiValueDateTextElement<DateOnly>
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/date/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;string&gt;? TypedBuffer)) |  |
 | [Add](../../aspose.medical.dicom.elements/multivaluetextelement/add)(string) | Adds the given *value* to the collection of values of this element. |
 | [AddRange](../../aspose.medical.dicom.elements/multivaluetextelement/addrange)(IEnumerable&lt;string&gt;) | Adds the given *values* to the collection of values of this element. |
+| override [Bootstrap](../../aspose.medical.dicom.elements/multivaluetextelement/bootstrap)() |  |
+| override [BootstrapAsync](../../aspose.medical.dicom.elements/multivaluetextelement/bootstrapasync)(CancellationToken) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/multivaluetextelement/copydatatoarray)() | Copies the element's text values to a new array. |
 | [Get](../../aspose.medical.dicom.elements/multivaluedatetextelement`1/get)() |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/get)(Index) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/get)(int) |  |
@@ -56,6 +61,7 @@ public sealed class Date : MultiValueDateTextElement<DateOnly>
 ### See Also
 
 * class [MultiValueDateTextElement&lt;T&gt;](../multivaluedatetextelement-1)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

@@ -3,7 +3,7 @@ title: IRequestHandlerFactoryTRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Provides unary request handlers for request dispatch.
 type: docs
-weight: 150
+weight: 190
 url: /net/aspose.medical.communication.messages/irequesthandlerfactory-2/
 ---
 

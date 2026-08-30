@@ -3,7 +3,7 @@ title: DataTransferChannelOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Configurations that defines how a data-transfer channel behaves controlling its memory management task scheduling and flow-control limits.
 type: docs
-weight: 1660
+weight: 1710
 url: /net/aspose.medical.dicom.network/datatransferchanneloptions/
 ---
 

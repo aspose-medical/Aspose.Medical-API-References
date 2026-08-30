@@ -3,7 +3,7 @@ title: INotification
 second_title: Aspose.Medical for .NET API Reference
 description: Marker interface for broadcast events.
 type: docs
-weight: 40
+weight: 80
 url: /net/aspose.medical.communication/inotification/
 ---
 

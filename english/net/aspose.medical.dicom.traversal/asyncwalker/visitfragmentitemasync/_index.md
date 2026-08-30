@@ -1,7 +1,7 @@
 ---
 title: VisitFragmentItemAsync
 second_title: Aspose.Medical for .NET API Reference
-description: Asynchronously visits fragment item of the given fragment.
+description: Defines the asynchronous visit operation for one item of a fragment sequence.
 type: docs
 weight: 80
 url: /net/aspose.medical.dicom.traversal/asyncwalker/visitfragmentitemasync/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.traversal/asyncwalker/visitfragmentitemasync/
 
 ## AsyncWalker.VisitFragmentItemAsync method
 
-Asynchronously visits fragment item of the given *fragment*.
+Defines the asynchronous visit operation for one item of a fragment sequence.
 
 ```csharp
 public virtual Task VisitFragmentItemAsync(FragmentSequence fragment, byte[] fragmentData)
@@ -17,8 +17,12 @@ public virtual Task VisitFragmentItemAsync(FragmentSequence fragment, byte[] fra
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fragment | FragmentSequence | A fragment sequence element that is currently visiting. |
-| fragmentData | Byte[] | A fragment item to be visited. |
+| fragment | FragmentSequence | The fragment sequence being traversed. |
+| fragmentData | Byte[] | The encoded bytes of the fragment item being visited. |
+
+### Return Value
+
+An operation that completes when the fragment item visit has finished.
 
 ### See Also
 

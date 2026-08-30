@@ -3,7 +3,7 @@ title: InvalidAssociationTransitionException
 second_title: Aspose.Medical for .NET API Reference
 description: The exception that is thrown when an association state-machine transition event is not valid for the current association state.
 type: docs
-weight: 1740
+weight: 1790
 url: /net/aspose.medical.dicom.network.errors/invalidassociationtransitionexception/
 ---
 

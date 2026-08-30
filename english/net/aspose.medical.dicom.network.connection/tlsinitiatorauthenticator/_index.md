@@ -3,7 +3,7 @@ title: TlsInitiatorAuthenticator
 second_title: Aspose.Medical for .NET API Reference
 description: Default TLS authenticator for the side that initiates the underlying transport connection.
 type: docs
-weight: 1650
+weight: 1700
 url: /net/aspose.medical.dicom.network.connection/tlsinitiatorauthenticator/
 ---
 

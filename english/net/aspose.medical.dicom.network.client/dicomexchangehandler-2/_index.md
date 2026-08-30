@@ -3,7 +3,7 @@ title: DicomExchangeHandlerTRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Processes a DIMSE response together with the client request that produced it.
 type: docs
-weight: 1340
+weight: 1390
 url: /net/aspose.medical.dicom.network.client/dicomexchangehandler-2/
 ---
 

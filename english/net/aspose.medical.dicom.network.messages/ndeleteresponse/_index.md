@@ -3,7 +3,7 @@ title: NDeleteResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents an N-DELETE response indicating the outcome of the deletion operation.
 type: docs
-weight: 2060
+weight: 2110
 url: /net/aspose.medical.dicom.network.messages/ndeleteresponse/
 ---
 

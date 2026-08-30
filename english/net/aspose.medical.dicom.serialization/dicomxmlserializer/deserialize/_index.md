@@ -1,7 +1,7 @@
 ---
 title: Deserialize
 second_title: Aspose.Medical for .NET API Reference
-description: Parses the text representing a single XML value into an instance of the Datasetaspose.medical.dicom/dataset.
+description: Deserializes a Native DICOM Model XML document into a DICOM dataset.
 type: docs
 weight: 10
 url: /net/aspose.medical.dicom.serialization/dicomxmlserializer/deserialize/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.serialization/dicomxmlserializer/deserialize/
 
 ## Deserialize(string, DicomXmlSerializerOptions?) {#deserialize_1}
 
-Parses the text representing a single XML value into an instance of the [`Dataset`](../../../aspose.medical.dicom/dataset).
+Deserializes a Native DICOM Model XML document into a DICOM dataset.
 
 ```csharp
 public static Dataset Deserialize(string xml, DicomXmlSerializerOptions? options = null)
@@ -17,12 +17,19 @@ public static Dataset Deserialize(string xml, DicomXmlSerializerOptions? options
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml | String | The XML text to parse. |
-| options | DicomXmlSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
+| xml | String | The Native DICOM Model XML document to deserialize. |
+| options | DicomXmlSerializerOptions | Options that select the loader used to resolve Bulk Data references. |
 
 ### Return Value
 
-The [`Dataset`](../../../aspose.medical.dicom/dataset) or `null`.
+The DICOM dataset represented by *xml*.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *xml* is `null`. |
+| XmlException | *xml* is malformed or is not a valid Native DICOM Model document. |
 
 ### See Also
 
@@ -36,7 +43,7 @@ The [`Dataset`](../../../aspose.medical.dicom/dataset) or `null`.
 
 ## Deserialize(Stream, DicomXmlSerializerOptions?) {#deserialize}
 
-Parses the text representing a single XML value into an instance of the [`Dataset`](../../../aspose.medical.dicom/dataset).
+Deserializes a Native DICOM Model XML document from a stream into a DICOM dataset.
 
 ```csharp
 public static Dataset Deserialize(Stream stream, DicomXmlSerializerOptions? options = null)
@@ -44,12 +51,19 @@ public static Dataset Deserialize(Stream stream, DicomXmlSerializerOptions? opti
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The XML stream to parse. |
-| options | DicomXmlSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
+| stream | Stream | The stream containing the XML document. The stream remains open. |
+| options | DicomXmlSerializerOptions | Options that select the loader used to resolve Bulk Data references. |
 
 ### Return Value
 
-The [`Dataset`](../../../aspose.medical.dicom/dataset) or `null`.
+The DICOM dataset represented by the XML document.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *stream* is `null`. |
+| XmlException | The input is malformed or is not a valid Native DICOM Model document. |
 
 ### See Also
 

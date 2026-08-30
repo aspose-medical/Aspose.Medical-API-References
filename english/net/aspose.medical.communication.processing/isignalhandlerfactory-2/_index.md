@@ -3,7 +3,7 @@ title: ISignalHandlerFactoryTSignalTResult
 second_title: Aspose.Medical for .NET API Reference
 description: Provides a signal handler for one route dispatch.
 type: docs
-weight: 280
+weight: 320
 url: /net/aspose.medical.communication.processing/isignalhandlerfactory-2/
 ---
 

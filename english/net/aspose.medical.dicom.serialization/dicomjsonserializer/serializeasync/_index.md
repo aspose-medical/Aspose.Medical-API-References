@@ -1,27 +1,33 @@
 ---
 title: SerializeAsync
 second_title: Aspose.Medical for .NET API Reference
-description: Asynchronously converts a Datasetaspose.medical.dicom/dataset to JSON.
+description: Asynchronously writes a DICOM dataset as UTF-8 JSON to a stream.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.medical.dicom.serialization/dicomjsonserializer/serializeasync/
 ---
 
-## SerializeAsync(Stream, Dataset, DicomJsonSerializerOptions?, bool) {#serializeasync}
+## SerializeAsync(Stream, Dataset, DicomJsonSerializerOptions?, bool, CancellationToken) {#serializeasync}
 
-Asynchronously converts a [`Dataset`](../../../aspose.medical.dicom/dataset) to JSON.
+Asynchronously writes a DICOM dataset as UTF-8 JSON to a stream.
 
 ```csharp
 public static Task SerializeAsync(Stream utf8Json, Dataset dataset, 
-    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false)
+    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false, 
+    CancellationToken cancellationToken = default)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| utf8Json | Stream | The UTF-8 Stream to write to. |
-| dataset | Dataset | DICOM Dataset to be serialized. |
-| dicomJsonOptions | DicomJsonSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
-| writeIndented | Boolean | Specifies whether JSON should use pretty printing. By default, JSON is serialized without any extra white space. |
+| utf8Json | Stream | The stream that receives the UTF-8 JSON data. |
+| dataset | Dataset | The dataset to serialize. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
+| cancellationToken | CancellationToken | A token used to cancel serialization or writing. |
+
+### Return Value
+
+An operation that completes after the dataset has been written.
 
 ### See Also
 
@@ -33,21 +39,63 @@ public static Task SerializeAsync(Stream utf8Json, Dataset dataset,
 
 ---
 
-## SerializeAsync(Stream, DicomFile, DicomJsonSerializerOptions?, bool) {#serializeasync_2}
+## SerializeAsync(PipeWriter, Dataset, DicomJsonSerializerOptions?, bool, CancellationToken) {#serializeasync_4}
 
-Asynchronously converts a [`DicomFile`](../../../aspose.medical.dicom/dicomfile) to JSON.
+Asynchronously writes a DICOM dataset as UTF-8 JSON to a pipe.
 
 ```csharp
-public static Task SerializeAsync(Stream utf8Json, DicomFile dataset, 
-    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false)
+public static ValueTask SerializeAsync(PipeWriter utf8Json, Dataset dataset, 
+    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false, 
+    CancellationToken cancellationToken = default)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| utf8Json | Stream | The UTF-8 Stream to write to. |
-| dataset | DicomFile | DICOM File to be serialized. |
-| dicomJsonOptions | DicomJsonSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
-| writeIndented | Boolean | Specifies whether JSON should use pretty printing. By default, JSON is serialized without any extra white space. |
+| utf8Json | PipeWriter | The pipe that receives the UTF-8 JSON data. |
+| dataset | Dataset | The dataset to serialize. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
+| cancellationToken | CancellationToken | A token used to cancel serialization or pipe flushing. |
+
+### Return Value
+
+An operation that completes after all serialized data has been flushed to the pipe.
+
+### Remarks
+
+This method flushes but does not complete *utf8Json*.
+
+### See Also
+
+* class [Dataset](../../../aspose.medical.dicom/dataset)
+* record [DicomJsonSerializerOptions](../../dicomjsonserializeroptions)
+* class [DicomJsonSerializer](../../dicomjsonserializer)
+* namespace [Aspose.Medical.Dicom.Serialization](../../dicomjsonserializer)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## SerializeAsync(Stream, DicomFile, DicomJsonSerializerOptions?, bool, CancellationToken) {#serializeasync_2}
+
+Asynchronously writes a DICOM file as UTF-8 JSON to a stream.
+
+```csharp
+public static Task SerializeAsync(Stream utf8Json, DicomFile dicomFile, 
+    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false, 
+    CancellationToken cancellationToken = default)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| utf8Json | Stream | The stream that receives the UTF-8 JSON data. |
+| dicomFile | DicomFile | The DICOM file to serialize. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
+| cancellationToken | CancellationToken | A token used to cancel serialization or writing. |
+
+### Return Value
+
+An operation that completes after the DICOM file has been written.
 
 ### See Also
 
@@ -59,21 +107,179 @@ public static Task SerializeAsync(Stream utf8Json, DicomFile dataset,
 
 ---
 
-## SerializeAsync(Stream, Dataset[], DicomJsonSerializerOptions?, bool) {#serializeasync_1}
+## SerializeAsync(PipeWriter, DicomFile, DicomJsonSerializerOptions?, bool, CancellationToken) {#serializeasync_6}
 
-Asynchronously converts a collection of the [`Dataset`](../../../aspose.medical.dicom/dataset) to UTF-8 JSON.
+Asynchronously writes a DICOM file as UTF-8 JSON to a pipe.
 
 ```csharp
-public static Task SerializeAsync(Stream utf8Json, Dataset[] datasets, 
-    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false)
+public static ValueTask SerializeAsync(PipeWriter utf8Json, DicomFile dicomFile, 
+    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false, 
+    CancellationToken cancellationToken = default)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| utf8Json | Stream | The UTF-8 Stream to write to. |
-| datasets | Dataset[] | A list of DICOM Datasets to be serialized. |
-| dicomJsonOptions | DicomJsonSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
-| writeIndented | Boolean | Specifies whether JSON should use pretty printing. By default, JSON is serialized without any extra white space. |
+| utf8Json | PipeWriter | The pipe that receives the UTF-8 JSON data. |
+| dicomFile | DicomFile | The DICOM file to serialize. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
+| cancellationToken | CancellationToken | A token used to cancel serialization or pipe flushing. |
+
+### Return Value
+
+An operation that completes after all serialized data has been flushed to the pipe.
+
+### Remarks
+
+This method flushes but does not complete *utf8Json*.
+
+### See Also
+
+* class [DicomFile](../../../aspose.medical.dicom/dicomfile)
+* record [DicomJsonSerializerOptions](../../dicomjsonserializeroptions)
+* class [DicomJsonSerializer](../../dicomjsonserializer)
+* namespace [Aspose.Medical.Dicom.Serialization](../../dicomjsonserializer)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## SerializeAsync(Stream, Dataset[], DicomJsonSerializerOptions?, bool, CancellationToken) {#serializeasync_1}
+
+Asynchronously writes an array of DICOM datasets as UTF-8 JSON to a stream.
+
+```csharp
+public static Task SerializeAsync(Stream utf8Json, Dataset[] datasets, 
+    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false, 
+    CancellationToken cancellationToken = default)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| utf8Json | Stream | The stream that receives the UTF-8 JSON data. |
+| datasets | Dataset[] | The datasets to serialize as one JSON array. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
+| cancellationToken | CancellationToken | A token used to cancel serialization or writing. |
+
+### Return Value
+
+An operation that completes after the JSON array has been written.
+
+### See Also
+
+* class [Dataset](../../../aspose.medical.dicom/dataset)
+* record [DicomJsonSerializerOptions](../../dicomjsonserializeroptions)
+* class [DicomJsonSerializer](../../dicomjsonserializer)
+* namespace [Aspose.Medical.Dicom.Serialization](../../dicomjsonserializer)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## SerializeAsync(PipeWriter, Dataset[], DicomJsonSerializerOptions?, bool, CancellationToken) {#serializeasync_5}
+
+Asynchronously writes an array of DICOM datasets as UTF-8 JSON to a pipe.
+
+```csharp
+public static ValueTask SerializeAsync(PipeWriter utf8Json, Dataset[] datasets, 
+    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false, 
+    CancellationToken cancellationToken = default)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| utf8Json | PipeWriter | The pipe that receives the UTF-8 JSON data. |
+| datasets | Dataset[] | The datasets to serialize as one JSON array. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
+| cancellationToken | CancellationToken | A token used to cancel serialization or pipe flushing. |
+
+### Return Value
+
+An operation that completes after all serialized data has been flushed to the pipe.
+
+### Remarks
+
+This method flushes but does not complete *utf8Json*.
+
+### See Also
+
+* class [Dataset](../../../aspose.medical.dicom/dataset)
+* record [DicomJsonSerializerOptions](../../dicomjsonserializeroptions)
+* class [DicomJsonSerializer](../../dicomjsonserializer)
+* namespace [Aspose.Medical.Dicom.Serialization](../../dicomjsonserializer)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## SerializeAsync(Stream, IAsyncEnumerable&lt;Dataset?&gt;, DicomJsonSerializerOptions?, bool, CancellationToken) {#serializeasync_3}
+
+Asynchronously writes a sequence of DICOM datasets as one UTF-8 JSON array to a stream.
+
+```csharp
+public static Task SerializeAsync(Stream utf8Json, IAsyncEnumerable<Dataset?> datasets, 
+    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false, 
+    CancellationToken cancellationToken = default)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| utf8Json | Stream | The stream that receives the UTF-8 JSON data. |
+| datasets | IAsyncEnumerable`1 | The asynchronous sequence of datasets to serialize. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
+| cancellationToken | CancellationToken | A token used to cancel enumeration, serialization, or writing. |
+
+### Return Value
+
+An operation that completes after the JSON array has been written.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [MedicalApiException](../../../aspose.medical.errors/medicalapiexception) | *datasets* produces a `null` item. |
+
+### See Also
+
+* class [Dataset](../../../aspose.medical.dicom/dataset)
+* record [DicomJsonSerializerOptions](../../dicomjsonserializeroptions)
+* class [DicomJsonSerializer](../../dicomjsonserializer)
+* namespace [Aspose.Medical.Dicom.Serialization](../../dicomjsonserializer)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## SerializeAsync(PipeWriter, IAsyncEnumerable&lt;Dataset?&gt;, DicomJsonSerializerOptions?, bool, CancellationToken) {#serializeasync_7}
+
+Asynchronously writes a sequence of DICOM datasets as one UTF-8 JSON array to a pipe.
+
+```csharp
+public static ValueTask SerializeAsync(PipeWriter utf8Json, IAsyncEnumerable<Dataset?> datasets, 
+    DicomJsonSerializerOptions? dicomJsonOptions = null, bool writeIndented = false, 
+    CancellationToken cancellationToken = default)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| utf8Json | PipeWriter | The pipe that receives the UTF-8 JSON data. |
+| datasets | IAsyncEnumerable`1 | The asynchronous sequence of datasets to serialize. |
+| dicomJsonOptions | DicomJsonSerializerOptions | Options controlling the DICOM JSON representation. |
+| writeIndented | Boolean | `true` to indent the JSON; otherwise, `false`. |
+| cancellationToken | CancellationToken | A token used to cancel enumeration, serialization, or writing. |
+
+### Return Value
+
+An operation that completes after the JSON array has been written.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [MedicalApiException](../../../aspose.medical.errors/medicalapiexception) | *datasets* produces a `null` item. |
+
+### Remarks
+
+This method does not complete *utf8Json*.
 
 ### See Also
 

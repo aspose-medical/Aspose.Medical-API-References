@@ -3,7 +3,7 @@ title: SignedVeryLong
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Signed Very Long SV VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextSection206.2-SV-Signed20642Dbit.
 type: docs
-weight: 770
+weight: 820
 url: /net/aspose.medical.dicom.elements/signedverylong/
 ---
 
@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom.elements/signedverylong/
 Encapsulates the Signed Very Long (SV) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=Section%206.2)-,SV,-Signed%2064%2Dbit.
 
 ```csharp
-public sealed class SignedVeryLong : ValueElement<long>
+public sealed class SignedVeryLong : ValueElement<long>, IBufferBackedElement<SignedVeryLong, long>
 ```
 
 ## Constructors
@@ -28,6 +28,7 @@ public sealed class SignedVeryLong : ValueElement<long>
 | --- | --- |
 | [Count](../../aspose.medical.dicom.elements/valueelement`1/count) { get; } |  |
 | [Data](../../aspose.medical.dicom.elements/valueelement`1/data) { get; } |  |
+| [Item](../../aspose.medical.dicom.elements/valueelement`1/item) { get; set; } |  |
 | [Tag](../../aspose.medical.dicom.elements/valueelement`1/tag) { get; } |  |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/signedverylong/valuerepresentation) { get; } |  |
 
@@ -35,9 +36,13 @@ public sealed class SignedVeryLong : ValueElement<long>
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/signedverylong/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;long&gt;? TypedBuffer)) |  |
 | [Add](../../aspose.medical.dicom.elements/valueelement`1/add)(long) |  |
 | [AddRange](../../aspose.medical.dicom.elements/valueelement`1/addrange)(Span&lt;long&gt;) |  |
+| [Bootstrap](../../aspose.medical.dicom.elements/valueelement`1/bootstrap)() |  |
+| [BootstrapAsync](../../aspose.medical.dicom.elements/valueelement`1/bootstrapasync)(CancellationToken) |  |
 | [ConvertData&lt;TOutput&gt;](../../aspose.medical.dicom.elements/valueelement`1/convertdata)(Func&lt;long, TOutput&gt;) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/valueelement`1/copydatatoarray)() |  |
 | [Get](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(Index) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
@@ -59,6 +64,7 @@ public sealed class SignedVeryLong : ValueElement<long>
 ### See Also
 
 * class [ValueElement&lt;T&gt;](../valueelement-1)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

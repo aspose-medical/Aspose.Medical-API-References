@@ -1,15 +1,15 @@
 ---
 title: NamePrefix
 second_title: Aspose.Medical for .NET API Reference
-description: Name prefix or empty string. Read-only String.
+description: Name prefix or empty string.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.medical.dicom.elements/personname/nameprefix/
 ---
 
 ## PersonName.NamePrefix property
 
-Name prefix or empty string. Read-only String.
+Name prefix or empty string.
 
 ```csharp
 public string? NamePrefix { get; }

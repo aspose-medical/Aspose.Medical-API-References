@@ -3,7 +3,7 @@ title: CFindResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a C-FIND response containing matching results from a remote SCP.
 type: docs
-weight: 1810
+weight: 1860
 url: /net/aspose.medical.dicom.network.messages/cfindresponse/
 ---
 

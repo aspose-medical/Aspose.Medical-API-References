@@ -3,7 +3,7 @@ title: ISignalHandlerTSignalTResult
 second_title: Aspose.Medical for .NET API Reference
 description: Handles a signal and produces a result.
 type: docs
-weight: 290
+weight: 330
 url: /net/aspose.medical.communication.processing/isignalhandler-2/
 ---
 

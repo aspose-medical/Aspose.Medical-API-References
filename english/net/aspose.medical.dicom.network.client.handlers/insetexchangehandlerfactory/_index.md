@@ -3,7 +3,7 @@ title: INSetExchangeHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: A factory that creates handlers that observe N-SET exchanges on the SCU side. Invoked after the remote SCP returns an N-SET-RSP allowing the implementer to confirm which attribute values were successfully modified on the managed SOP instance and inspect the response status.
 type: docs
-weight: 1610
+weight: 1660
 url: /net/aspose.medical.dicom.network.client.handlers/insetexchangehandlerfactory/
 ---
 

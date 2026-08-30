@@ -3,7 +3,7 @@ title: PixelImageTPixel
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a raster image with a known pixel value type.
 type: docs
-weight: 3200
+weight: 3260
 url: /net/aspose.medical.imaging/pixelimage-1/
 ---
 

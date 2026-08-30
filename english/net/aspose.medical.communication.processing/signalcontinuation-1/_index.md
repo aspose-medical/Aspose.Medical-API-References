@@ -3,7 +3,7 @@ title: SignalContinuationTResult
 second_title: Aspose.Medical for .NET API Reference
 description: Represents the remaining processing pipeline for a signal.
 type: docs
-weight: 300
+weight: 340
 url: /net/aspose.medical.communication.processing/signalcontinuation-1/
 ---
 

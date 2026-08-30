@@ -3,7 +3,7 @@ title: ExtendedNegotiations
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a set of extended negotiations for an association.
 type: docs
-weight: 2260
+weight: 2310
 url: /net/aspose.medical.dicom.network.negotiation/extendednegotiations/
 ---
 

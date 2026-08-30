@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Medical for .NET API Reference
-description: This elements untyped data. Read-only IEnumerable of Object.
+description: Gets the element values as objects in element order.
 type: docs
 weight: 20
 url: /net/aspose.medical.dicom.elements/ielement/data/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.elements/ielement/data/
 
 ## IElement.Data property
 
-This element's untyped data. Read-only IEnumerable of Object.
+Gets the element values as objects in element order.
 
 ```csharp
 public IEnumerable<object> Data { get; }

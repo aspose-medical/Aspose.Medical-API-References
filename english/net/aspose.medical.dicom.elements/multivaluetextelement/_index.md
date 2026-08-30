@@ -3,7 +3,7 @@ title: MultiValueTextElement
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates basic functionality for multi-value text VR types doesnt support charset customization.
 type: docs
-weight: 610
+weight: 660
 url: /net/aspose.medical.dicom.elements/multivaluetextelement/
 ---
 
@@ -20,7 +20,8 @@ public abstract class MultiValueTextElement : TextElement
 | Name | Description |
 | --- | --- |
 | override [Count](../../aspose.medical.dicom.elements/multivaluetextelement/count) { get; } | The number of elements contained in this element. Read-only Int32. |
-| [Data](../../aspose.medical.dicom.elements/multivaluetextelement/data) { get; } | Multivalued Data Element value. Read-only IReadOnlyCollection of String. |
+| [Data](../../aspose.medical.dicom.elements/multivaluetextelement/data) { get; } | Gets writable memory containing the element's text values. |
+| [Item](../../aspose.medical.dicom.elements/multivaluetextelement/item) { get; set; } | Gets or sets the text value at the specified position. |
 | [Tag](../../aspose.medical.dicom.elements/textelement/tag) { get; } |  |
 | abstract [ValueRepresentation](../../aspose.medical.dicom.elements/textelement/valuerepresentation) { get; } |  |
 
@@ -30,6 +31,9 @@ public abstract class MultiValueTextElement : TextElement
 | --- | --- |
 | [Add](../../aspose.medical.dicom.elements/multivaluetextelement/add)(string) | Adds the given *value* to the collection of values of this element. |
 | [AddRange](../../aspose.medical.dicom.elements/multivaluetextelement/addrange)(IEnumerable&lt;string&gt;) | Adds the given *values* to the collection of values of this element. |
+| override [Bootstrap](../../aspose.medical.dicom.elements/multivaluetextelement/bootstrap)() |  |
+| override [BootstrapAsync](../../aspose.medical.dicom.elements/multivaluetextelement/bootstrapasync)(CancellationToken) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/multivaluetextelement/copydatatoarray)() | Copies the element's text values to a new array. |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/get#get_1)(Index) |  |
 | override [Get&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/get#get)(int) |  |
 | override [GetOrDefault&lt;T&gt;](../../aspose.medical.dicom.elements/multivaluetextelement/getordefault#getordefault_1)(Index) |  |

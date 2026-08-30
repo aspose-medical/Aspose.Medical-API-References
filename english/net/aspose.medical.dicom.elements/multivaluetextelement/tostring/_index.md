@@ -3,7 +3,7 @@ title: ToString
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 160
 url: /net/aspose.medical.dicom.elements/multivaluetextelement/tostring/
 ---
 

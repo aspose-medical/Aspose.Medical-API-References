@@ -7,7 +7,7 @@ weight: 70
 url: /net/aspose.medical.common.text/idicomencoding/getencodings/
 ---
 
-## IDicomEncoding.GetEncodings method
+## GetEncodings(string[]) {#getencodings_1}
 
 Gets the .NET encodings for a DICOM Specific Character Set value sequence.
 
@@ -18,6 +18,30 @@ public Encoding[] GetEncodings(string[] charsets)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | charsets | String[] | The DICOM Specific Character Set values. |
+
+### Return Value
+
+The .NET encodings corresponding to *charsets*.
+
+### See Also
+
+* interface [IDicomEncoding](../../idicomencoding)
+* namespace [Aspose.Medical.Common.Text](../../idicomencoding)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## GetEncodings(Span&lt;string&gt;) {#getencodings}
+
+Gets the .NET encodings for a DICOM Specific Character Set value sequence.
+
+```csharp
+public Encoding[] GetEncodings(Span<string> charsets)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| charsets | Span`1 | The DICOM Specific Character Set values. |
 
 ### Return Value
 

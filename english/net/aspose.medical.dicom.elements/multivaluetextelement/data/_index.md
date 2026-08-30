@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Medical for .NET API Reference
-description: Multivalued Data Element value. Read-only IReadOnlyCollection of String.
+description: Gets writable memory containing the elements text values.
 type: docs
 weight: 20
 url: /net/aspose.medical.dicom.elements/multivaluetextelement/data/
@@ -9,10 +9,10 @@ url: /net/aspose.medical.dicom.elements/multivaluetextelement/data/
 
 ## MultiValueTextElement.Data property
 
-Multivalued Data Element value. Read-only IReadOnlyCollection of String.
+Gets writable memory containing the element's text values.
 
 ```csharp
-public string[] Data { get; }
+public Memory<string> Data { get; }
 ```
 
 ### See Also

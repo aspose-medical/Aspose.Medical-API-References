@@ -3,7 +3,7 @@ title: UnsignedVeryLong
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Unsigned Very Long UV VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextSee20Note202-UV-Unsigned20642Dbit.
 type: docs
-weight: 880
+weight: 930
 url: /net/aspose.medical.dicom.elements/unsignedverylong/
 ---
 
@@ -12,7 +12,8 @@ url: /net/aspose.medical.dicom.elements/unsignedverylong/
 Encapsulates the Unsigned Very Long (UV) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=See%20Note%202-,UV,-Unsigned%2064%2Dbit.
 
 ```csharp
-public sealed class UnsignedVeryLong : ValueElement<ulong>
+public sealed class UnsignedVeryLong : ValueElement<ulong>, 
+    IBufferBackedElement<UnsignedVeryLong, ulong>
 ```
 
 ## Constructors
@@ -28,6 +29,7 @@ public sealed class UnsignedVeryLong : ValueElement<ulong>
 | --- | --- |
 | [Count](../../aspose.medical.dicom.elements/valueelement`1/count) { get; } |  |
 | [Data](../../aspose.medical.dicom.elements/valueelement`1/data) { get; } |  |
+| [Item](../../aspose.medical.dicom.elements/valueelement`1/item) { get; set; } |  |
 | [Tag](../../aspose.medical.dicom.elements/valueelement`1/tag) { get; } |  |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/unsignedverylong/valuerepresentation) { get; } |  |
 
@@ -35,9 +37,13 @@ public sealed class UnsignedVeryLong : ValueElement<ulong>
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/unsignedverylong/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;ulong&gt;? TypedBuffer)) |  |
 | [Add](../../aspose.medical.dicom.elements/valueelement`1/add)(ulong) |  |
 | [AddRange](../../aspose.medical.dicom.elements/valueelement`1/addrange)(Span&lt;ulong&gt;) |  |
+| [Bootstrap](../../aspose.medical.dicom.elements/valueelement`1/bootstrap)() |  |
+| [BootstrapAsync](../../aspose.medical.dicom.elements/valueelement`1/bootstrapasync)(CancellationToken) |  |
 | [ConvertData&lt;TOutput&gt;](../../aspose.medical.dicom.elements/valueelement`1/convertdata)(Func&lt;ulong, TOutput&gt;) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/valueelement`1/copydatatoarray)() |  |
 | [Get](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(Index) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
@@ -59,6 +65,7 @@ public sealed class UnsignedVeryLong : ValueElement<ulong>
 ### See Also
 
 * class [ValueElement&lt;T&gt;](../valueelement-1)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

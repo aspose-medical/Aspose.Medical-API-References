@@ -3,7 +3,7 @@ title: AssociationRequested
 second_title: Aspose.Medical for .NET API Reference
 description: Requests an accept or reject decision for an inbound association request.
 type: docs
-weight: 1320
+weight: 1370
 url: /net/aspose.medical.dicom.network/associationrequested/
 ---
 

@@ -3,7 +3,7 @@ title: AssociationRejectedException
 second_title: Aspose.Medical for .NET API Reference
 description: An exception that is thrown when a DICOM association is rejected.
 type: docs
-weight: 1700
+weight: 1750
 url: /net/aspose.medical.dicom.network.errors/associationrejectedexception/
 ---
 

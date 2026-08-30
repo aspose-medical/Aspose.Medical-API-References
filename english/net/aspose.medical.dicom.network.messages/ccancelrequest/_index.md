@@ -3,7 +3,7 @@ title: CCancelRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a C-CANCEL request which is used to cancel an ongoing C-FIND C-GET or C-MOVE operation.
 type: docs
-weight: 1760
+weight: 1810
 url: /net/aspose.medical.dicom.network.messages/ccancelrequest/
 ---
 

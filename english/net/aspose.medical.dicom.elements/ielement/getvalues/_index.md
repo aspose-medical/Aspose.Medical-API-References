@@ -1,7 +1,7 @@
 ---
 title: GetValues
 second_title: Aspose.Medical for .NET API Reference
-description: Returns the elements values.
+description: Gets all element values as the requested type.
 type: docs
 weight: 70
 url: /net/aspose.medical.dicom.elements/ielement/getvalues/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.elements/ielement/getvalues/
 
 ## GetValues&lt;T&gt;() {#getvalues}
 
-Returns the element's values.
+Gets all element values as the requested type.
 
 ```csharp
 public Span<T> GetValues<T>()
@@ -17,11 +17,11 @@ public Span<T> GetValues<T>()
 
 | Parameter | Description |
 | --- | --- |
-| T | Type of the return value. |
+| T | The requested result type. |
 
 ### Return Value
 
-The element's data.
+A span containing the values in element order.
 
 ### See Also
 
@@ -33,7 +33,7 @@ The element's data.
 
 ## GetValues&lt;T&gt;(Range) {#getvalues_1}
 
-Returns the element's values at the specified range.
+Gets the selected element values as the requested type.
 
 ```csharp
 public Span<T> GetValues<T>(Range range)
@@ -41,12 +41,12 @@ public Span<T> GetValues<T>(Range range)
 
 | Parameter | Description |
 | --- | --- |
-| T | Type of the return value. |
-| range | The range of the element values to retrieve. |
+| T | The requested result type. |
+| range | The range of values to select. |
 
 ### Return Value
 
-The element's data.
+A span containing the selected values in element order.
 
 ### See Also
 

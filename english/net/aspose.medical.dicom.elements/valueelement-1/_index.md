@@ -3,7 +3,7 @@ title: ValueElementT
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates basic functionality for non text VR types VR types that use .NET structures as underlying value type and Attribute Tag VR.
 type: docs
-weight: 890
+weight: 940
 url: /net/aspose.medical.dicom.elements/valueelement-1/
 ---
 
@@ -23,8 +23,9 @@ public abstract class ValueElement<T> : IElement
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.medical.dicom.elements/valueelement`1/count) { get; } | The number of elements contained in this element. Read-only Int32. |
-| [Data](../../aspose.medical.dicom.elements/valueelement`1/data) { get; } | Data of the element. Read-only IReadOnlyCollection of *T*. |
+| [Count](../../aspose.medical.dicom.elements/valueelement`1/count) { get; } | The number of elements contained in this element. |
+| [Data](../../aspose.medical.dicom.elements/valueelement`1/data) { get; } | Gets writable memory containing the element values. |
+| [Item](../../aspose.medical.dicom.elements/valueelement`1/item) { get; set; } | Gets or sets the element value at the specified position. |
 | [Tag](../../aspose.medical.dicom.elements/valueelement`1/tag) { get; } |  |
 | abstract [ValueRepresentation](../../aspose.medical.dicom.elements/valueelement`1/valuerepresentation) { get; } |  |
 
@@ -34,7 +35,10 @@ public abstract class ValueElement<T> : IElement
 | --- | --- |
 | [Add](../../aspose.medical.dicom.elements/valueelement`1/add)(T) | Adds the given *value* to the collection of values of this element. |
 | [AddRange](../../aspose.medical.dicom.elements/valueelement`1/addrange)(Span&lt;T&gt;) | Adds the given *values* to the collection of values of this element. |
+| [Bootstrap](../../aspose.medical.dicom.elements/valueelement`1/bootstrap)() |  |
+| [BootstrapAsync](../../aspose.medical.dicom.elements/valueelement`1/bootstrapasync)(CancellationToken) |  |
 | [ConvertData&lt;TOutput&gt;](../../aspose.medical.dicom.elements/valueelement`1/convertdata)(Func&lt;T, TOutput&gt;) | Converts the element data to the specified type and returns the converted data. |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/valueelement`1/copydatatoarray)() | Copies the element values to a new array. |
 | [Get](../../aspose.medical.dicom.elements/valueelement`1/get#get)(int) | Gets the element value stored at the given position. |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get#get_2)(Index) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get#get_1)(int) |  |

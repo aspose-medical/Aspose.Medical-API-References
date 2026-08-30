@@ -3,7 +3,7 @@ title: DimsePriority
 second_title: Aspose.Medical for .NET API Reference
 description: Specifies the DIMSE command priority for a request.
 type: docs
-weight: 1920
+weight: 1970
 url: /net/aspose.medical.dicom.network.messages/dimsepriority/
 ---
 

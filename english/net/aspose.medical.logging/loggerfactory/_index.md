@@ -3,7 +3,7 @@ title: LoggerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Singleton factory for creating ILogger./ilogger instances. By default it returns a NullLogger./nulllogger noop but can be reconfigured by the consumer to provide a custom logger implementation.
 type: docs
-weight: 3350
+weight: 3410
 url: /net/aspose.medical.logging/loggerfactory/
 ---
 

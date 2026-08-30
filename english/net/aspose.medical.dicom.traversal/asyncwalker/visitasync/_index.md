@@ -1,7 +1,7 @@
 ---
 title: VisitAsync
 second_title: Aspose.Medical for .NET API Reference
-description: Asynchronously visits the entire graph of elements of the given file. The method Asynchronously visits both MetaInfoaspose.medical.dicom/dicomfile/metainfo and Datasetaspose.medical.dicom/dicomfile/dataset.
+description: Visits the file meta information followed by the main dataset.
 type: docs
 weight: 10
 url: /net/aspose.medical.dicom.traversal/asyncwalker/visitasync/
@@ -9,15 +9,19 @@ url: /net/aspose.medical.dicom.traversal/asyncwalker/visitasync/
 
 ## VisitAsync(DicomFile) {#visitasync_1}
 
-Asynchronously visits the entire graph of elements of the given *file*. The method Asynchronously visits both [`MetaInfo`](../../../aspose.medical.dicom/dicomfile/metainfo) and [`Dataset`](../../../aspose.medical.dicom/dicomfile/dataset).
+Visits the file meta information followed by the main dataset.
 
 ```csharp
-public Task VisitAsync(DicomFile file)
+public virtual Task VisitAsync(DicomFile file)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | DicomFile | A DICOM file to be visited. |
+| file | DicomFile | The DICOM file to traverse. |
+
+### Return Value
+
+An operation that completes when both datasets have been visited.
 
 ### See Also
 
@@ -30,7 +34,7 @@ public Task VisitAsync(DicomFile file)
 
 ## VisitAsync(Dataset) {#visitasync}
 
-Asynchronously visits the entire graph of elements of the given *dataset*.
+Visits each element in the dataset in enumeration order and recursively traverses nested datasets.
 
 ```csharp
 public virtual Task VisitAsync(Dataset dataset)
@@ -38,7 +42,11 @@ public virtual Task VisitAsync(Dataset dataset)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataset | Dataset | A DICOM dataset to be visited. |
+| dataset | Dataset | The DICOM dataset to traverse. |
+
+### Return Value
+
+An operation that completes when every element in the dataset has been visited.
 
 ### See Also
 
@@ -51,7 +59,7 @@ public virtual Task VisitAsync(Dataset dataset)
 
 ## VisitAsync(IElement) {#visitasync_11}
 
-Asynchronously visits the *element*.
+Dispatches a traversable element to the visit operation corresponding to its runtime type.
 
 ```csharp
 public virtual Task VisitAsync(IElement element)
@@ -59,11 +67,15 @@ public virtual Task VisitAsync(IElement element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | IElement | An element to be visited. |
+| element | IElement | The element to dispatch. |
+
+### Return Value
+
+An operation that completes when the type-specific visit operation has finished.
 
 ### Remarks
 
-This method will be called before the *element* runtime type based method is called.
+The default implementation ignores elements that do not support traversal.
 
 ### See Also
 
@@ -76,7 +88,7 @@ This method will be called before the *element* runtime type based method is cal
 
 ## VisitAsync(AttributeTag) {#visitasync_4}
 
-Asynchronously visits the [`AttributeTag`](../../../aspose.medical.dicom.elements/attributetag)*element*.
+Defines the asynchronous visit operation for an [`AttributeTag`](../../../aspose.medical.dicom.elements/attributetag) element.
 
 ```csharp
 public virtual Task VisitAsync(AttributeTag element)
@@ -84,11 +96,11 @@ public virtual Task VisitAsync(AttributeTag element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | AttributeTag | An element to be visited. |
+| element | AttributeTag | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -101,7 +113,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(FloatingPointDouble) {#visitasync_9}
 
-Asynchronously visits the [`FloatingPointDouble`](../../../aspose.medical.dicom.elements/floatingpointdouble)*element*.
+Defines the asynchronous visit operation for a [`FloatingPointDouble`](../../../aspose.medical.dicom.elements/floatingpointdouble) element.
 
 ```csharp
 public virtual Task VisitAsync(FloatingPointDouble element)
@@ -109,11 +121,11 @@ public virtual Task VisitAsync(FloatingPointDouble element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | FloatingPointDouble | An element to be visited. |
+| element | FloatingPointDouble | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -126,7 +138,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(FloatingPointSingle) {#visitasync_10}
 
-Asynchronously visits the [`FloatingPointSingle`](../../../aspose.medical.dicom.elements/floatingpointsingle)*element*.
+Defines the asynchronous visit operation for a [`FloatingPointSingle`](../../../aspose.medical.dicom.elements/floatingpointsingle) element.
 
 ```csharp
 public virtual Task VisitAsync(FloatingPointSingle element)
@@ -134,11 +146,11 @@ public virtual Task VisitAsync(FloatingPointSingle element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | FloatingPointSingle | An element to be visited. |
+| element | FloatingPointSingle | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -151,7 +163,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(OtherByte) {#visitasync_15}
 
-Asynchronously visits the [`OtherByte`](../../../aspose.medical.dicom.elements/otherbyte)*element*.
+Defines the asynchronous visit operation for an [`OtherByte`](../../../aspose.medical.dicom.elements/otherbyte) element.
 
 ```csharp
 public virtual Task VisitAsync(OtherByte element)
@@ -159,11 +171,11 @@ public virtual Task VisitAsync(OtherByte element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | OtherByte | An element to be visited. |
+| element | OtherByte | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -176,7 +188,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(OtherDouble) {#visitasync_16}
 
-Asynchronously visits the [`OtherDouble`](../../../aspose.medical.dicom.elements/otherdouble)*element*.
+Defines the asynchronous visit operation for an [`OtherDouble`](../../../aspose.medical.dicom.elements/otherdouble) element.
 
 ```csharp
 public virtual Task VisitAsync(OtherDouble element)
@@ -184,11 +196,11 @@ public virtual Task VisitAsync(OtherDouble element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | OtherDouble | An element to be visited. |
+| element | OtherDouble | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -201,7 +213,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(OtherFloat) {#visitasync_17}
 
-Asynchronously visits the [`OtherFloat`](../../../aspose.medical.dicom.elements/otherfloat)*element*.
+Defines the asynchronous visit operation for an [`OtherFloat`](../../../aspose.medical.dicom.elements/otherfloat) element.
 
 ```csharp
 public virtual Task VisitAsync(OtherFloat element)
@@ -209,11 +221,11 @@ public virtual Task VisitAsync(OtherFloat element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | OtherFloat | An element to be visited. |
+| element | OtherFloat | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -226,7 +238,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(OtherLong) {#visitasync_18}
 
-Asynchronously visits the [`OtherLong`](../../../aspose.medical.dicom.elements/otherlong)*element*.
+Defines the asynchronous visit operation for an [`OtherLong`](../../../aspose.medical.dicom.elements/otherlong) element.
 
 ```csharp
 public virtual Task VisitAsync(OtherLong element)
@@ -234,11 +246,11 @@ public virtual Task VisitAsync(OtherLong element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | OtherLong | An element to be visited. |
+| element | OtherLong | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -251,7 +263,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(OtherVeryLong) {#visitasync_19}
 
-Asynchronously visits the [`OtherVeryLong`](../../../aspose.medical.dicom.elements/otherverylong)*element*.
+Defines the asynchronous visit operation for an [`OtherVeryLong`](../../../aspose.medical.dicom.elements/otherverylong) element.
 
 ```csharp
 public virtual Task VisitAsync(OtherVeryLong element)
@@ -259,11 +271,11 @@ public virtual Task VisitAsync(OtherVeryLong element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | OtherVeryLong | An element to be visited. |
+| element | OtherVeryLong | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -276,7 +288,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(OtherWord) {#visitasync_20}
 
-Asynchronously visits the [`OtherWord`](../../../aspose.medical.dicom.elements/otherword)*element*.
+Defines the asynchronous visit operation for an [`OtherWord`](../../../aspose.medical.dicom.elements/otherword) element.
 
 ```csharp
 public virtual Task VisitAsync(OtherWord element)
@@ -284,11 +296,11 @@ public virtual Task VisitAsync(OtherWord element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | OtherWord | An element to be visited. |
+| element | OtherWord | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -301,7 +313,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(SignedLong) {#visitasync_24}
 
-Asynchronously visits the [`SignedLong`](../../../aspose.medical.dicom.elements/signedlong)*element*.
+Defines the asynchronous visit operation for a [`SignedLong`](../../../aspose.medical.dicom.elements/signedlong) element.
 
 ```csharp
 public virtual Task VisitAsync(SignedLong element)
@@ -309,11 +321,11 @@ public virtual Task VisitAsync(SignedLong element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | SignedLong | An element to be visited. |
+| element | SignedLong | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -326,7 +338,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(SignedShort) {#visitasync_25}
 
-Asynchronously visits the [`SignedShort`](../../../aspose.medical.dicom.elements/signedshort)*element*.
+Defines the asynchronous visit operation for a [`SignedShort`](../../../aspose.medical.dicom.elements/signedshort) element.
 
 ```csharp
 public virtual Task VisitAsync(SignedShort element)
@@ -334,11 +346,11 @@ public virtual Task VisitAsync(SignedShort element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | SignedShort | An element to be visited. |
+| element | SignedShort | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -351,7 +363,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(SignedVeryLong) {#visitasync_26}
 
-Asynchronously visits the [`SignedVeryLong`](../../../aspose.medical.dicom.elements/signedverylong)*element*.
+Defines the asynchronous visit operation for a [`SignedVeryLong`](../../../aspose.medical.dicom.elements/signedverylong) element.
 
 ```csharp
 public virtual Task VisitAsync(SignedVeryLong element)
@@ -359,11 +371,11 @@ public virtual Task VisitAsync(SignedVeryLong element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | SignedVeryLong | An element to be visited. |
+| element | SignedVeryLong | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -376,7 +388,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(Unknown) {#visitasync_30}
 
-Asynchronously visits the [`Unknown`](../../../aspose.medical.dicom.elements/unknown)*element*.
+Defines the asynchronous visit operation for an [`Unknown`](../../../aspose.medical.dicom.elements/unknown) element.
 
 ```csharp
 public virtual Task VisitAsync(Unknown element)
@@ -384,11 +396,11 @@ public virtual Task VisitAsync(Unknown element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | Unknown | An element to be visited. |
+| element | Unknown | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -401,7 +413,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(UnsignedLong) {#visitasync_33}
 
-Asynchronously visits the [`UnsignedLong`](../../../aspose.medical.dicom.elements/unsignedlong)*element*.
+Defines the asynchronous visit operation for an [`UnsignedLong`](../../../aspose.medical.dicom.elements/unsignedlong) element.
 
 ```csharp
 public virtual Task VisitAsync(UnsignedLong element)
@@ -409,11 +421,11 @@ public virtual Task VisitAsync(UnsignedLong element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | UnsignedLong | An element to be visited. |
+| element | UnsignedLong | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -426,7 +438,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(UnsignedShort) {#visitasync_34}
 
-Asynchronously visits the [`UnsignedShort`](../../../aspose.medical.dicom.elements/unsignedshort)*element*.
+Defines the asynchronous visit operation for an [`UnsignedShort`](../../../aspose.medical.dicom.elements/unsignedshort) element.
 
 ```csharp
 public virtual Task VisitAsync(UnsignedShort element)
@@ -434,11 +446,11 @@ public virtual Task VisitAsync(UnsignedShort element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | UnsignedShort | An element to be visited. |
+| element | UnsignedShort | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -451,7 +463,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(UnsignedVeryLong) {#visitasync_35}
 
-Asynchronously visits the [`UnsignedVeryLong`](../../../aspose.medical.dicom.elements/unsignedverylong)*element*.
+Defines the asynchronous visit operation for an [`UnsignedVeryLong`](../../../aspose.medical.dicom.elements/unsignedverylong) element.
 
 ```csharp
 public virtual Task VisitAsync(UnsignedVeryLong element)
@@ -459,11 +471,11 @@ public virtual Task VisitAsync(UnsignedVeryLong element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | UnsignedVeryLong | An element to be visited. |
+| element | UnsignedVeryLong | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -476,7 +488,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(Time) {#visitasync_27}
 
-Asynchronously visits the [`Time`](../../../aspose.medical.dicom.elements/time)*element*.
+Defines the asynchronous visit operation for a [`Time`](../../../aspose.medical.dicom.elements/time) element.
 
 ```csharp
 public virtual Task VisitAsync(Time element)
@@ -484,11 +496,11 @@ public virtual Task VisitAsync(Time element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | Time | An element to be visited. |
+| element | Time | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -501,7 +513,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(UniqueIdentifier) {#visitasync_28}
 
-Asynchronously visits the [`UniqueIdentifier`](../../../aspose.medical.dicom.elements/uniqueidentifier)*element*.
+Defines the asynchronous visit operation for a [`UniqueIdentifier`](../../../aspose.medical.dicom.elements/uniqueidentifier) element.
 
 ```csharp
 public virtual Task VisitAsync(UniqueIdentifier element)
@@ -509,11 +521,11 @@ public virtual Task VisitAsync(UniqueIdentifier element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | UniqueIdentifier | An element to be visited. |
+| element | UniqueIdentifier | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -526,7 +538,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(UniversalResource) {#visitasync_29}
 
-Asynchronously visits the [`UniversalResource`](../../../aspose.medical.dicom.elements/universalresource)*element*.
+Defines the asynchronous visit operation for a [`UniversalResource`](../../../aspose.medical.dicom.elements/universalresource) element.
 
 ```csharp
 public virtual Task VisitAsync(UniversalResource element)
@@ -534,11 +546,11 @@ public virtual Task VisitAsync(UniversalResource element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | UniversalResource | An element to be visited. |
+| element | UniversalResource | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -551,7 +563,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(UnlimitedCharacters) {#visitasync_31}
 
-Asynchronously visits the [`UnlimitedCharacters`](../../../aspose.medical.dicom.elements/unlimitedcharacters)*element*.
+Defines the asynchronous visit operation for an [`UnlimitedCharacters`](../../../aspose.medical.dicom.elements/unlimitedcharacters) element.
 
 ```csharp
 public virtual Task VisitAsync(UnlimitedCharacters element)
@@ -559,11 +571,11 @@ public virtual Task VisitAsync(UnlimitedCharacters element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | UnlimitedCharacters | An element to be visited. |
+| element | UnlimitedCharacters | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -576,7 +588,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(AgeString) {#visitasync_2}
 
-Asynchronously visits the [`AgeString`](../../../aspose.medical.dicom.elements/agestring)*element*.
+Defines the asynchronous visit operation for an [`AgeString`](../../../aspose.medical.dicom.elements/agestring) element.
 
 ```csharp
 public virtual Task VisitAsync(AgeString element)
@@ -584,11 +596,11 @@ public virtual Task VisitAsync(AgeString element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | AgeString | An element to be visited. |
+| element | AgeString | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -601,7 +613,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(ApplicationEntity) {#visitasync_3}
 
-Asynchronously visits the [`ApplicationEntity`](../../../aspose.medical.dicom.elements/applicationentity)*element*.
+Defines the asynchronous visit operation for an [`ApplicationEntity`](../../../aspose.medical.dicom.elements/applicationentity) element.
 
 ```csharp
 public virtual Task VisitAsync(ApplicationEntity element)
@@ -609,11 +621,11 @@ public virtual Task VisitAsync(ApplicationEntity element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | ApplicationEntity | An element to be visited. |
+| element | ApplicationEntity | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -626,7 +638,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(CodeString) {#visitasync_5}
 
-Asynchronously visits the [`CodeString`](../../../aspose.medical.dicom.elements/codestring)*element*.
+Defines the asynchronous visit operation for a [`CodeString`](../../../aspose.medical.dicom.elements/codestring) element.
 
 ```csharp
 public virtual Task VisitAsync(CodeString element)
@@ -634,11 +646,11 @@ public virtual Task VisitAsync(CodeString element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | CodeString | An element to be visited. |
+| element | CodeString | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -651,7 +663,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(Date) {#visitasync_6}
 
-Asynchronously visits the [`Date`](../../../aspose.medical.dicom.elements/date)*element*.
+Defines the asynchronous visit operation for a [`Date`](../../../aspose.medical.dicom.elements/date) element.
 
 ```csharp
 public virtual Task VisitAsync(Date element)
@@ -659,11 +671,11 @@ public virtual Task VisitAsync(Date element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | Date | An element to be visited. |
+| element | Date | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -676,7 +688,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(DateTime) {#visitasync_7}
 
-Asynchronously visits the [`DateTime`](../../../aspose.medical.dicom.elements/datetime)*element*.
+Defines the asynchronous visit operation for a [`DateTime`](../../../aspose.medical.dicom.elements/datetime) element.
 
 ```csharp
 public virtual Task VisitAsync(DateTime element)
@@ -684,11 +696,11 @@ public virtual Task VisitAsync(DateTime element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | DateTime | An element to be visited. |
+| element | DateTime | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -701,7 +713,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(DecimalString) {#visitasync_8}
 
-Asynchronously visits the [`DecimalString`](../../../aspose.medical.dicom.elements/decimalstring)*element*.
+Defines the asynchronous visit operation for a [`DecimalString`](../../../aspose.medical.dicom.elements/decimalstring) element.
 
 ```csharp
 public virtual Task VisitAsync(DecimalString element)
@@ -709,11 +721,11 @@ public virtual Task VisitAsync(DecimalString element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | DecimalString | An element to be visited. |
+| element | DecimalString | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -726,7 +738,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(IntegerString) {#visitasync_12}
 
-Asynchronously visits the [`IntegerString`](../../../aspose.medical.dicom.elements/integerstring)*element*.
+Defines the asynchronous visit operation for an [`IntegerString`](../../../aspose.medical.dicom.elements/integerstring) element.
 
 ```csharp
 public virtual Task VisitAsync(IntegerString element)
@@ -734,11 +746,11 @@ public virtual Task VisitAsync(IntegerString element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | IntegerString | An element to be visited. |
+| element | IntegerString | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -751,7 +763,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(LongString) {#visitasync_13}
 
-Asynchronously visits the [`LongString`](../../../aspose.medical.dicom.elements/longstring)*element*.
+Defines the asynchronous visit operation for a [`LongString`](../../../aspose.medical.dicom.elements/longstring) element.
 
 ```csharp
 public virtual Task VisitAsync(LongString element)
@@ -759,11 +771,11 @@ public virtual Task VisitAsync(LongString element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | LongString | An element to be visited. |
+| element | LongString | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -776,7 +788,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(LongText) {#visitasync_14}
 
-Asynchronously visits the [`LongText`](../../../aspose.medical.dicom.elements/longtext)*element*.
+Defines the asynchronous visit operation for a [`LongText`](../../../aspose.medical.dicom.elements/longtext) element.
 
 ```csharp
 public virtual Task VisitAsync(LongText element)
@@ -784,11 +796,11 @@ public virtual Task VisitAsync(LongText element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | LongText | An element to be visited. |
+| element | LongText | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -801,7 +813,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(PersonName) {#visitasync_21}
 
-Asynchronously visits the [`PersonName`](../../../aspose.medical.dicom.elements/personname)*element*.
+Defines the asynchronous visit operation for a [`PersonName`](../../../aspose.medical.dicom.elements/personname) element.
 
 ```csharp
 public virtual Task VisitAsync(PersonName element)
@@ -809,11 +821,11 @@ public virtual Task VisitAsync(PersonName element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | PersonName | An element to be visited. |
+| element | PersonName | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -826,7 +838,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(ShortString) {#visitasync_22}
 
-Asynchronously visits the [`ShortString`](../../../aspose.medical.dicom.elements/shortstring)*element*.
+Defines the asynchronous visit operation for a [`ShortString`](../../../aspose.medical.dicom.elements/shortstring) element.
 
 ```csharp
 public virtual Task VisitAsync(ShortString element)
@@ -834,11 +846,11 @@ public virtual Task VisitAsync(ShortString element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | ShortString | An element to be visited. |
+| element | ShortString | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -851,7 +863,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(ShortText) {#visitasync_23}
 
-Asynchronously visits the [`ShortText`](../../../aspose.medical.dicom.elements/shorttext)*element*.
+Defines the asynchronous visit operation for a [`ShortText`](../../../aspose.medical.dicom.elements/shorttext) element.
 
 ```csharp
 public virtual Task VisitAsync(ShortText element)
@@ -859,11 +871,11 @@ public virtual Task VisitAsync(ShortText element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | ShortText | An element to be visited. |
+| element | ShortText | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 
@@ -876,7 +888,7 @@ This method will be called after the untyped equivalent for this *element* has b
 
 ## VisitAsync(UnlimitedText) {#visitasync_32}
 
-Asynchronously visits the [`UnlimitedText`](../../../aspose.medical.dicom.elements/unlimitedtext)*element*.
+Defines the asynchronous visit operation for an [`UnlimitedText`](../../../aspose.medical.dicom.elements/unlimitedtext) element.
 
 ```csharp
 public virtual Task VisitAsync(UnlimitedText element)
@@ -884,11 +896,11 @@ public virtual Task VisitAsync(UnlimitedText element)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | UnlimitedText | An element to be visited. |
+| element | UnlimitedText | The element being visited. |
 
-### Remarks
+### Return Value
 
-This method will be called after the untyped equivalent for this *element* has been called.
+An operation that completes when the element visit has finished.
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: VisitEndSequenceItemAsync
 second_title: Aspose.Medical for .NET API Reference
-description: Indicates that sequence element with nested data has been visited.
+description: Defines the asynchronous operation invoked after a sequence item and its nested elements have been visited.
 type: docs
 weight: 70
 url: /net/aspose.medical.dicom.traversal/asyncwalker/visitendsequenceitemasync/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.traversal/asyncwalker/visitendsequenceitemasync/
 
 ## AsyncWalker.VisitEndSequenceItemAsync method
 
-Indicates that *sequence* element (with nested data) has been visited.
+Defines the asynchronous operation invoked after a sequence item and its nested elements have been visited.
 
 ```csharp
 public virtual Task VisitEndSequenceItemAsync(Sequence sequence, Dataset sequenceItem)
@@ -17,8 +17,12 @@ public virtual Task VisitEndSequenceItemAsync(Sequence sequence, Dataset sequenc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sequence | Sequence | A Sequence that is currently visiting. |
-| sequenceItem | Dataset | A Sequence item that has been visited. |
+| sequence | Sequence | The sequence being traversed. |
+| sequenceItem | Dataset | The item dataset whose traversal has completed. |
+
+### Return Value
+
+An operation that completes when traversal may proceed to the next sequence item.
 
 ### See Also
 

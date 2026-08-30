@@ -3,7 +3,7 @@ title: ICStoreRequestHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Handles inbound C-STORE requests on the SCP side. Use this handler to store a composite SOP Instance received from the peer and return the storage outcome. See  DICOM PS3.7 9.1.1 C-STORE Service https//dicom.nema.org/medical/dicom/current/output/chtml/part07/chapter_9.html and  9.3.1 C-STORE-RQ / C-STORE-RSP https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_9.3.1.html.
 type: docs
-weight: 2610
+weight: 2660
 url: /net/aspose.medical.dicom.network.server.handlers/icstorerequesthandler/
 ---
 

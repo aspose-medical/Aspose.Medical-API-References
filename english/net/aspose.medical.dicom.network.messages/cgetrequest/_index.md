@@ -3,7 +3,7 @@ title: CGetRequest
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a C-GET request used to retrieve DICOM objects from a remote SCP over the same association.
 type: docs
-weight: 1830
+weight: 1880
 url: /net/aspose.medical.dicom.network.messages/cgetrequest/
 ---
 

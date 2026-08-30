@@ -3,7 +3,7 @@ title: NCreateResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents an N-CREATE response indicating the outcome of the SOP Instance creation.
 type: docs
-weight: 2040
+weight: 2090
 url: /net/aspose.medical.dicom.network.messages/ncreateresponse/
 ---
 

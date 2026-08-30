@@ -3,7 +3,7 @@ title: IResettable
 second_title: Aspose.Medical for .NET API Reference
 description: Defines a contract to reset an object to its initial state.
 type: docs
-weight: 70
+weight: 110
 url: /net/aspose.medical.communication/iresettable/
 ---
 

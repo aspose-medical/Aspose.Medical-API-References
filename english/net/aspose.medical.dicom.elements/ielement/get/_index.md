@@ -1,7 +1,7 @@
 ---
 title: Get
 second_title: Aspose.Medical for .NET API Reference
-description: Returns the elements value at the specified position.
+description: Gets the element value at the specified zero-based position as the requested type.
 type: docs
 weight: 50
 url: /net/aspose.medical.dicom.elements/ielement/get/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.elements/ielement/get/
 
 ## Get&lt;T&gt;(int) {#get}
 
-Returns the element's value at the specified position.
+Gets the element value at the specified zero-based position as the requested type.
 
 ```csharp
 public T Get<T>(int index)
@@ -17,12 +17,12 @@ public T Get<T>(int index)
 
 | Parameter | Description |
 | --- | --- |
-| T | Type of the return value. |
-| index | The zero-based index of the element to retrieve. |
+| T | The requested result type. |
+| index | The zero-based position of the value. |
 
 ### Return Value
 
-The *T* value.
+The value expressed as *T*.
 
 ### See Also
 
@@ -34,7 +34,7 @@ The *T* value.
 
 ## Get&lt;T&gt;(Index) {#get_1}
 
-Returns the element's value at the specified position.
+Gets the element value at the specified position as the requested type.
 
 ```csharp
 public T Get<T>(Index index)
@@ -42,12 +42,12 @@ public T Get<T>(Index index)
 
 | Parameter | Description |
 | --- | --- |
-| T | Type of the return value. |
-| index | The index of the element value to retrieve, which is either from the beginning or the end of the sequence. |
+| T | The requested result type. |
+| index | The position of the value, measured from the beginning or end of the element. |
 
 ### Return Value
 
-The *T* value.
+The value expressed as *T*.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ICCancelRequestHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Factory that creates handlers for inbound C-CANCEL requests on the SCP side. Use this handler to stop an active C-FIND C-GET or C-MOVE operation for the referenced Message ID. C-CANCEL has no dedicated response message the terminal status is returned on the original operation. See  DICOM PS3.7 9.3.2 C-FIND / C-CANCEL-FIND-RQ https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_9.3.2.html  9.3.3 C-GET / C-CANCEL-GET-RQ https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_9.3.3.html  and  9.3.4 C-MOVE / C-CANCEL-MOVE-RQ https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_9.3.4.html.
 type: docs
-weight: 2520
+weight: 2570
 url: /net/aspose.medical.dicom.network.server.handlers/iccancelrequesthandlerfactory/
 ---
 

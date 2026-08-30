@@ -1,7 +1,7 @@
 ---
 title: BulkDataConverter
 second_title: Aspose.Medical for .NET API Reference
-description: A converter that allows writing DICOM Element data as a reference to a blob of data specified in the BulkData element. See https//dicom.nema.org/medical/dicom/current/output/chtml/part19/chapter_A.htmltable_A.1.5-2. Read-only IBulkDataConverteraspose.medical.dicom.serialization/ibulkdataconverter.
+description: A converter that allows writing DICOM Element data as a BulkDataURI reference. See https//dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_F.2.2.html. Read-only IBulkDataConverteraspose.medical.dicom.serialization/ibulkdataconverter.
 type: docs
 weight: 30
 url: /net/aspose.medical.dicom.serialization/dicomjsonserializeroptions/bulkdataconverter/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.serialization/dicomjsonserializeroptions/bulkdata
 
 ## DicomJsonSerializerOptions.BulkDataConverter property
 
-A converter that allows writing DICOM Element data as a reference to a blob of data specified in the BulkData element. See https://dicom.nema.org/medical/dicom/current/output/chtml/part19/chapter_A.html#table_A.1.5-2. Read-only, [`IBulkDataConverter`](../../ibulkdataconverter).
+A converter that allows writing DICOM Element data as a BulkDataURI reference. See https://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_F.2.2.html. Read-only, [`IBulkDataConverter`](../../ibulkdataconverter).
 
 ```csharp
 public IBulkDataConverter? BulkDataConverter { get; set; }

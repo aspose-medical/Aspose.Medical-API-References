@@ -3,7 +3,7 @@ title: ICMoveExchangeHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: A factory that creates handlers that observe C-MOVE exchanges on the SCU side. Invoked for each C-MOVE-RSP received from the remote SCP allowing the implementer to track retrieval progress remaining / completed / failed / warning sub-operations and inspect the final composite status of the move operation.
 type: docs
-weight: 1470
+weight: 1520
 url: /net/aspose.medical.dicom.network.client.handlers/icmoveexchangehandlerfactory/
 ---
 

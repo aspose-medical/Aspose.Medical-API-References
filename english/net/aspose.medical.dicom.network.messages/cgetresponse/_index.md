@@ -3,7 +3,7 @@ title: CGetResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a C-GET response reporting retrieval progress and status.
 type: docs
-weight: 1840
+weight: 1890
 url: /net/aspose.medical.dicom.network.messages/cgetresponse/
 ---
 

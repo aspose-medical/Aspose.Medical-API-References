@@ -1,29 +1,36 @@
 ---
 title: SerializeAsync
 second_title: Aspose.Medical for .NET API Reference
-description: Asynchronously converts a Datasetaspose.medical.dicom/dataset to XML.
+description: Asynchronously serializes a DICOM dataset as a Native DICOM Model XML document.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.medical.dicom.serialization/dicomxmlserializer/serializeasync/
 ---
 
-## SerializeAsync(Dataset, DicomXmlSerializerOptions?) {#serializeasync_1}
+## SerializeAsync(Dataset, DicomXmlSerializerOptions?, CancellationToken) {#serializeasync_2}
 
-Asynchronously converts a [`Dataset`](../../../aspose.medical.dicom/dataset) to XML.
+Asynchronously serializes a DICOM dataset as a Native DICOM Model XML document.
 
 ```csharp
 public static Task<string> SerializeAsync(Dataset dataset, 
-    DicomXmlSerializerOptions? options = null)
+    DicomXmlSerializerOptions? options = null, CancellationToken cancellationToken = default)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataset | Dataset | DICOM Dataset to be serialized. |
-| options | DicomXmlSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
+| dataset | Dataset | The DICOM dataset to serialize. |
+| options | DicomXmlSerializerOptions | Options that control whether element values are written inline or as Bulk Data references. |
+| cancellationToken | CancellationToken | The token used to cancel serialization. |
 
 ### Return Value
 
-XML with serialized DICOM Dataset.
+A task whose result is the serialized Native DICOM Model XML document.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| OperationCanceledException | *cancellationToken* is canceled. |
 
 ### See Also
 
@@ -35,24 +42,70 @@ XML with serialized DICOM Dataset.
 
 ---
 
-## SerializeAsync(Stream, Dataset, DicomXmlSerializerOptions?) {#serializeasync}
+## SerializeAsync(Stream, Dataset, DicomXmlSerializerOptions?, CancellationToken) {#serializeasync_1}
 
-Asynchronously converts a [`Dataset`](../../../aspose.medical.dicom/dataset) to XML.
+Asynchronously serializes a DICOM dataset as a Native DICOM Model XML document and writes it to a stream.
 
 ```csharp
 public static Task SerializeAsync(Stream output, Dataset dataset, 
-    DicomXmlSerializerOptions? options = null)
+    DicomXmlSerializerOptions? options = null, CancellationToken cancellationToken = default)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | Stream | The stream to which you want to write. |
-| dataset | Dataset | DICOM Dataset to be serialized. |
-| options | DicomXmlSerializerOptions | Options that controls serialization/deserialization process of DICOM objects. |
+| output | Stream | The stream that receives the UTF-8 encoded XML document. The stream remains open. |
+| dataset | Dataset | The DICOM dataset to serialize. |
+| options | DicomXmlSerializerOptions | Options that control whether element values are written inline or as Bulk Data references. |
+| cancellationToken | CancellationToken | The token used to cancel serialization. |
 
 ### Return Value
 
-XML with serialized DICOM Dataset.
+A task that completes after the XML document has been written and flushed.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| OperationCanceledException | *cancellationToken* is canceled. |
+
+### See Also
+
+* class [Dataset](../../../aspose.medical.dicom/dataset)
+* record [DicomXmlSerializerOptions](../../dicomxmlserializeroptions)
+* class [DicomXmlSerializer](../../dicomxmlserializer)
+* namespace [Aspose.Medical.Dicom.Serialization](../../dicomxmlserializer)
+* assembly [Aspose.Medical](../../../)
+
+---
+
+## SerializeAsync(PipeWriter, Dataset, DicomXmlSerializerOptions?, CancellationToken) {#serializeasync}
+
+Asynchronously serializes a DICOM dataset as a Native DICOM Model XML document and writes it to a byte pipe.
+
+```csharp
+public static Task SerializeAsync(PipeWriter output, Dataset dataset, 
+    DicomXmlSerializerOptions? options = null, CancellationToken cancellationToken = default)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | PipeWriter | The pipe that receives the UTF-8 encoded XML document. The method does not complete the pipe. |
+| dataset | Dataset | The DICOM dataset to serialize. |
+| options | DicomXmlSerializerOptions | Options that control whether element values are written inline or as Bulk Data references. |
+| cancellationToken | CancellationToken | The token used to cancel serialization or flushing. |
+
+### Return Value
+
+A task that completes after the XML document has been written and flushed to the pipe.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *output* or *dataset* is `null`. |
+| OperationCanceledException | *cancellationToken* is canceled. |
+| InvalidOperationException | The pipe flush is canceled independently of *cancellationToken*. |
+| EndOfStreamException | The pipe reader completes before the XML document is flushed. |
 
 ### See Also
 

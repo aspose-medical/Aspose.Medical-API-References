@@ -3,7 +3,7 @@ title: MetaInformation
 second_title: Aspose.Medical for .NET API Reference
 description: Representation of the file meta information in a DICOM file. https//dicom.nema.org/dicom/2013/output/chtml/part10/chapter_7.htmltable_7.1-1https//dicom.nema.org/dicom/2013/output/chtml/part10/chapter_7.htmltable_7.1-1.
 type: docs
-weight: 1210
+weight: 1260
 url: /net/aspose.medical.dicom/metainformation/
 ---
 
@@ -27,6 +27,7 @@ public sealed class MetaInformation : Dataset
 
 | Name | Description |
 | --- | --- |
+| [Count](../../aspose.medical.dicom/dataset/count) { get; } |  |
 | [ImplementationClassUid](../../aspose.medical.dicom/metainformation/implementationclassuid) { get; set; } | The Implementation Class UID. Read-only [`Uid`](../uid) |
 | [ImplementationVersionName](../../aspose.medical.dicom/metainformation/implementationversionname) { get; set; } | The Implementation Version Name. Read-only String. |
 | [MediaStorageSopClassUid](../../aspose.medical.dicom/metainformation/mediastoragesopclassuid) { get; set; } | The Media Storage SOP Class UID. Read-only [`Uid`](../uid). |

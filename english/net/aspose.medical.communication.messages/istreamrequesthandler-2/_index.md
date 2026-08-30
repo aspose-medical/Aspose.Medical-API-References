@@ -3,7 +3,7 @@ title: IStreamRequestHandlerTRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Handles a stream request and produces its response sequence.
 type: docs
-weight: 200
+weight: 240
 url: /net/aspose.medical.communication.messages/istreamrequesthandler-2/
 ---
 

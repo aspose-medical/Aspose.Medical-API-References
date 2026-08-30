@@ -3,7 +3,7 @@ title: Replace
 second_title: Aspose.Medical for .NET API Reference
 description: Replaces the current values by the collection of the given values.
 type: docs
-weight: 110
+weight: 150
 url: /net/aspose.medical.dicom.elements/multivaluetextelement/replace/
 ---
 

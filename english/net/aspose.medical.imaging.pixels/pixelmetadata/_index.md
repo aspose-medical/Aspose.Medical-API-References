@@ -3,7 +3,7 @@ title: PixelMetadata
 second_title: Aspose.Medical for .NET API Reference
 description: Contains metadata that describes a pixel value type.
 type: docs
-weight: 3280
+weight: 3340
 url: /net/aspose.medical.imaging.pixels/pixelmetadata/
 ---
 

@@ -3,7 +3,7 @@ title: INActionExchangeHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: A factory that creates handlers that observe N-ACTION exchanges on the SCU side. Invoked after the remote SCP returns an N-ACTION-RSP allowing the implementer to examine the action outcome optional action-reply data and the response status.
 type: docs
-weight: 1510
+weight: 1560
 url: /net/aspose.medical.dicom.network.client.handlers/inactionexchangehandlerfactory/
 ---
 

@@ -3,7 +3,7 @@ title: DicomNetworkServerOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Configures inbound DICOM server connections and association-level server settings.
 type: docs
-weight: 2500
+weight: 2550
 url: /net/aspose.medical.dicom.network.server/dicomnetworkserveroptions/
 ---
 

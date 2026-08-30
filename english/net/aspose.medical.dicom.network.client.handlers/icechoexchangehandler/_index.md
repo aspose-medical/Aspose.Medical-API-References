@@ -3,7 +3,7 @@ title: ICEchoExchangeHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Observes completed C-ECHO exchanges on the SCU side. Invoked after the remote SCP returns a C-ECHO-RSP allowing the implementer to inspect the verification status e.g. success or failure of a DICOM association connectivity check.
 type: docs
-weight: 1400
+weight: 1450
 url: /net/aspose.medical.dicom.network.client.handlers/icechoexchangehandler/
 ---
 

@@ -3,7 +3,7 @@ title: Aspose.Medical.Communication.Messages
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.medical.communication.messages/
 ---
 

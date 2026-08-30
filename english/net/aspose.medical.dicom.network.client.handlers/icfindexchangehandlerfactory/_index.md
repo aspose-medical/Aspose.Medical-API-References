@@ -3,7 +3,7 @@ title: ICFindExchangeHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: A factory that creates handlers that observe C-FIND exchanges on the SCU side. Invoked for each C-FIND-RSP received from the remote SCP allowing the implementer to process query results matching datasets or inspect the final status of the query operation.
 type: docs
-weight: 1430
+weight: 1480
 url: /net/aspose.medical.dicom.network.client.handlers/icfindexchangehandlerfactory/
 ---
 

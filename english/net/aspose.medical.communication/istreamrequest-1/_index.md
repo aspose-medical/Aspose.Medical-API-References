@@ -3,7 +3,7 @@ title: IStreamRequestTResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a request that produces a response sequence.
 type: docs
-weight: 100
+weight: 140
 url: /net/aspose.medical.communication/istreamrequest-1/
 ---
 

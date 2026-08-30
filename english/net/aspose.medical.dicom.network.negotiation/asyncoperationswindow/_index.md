@@ -3,7 +3,7 @@ title: AsyncOperationsWindow
 second_title: Aspose.Medical for .NET API Reference
 description: Represents the negotiated DICOM asynchronous operations limits for an association.
 type: docs
-weight: 2200
+weight: 2250
 url: /net/aspose.medical.dicom.network.negotiation/asyncoperationswindow/
 ---
 

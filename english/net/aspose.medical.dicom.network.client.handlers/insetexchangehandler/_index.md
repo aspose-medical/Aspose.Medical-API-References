@@ -3,7 +3,7 @@ title: INSetExchangeHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Observes completed N-SET exchanges on the SCU side. Invoked after the remote SCP returns an N-SET-RSP allowing the implementer to confirm which attribute values were successfully modified on the managed SOP instance and inspect the response status.
 type: docs
-weight: 1600
+weight: 1650
 url: /net/aspose.medical.dicom.network.client.handlers/insetexchangehandler/
 ---
 

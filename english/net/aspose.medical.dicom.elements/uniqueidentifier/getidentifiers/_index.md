@@ -3,7 +3,7 @@ title: GetIdentifiers
 second_title: Aspose.Medical for .NET API Reference
 description: Returns UIDs stored in the element. Supplements the data property.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.medical.dicom.elements/uniqueidentifier/getidentifiers/
 ---
 

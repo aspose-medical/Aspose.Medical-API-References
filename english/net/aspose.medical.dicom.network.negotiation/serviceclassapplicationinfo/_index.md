@@ -3,7 +3,7 @@ title: ServiceClassApplicationInfo
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Service-class-application-information field for the SOP Class Extended Negotiation Sub-item. Derived classes can represent the application information specific to the Service Class specification identified by the SOP Class UID. See http//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_D.3.3.5.html.
 type: docs
-weight: 2290
+weight: 2340
 url: /net/aspose.medical.dicom.network.negotiation/serviceclassapplicationinfo/
 ---
 

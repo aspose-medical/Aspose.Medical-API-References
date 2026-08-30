@@ -3,7 +3,7 @@ title: Bgra32
 second_title: Aspose.Medical for .NET API Reference
 description: Pixel value that stores blue green red and alpha 8-bit components.
 type: docs
-weight: 3230
+weight: 3290
 url: /net/aspose.medical.imaging.pixels/bgra32/
 ---
 

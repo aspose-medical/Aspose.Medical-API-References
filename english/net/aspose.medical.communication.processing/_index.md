@@ -3,7 +3,7 @@ title: Aspose.Medical.Communication.Processing
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.medical.communication.processing/
 ---
 

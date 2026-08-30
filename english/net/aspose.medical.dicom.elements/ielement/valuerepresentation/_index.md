@@ -1,7 +1,7 @@
 ---
 title: ValueRepresentation
 second_title: Aspose.Medical for .NET API Reference
-description: The Value Representation of the element. Read-only ValueRepresentationaspose.medical.dicom.elements/ielement/valuerepresentation.
+description: Gets the value representation that defines the elements value semantics and encoding.
 type: docs
 weight: 40
 url: /net/aspose.medical.dicom.elements/ielement/valuerepresentation/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.elements/ielement/valuerepresentation/
 
 ## IElement.ValueRepresentation property
 
-The Value Representation of the element. Read-only `ValueRepresentation`.
+Gets the value representation that defines the element's value semantics and encoding.
 
 ```csharp
 public ValueRepresentation ValueRepresentation { get; }

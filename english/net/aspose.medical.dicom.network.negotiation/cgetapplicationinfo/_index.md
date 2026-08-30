@@ -3,7 +3,7 @@ title: CGetApplicationInfo
 second_title: Aspose.Medical for .NET API Reference
 description: C-GET Service Application Information field for the SOP Class Extended Negotiation Sub-item. See http//dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_C.5.3.html.
 type: docs
-weight: 2220
+weight: 2270
 url: /net/aspose.medical.dicom.network.negotiation/cgetapplicationinfo/
 ---
 

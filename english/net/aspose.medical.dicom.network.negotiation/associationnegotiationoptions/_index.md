@@ -3,7 +3,7 @@ title: AssociationNegotiationOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Configures DICOM association negotiation settings and capabilities.
 type: docs
-weight: 2180
+weight: 2230
 url: /net/aspose.medical.dicom.network.negotiation/associationnegotiationoptions/
 ---
 

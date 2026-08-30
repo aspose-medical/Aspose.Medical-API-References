@@ -3,7 +3,7 @@ title: NGetResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents an N-GET response containing the requested attribute values.
 type: docs
-weight: 2100
+weight: 2150
 url: /net/aspose.medical.dicom.network.messages/ngetresponse/
 ---
 

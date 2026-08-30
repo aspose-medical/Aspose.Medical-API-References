@@ -3,7 +3,7 @@ title: IResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Marker interface for response messages.
 type: docs
-weight: 80
+weight: 120
 url: /net/aspose.medical.communication/iresponse/
 ---
 

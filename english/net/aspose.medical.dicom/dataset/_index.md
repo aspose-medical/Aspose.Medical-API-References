@@ -3,7 +3,7 @@ title: Dataset
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates DICOM Dataset.
 type: docs
-weight: 390
+weight: 430
 url: /net/aspose.medical.dicom/dataset/
 ---
 
@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom/dataset/
 Encapsulates DICOM Dataset.
 
 ```csharp
-public class Dataset : IEnumerable<IElement>
+public class Dataset : IReadOnlyCollection<IElement>
 ```
 
 ## Constructors
@@ -23,6 +23,12 @@ public class Dataset : IEnumerable<IElement>
 | [Dataset](dataset#constructor_3)(Encoding[]) | Initialize a new instance of the [`Dataset`](../dataset) with the given fallback Encodings. |
 | [Dataset](dataset#constructor_2)(IEnumerable&lt;IElement&gt;) | Initialize a new instance of the [`Dataset`](../dataset) and copies the given *elements* into newly created dataset. |
 | [Dataset](dataset#constructor_1)(TransferSyntax) | Initialize a new instance of the [`Dataset`](../dataset) with the given *syntax* . Internal transfer syntax representation of the dataset |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Count](../../aspose.medical.dicom/dataset/count) { get; } |  |
 
 ## Methods
 

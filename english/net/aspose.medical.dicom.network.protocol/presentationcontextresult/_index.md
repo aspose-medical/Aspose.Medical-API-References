@@ -3,7 +3,7 @@ title: PresentationContextResult
 second_title: Aspose.Medical for .NET API Reference
 description: Captures the A-ASSOCIATE-AC outcome for one proposed presentation context.
 type: docs
-weight: 2440
+weight: 2490
 url: /net/aspose.medical.dicom.network.protocol/presentationcontextresult/
 ---
 

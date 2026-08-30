@@ -3,7 +3,7 @@ title: NEventReportResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents an N-EVENT-REPORT response acknowledging the event notification.
 type: docs
-weight: 2080
+weight: 2130
 url: /net/aspose.medical.dicom.network.messages/neventreportresponse/
 ---
 

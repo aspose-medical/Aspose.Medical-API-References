@@ -3,7 +3,7 @@ title: ColorSpace
 second_title: Aspose.Medical for .NET API Reference
 description: Color Space types.
 type: docs
-weight: 910
+weight: 960
 url: /net/aspose.medical.dicom.imaging/colorspace/
 ---
 

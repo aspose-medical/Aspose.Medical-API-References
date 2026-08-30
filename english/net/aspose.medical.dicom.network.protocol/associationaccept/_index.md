@@ -3,7 +3,7 @@ title: AssociationAccept
 second_title: Aspose.Medical for .NET API Reference
 description: Captures the A-ASSOCIATE-AC parameters returned by an association acceptor.
 type: docs
-weight: 2340
+weight: 2390
 url: /net/aspose.medical.dicom.network.protocol/associationaccept/
 ---
 

@@ -3,7 +3,7 @@ title: ICMoveRequestHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Factory that creates handlers for inbound C-MOVE requests on the SCP side. Use this handler to match an Identifier and request transfer of matching instances to the Move Destination while reporting sub-operation status counts. See  DICOM PS3.7 9.1.4 C-MOVE Service https//dicom.nema.org/medical/dicom/current/output/chtml/part07/chapter_9.html and  9.3.4 C-MOVE-RQ / C-MOVE-RSP / C-CANCEL-MOVE-RQ https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_9.3.4.html.
 type: docs
-weight: 2600
+weight: 2650
 url: /net/aspose.medical.dicom.network.server.handlers/icmoverequesthandlerfactory/
 ---
 

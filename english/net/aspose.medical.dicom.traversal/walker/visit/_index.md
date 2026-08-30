@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom.traversal/walker/visit/
 Visits the entire graph of elements of the given *file*. The method visits both [`MetaInfo`](../../../aspose.medical.dicom/dicomfile/metainfo) and [`Dataset`](../../../aspose.medical.dicom/dicomfile/dataset).
 
 ```csharp
-public void Visit(DicomFile file)
+public virtual void Visit(DicomFile file)
 ```
 
 | Parameter | Type | Description |

@@ -3,7 +3,7 @@ title: Sequence
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Sequence of Items SQ VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextSQ-Sequence20of20Items-Value20is20a.
 type: docs
-weight: 720
+weight: 770
 url: /net/aspose.medical.dicom.elements/sequence/
 ---
 
@@ -34,6 +34,8 @@ public sealed class Sequence : IElement, IEnumerable<Dataset>
 
 | Name | Description |
 | --- | --- |
+| [Bootstrap](../../aspose.medical.dicom.elements/sequence/bootstrap)() |  |
+| [BootstrapAsync](../../aspose.medical.dicom.elements/sequence/bootstrapasync)(CancellationToken) |  |
 | [Get](../../aspose.medical.dicom.elements/sequence/get#get)(int) | Gets the element at the given index |
 | [Get&lt;T&gt;](../../aspose.medical.dicom.elements/sequence/get#get_2)(Index) |  |
 | [Get&lt;T&gt;](../../aspose.medical.dicom.elements/sequence/get#get_1)(int) |  |

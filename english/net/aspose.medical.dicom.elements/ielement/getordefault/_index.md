@@ -1,7 +1,7 @@
 ---
 title: GetOrDefault
 second_title: Aspose.Medical for .NET API Reference
-description: Returns the elements value at the specified position or a default value if the index is out of range.
+description: Gets the element value at the specified zero-based position as the requested type or returns the default value when no value exists there.
 type: docs
 weight: 60
 url: /net/aspose.medical.dicom.elements/ielement/getordefault/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.elements/ielement/getordefault/
 
 ## GetOrDefault&lt;T&gt;(int) {#getordefault}
 
-Returns the element's value at the specified position or a default value if the index is out of range.
+Gets the element value at the specified zero-based position as the requested type, or returns the default value when no value exists there.
 
 ```csharp
 public T? GetOrDefault<T>(int index)
@@ -17,12 +17,12 @@ public T? GetOrDefault<T>(int index)
 
 | Parameter | Description |
 | --- | --- |
-| T | Type of the return value. |
-| index | The zero-based index of the element value to retrieve. |
+| T | The requested result type. |
+| index | The zero-based position of the value. |
 
 ### Return Value
 
-The *T* value.
+The value expressed as *T*, or its default value when the position does not identify a value.
 
 ### See Also
 
@@ -34,7 +34,7 @@ The *T* value.
 
 ## GetOrDefault&lt;T&gt;(Index) {#getordefault_1}
 
-Returns the element's value at the specified position or a default value if the index is out of range.
+Gets the element value at the specified position as the requested type, or returns the default value when no value exists there.
 
 ```csharp
 public T? GetOrDefault<T>(Index index)
@@ -42,12 +42,12 @@ public T? GetOrDefault<T>(Index index)
 
 | Parameter | Description |
 | --- | --- |
-| T | Type of the return value. |
-| index | The index of the element value to retrieve, which is either from the beginning or the end of the sequence. |
+| T | The requested result type. |
+| index | The position of the value, measured from the beginning or end of the element. |
 
 ### Return Value
 
-The *T* value.
+The value expressed as *T*, or its default value when the position does not identify a value.
 
 ### See Also
 

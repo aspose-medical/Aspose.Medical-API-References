@@ -3,7 +3,7 @@ title: IReadDicomOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Common options for reading DICOM.
 type: docs
-weight: 2770
+weight: 2820
 url: /net/aspose.medical.dicom.readers/ireaddicomoptions/
 ---
 

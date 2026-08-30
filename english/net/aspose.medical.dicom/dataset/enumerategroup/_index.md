@@ -3,7 +3,7 @@ title: EnumerateGroup
 second_title: Aspose.Medical for .NET API Reference
 description: Enumerates DICOM elements for the given group.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.medical.dicom/dataset/enumerategroup/
 ---
 

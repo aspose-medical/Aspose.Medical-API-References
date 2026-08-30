@@ -3,7 +3,7 @@ title: IPixelTSelf
 second_title: Aspose.Medical for .NET API Reference
 description: Represents an unmanaged pixel value type.
 type: docs
-weight: 3240
+weight: 3300
 url: /net/aspose.medical.imaging.pixels/ipixel-1/
 ---
 

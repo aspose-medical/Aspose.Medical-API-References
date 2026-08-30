@@ -1,15 +1,15 @@
 ---
 title: MiddleName
 second_title: Aspose.Medical for .NET API Reference
-description: Middle name or empty string. Read-only String.
+description: Middle name or empty string.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.medical.dicom.elements/personname/middlename/
 ---
 
 ## PersonName.MiddleName property
 
-Middle name or empty string. Read-only String.
+Middle name or empty string.
 
 ```csharp
 public string? MiddleName { get; }

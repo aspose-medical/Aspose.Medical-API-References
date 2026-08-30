@@ -3,7 +3,7 @@ title: IDicomMessage
 second_title: Aspose.Medical for .NET API Reference
 description: Base interface for all DIMSE messages exchanged over a DICOM association.
 type: docs
-weight: 1950
+weight: 2000
 url: /net/aspose.medical.dicom.network.messages/idicommessage/
 ---
 

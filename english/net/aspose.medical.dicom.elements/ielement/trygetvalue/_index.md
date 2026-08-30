@@ -1,7 +1,7 @@
 ---
 title: TryGetValue
 second_title: Aspose.Medical for .NET API Reference
-description: Gets the elements value at the specified position.
+description: Attempts to get the element value at the specified zero-based position as the requested type.
 type: docs
 weight: 80
 url: /net/aspose.medical.dicom.elements/ielement/trygetvalue/
@@ -9,7 +9,7 @@ url: /net/aspose.medical.dicom.elements/ielement/trygetvalue/
 
 ## TryGetValue&lt;T&gt;(int, out T) {#trygetvalue}
 
-Gets the element's value at the specified position.
+Attempts to get the element value at the specified zero-based position as the requested type.
 
 ```csharp
 public bool TryGetValue<T>(int index, out T? value)
@@ -17,13 +17,13 @@ public bool TryGetValue<T>(int index, out T? value)
 
 | Parameter | Description |
 | --- | --- |
-| T | Type of the return value. |
-| index | The index of the element value to retrieve, which is either from the beginning or the end of the sequence. |
-| value | When this method returns, contains the value at the specified position (*index*); otherwise, contains the default value for the type of the *value* parameter. |
+| T | The requested result type. |
+| index | The zero-based position of the value. |
+| value | When this method returns `true`, contains the requested value; otherwise, contains the default value of *T*. |
 
 ### Return Value
 
-`true` if the element value could be extracted; otherwise, `false`.
+`true` when the position identifies a value; otherwise, `false`.
 
 ### See Also
 
@@ -35,7 +35,7 @@ public bool TryGetValue<T>(int index, out T? value)
 
 ## TryGetValue&lt;T&gt;(Index, out T) {#trygetvalue_1}
 
-Gets the element's value at the specified position.
+Attempts to get the element value at the specified position as the requested type.
 
 ```csharp
 public bool TryGetValue<T>(Index index, out T? value)
@@ -43,13 +43,13 @@ public bool TryGetValue<T>(Index index, out T? value)
 
 | Parameter | Description |
 | --- | --- |
-| T | Type of the return value. |
-| index | The index of the element value to retrieve, which is either from the beginning or the end of the sequence. |
-| value | When this method returns, contains the value at the specified position (*index*); otherwise, contains the default value for the type of the *value* parameter. |
+| T | The requested result type. |
+| index | The position of the value, measured from the beginning or end of the element. |
+| value | When this method returns `true`, contains the requested value; otherwise, contains the default value of *T*. |
 
 ### Return Value
 
-`true` if the element value could be extracted; otherwise, `false`.
+`true` when the position identifies a value; otherwise, `false`.
 
 ### See Also
 

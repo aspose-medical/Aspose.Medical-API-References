@@ -3,7 +3,7 @@ title: IDicomResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents a DIMSE response message returned by an SCP.
 type: docs
-weight: 1990
+weight: 2040
 url: /net/aspose.medical.dicom.network.messages/idicomresponse/
 ---
 

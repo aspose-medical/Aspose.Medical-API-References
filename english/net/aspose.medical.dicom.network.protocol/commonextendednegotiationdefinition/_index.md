@@ -3,7 +3,7 @@ title: CommonExtendedNegotiationDefinition
 second_title: Aspose.Medical for .NET API Reference
 description: Describes a SOP Class Common Extended Negotiation item proposed in an A-ASSOCIATE-RQ PDU.
 type: docs
-weight: 2390
+weight: 2440
 url: /net/aspose.medical.dicom.network.protocol/commonextendednegotiationdefinition/
 ---
 

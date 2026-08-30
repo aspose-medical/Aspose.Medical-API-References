@@ -3,7 +3,7 @@ title: ICFindRequestHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Factory that creates handlers for inbound C-FIND requests on the SCP side. Use this handler to match an Identifier against managed instances and return zero or more pending matches followed by a final status. See  DICOM PS3.7 9.1.2 C-FIND Servicehttps//dicom.nema.org/medical/dicom/current/output/chtml/part07/chapter_9.html and  9.3.2 C-FIND-RQ / C-FIND-RSP / C-CANCEL-FIND-RQ https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_9.3.2.html.
 type: docs
-weight: 2560
+weight: 2610
 url: /net/aspose.medical.dicom.network.server.handlers/icfindrequesthandlerfactory/
 ---
 

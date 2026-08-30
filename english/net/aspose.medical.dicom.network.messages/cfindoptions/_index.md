@@ -3,7 +3,7 @@ title: CFindOptions
 second_title: Aspose.Medical for .NET API Reference
 description: Specifies the C-FIND extended negotiation options supported by an Application Entity AE. These flags indicate additional query capabilities negotiated during association setup.
 type: docs
-weight: 1790
+weight: 1840
 url: /net/aspose.medical.dicom.network.messages/cfindoptions/
 ---
 

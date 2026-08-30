@@ -3,7 +3,7 @@ title: INActionExchangeHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Observes completed N-ACTION exchanges on the SCU side. Invoked after the remote SCP returns an N-ACTION-RSP allowing the implementer to examine the action outcome optional action-reply data and the response status.
 type: docs
-weight: 1500
+weight: 1550
 url: /net/aspose.medical.dicom.network.client.handlers/inactionexchangehandler/
 ---
 

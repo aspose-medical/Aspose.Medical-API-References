@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Medical for .NET API Reference
 description: Provides methods to set metered key.
 type: docs
-weight: 3370
+weight: 3430
 url: /net/aspose.medical/metered/
 ---
 

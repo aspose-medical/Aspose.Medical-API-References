@@ -3,7 +3,7 @@ title: INCreateExchangeHandler
 second_title: Aspose.Medical for .NET API Reference
 description: Observes completed N-CREATE exchanges on the SCU side. Invoked after the remote SCP returns an N-CREATE-RSP allowing the implementer to inspect the newly created SOP instance UID any attribute values assigned by the SCP and the response status.
 type: docs
-weight: 1520
+weight: 1570
 url: /net/aspose.medical.dicom.network.client.handlers/increateexchangehandler/
 ---
 

@@ -3,7 +3,7 @@ title: AssociationAcceptedNotification
 second_title: Aspose.Medical for .NET API Reference
 description: Notifies that an association was accepted and converted into established association state.
 type: docs
-weight: 1240
+weight: 1290
 url: /net/aspose.medical.dicom.network/associationacceptednotification/
 ---
 

@@ -3,7 +3,7 @@ title: RequestTimedOutNotification
 second_title: Aspose.Medical for .NET API Reference
 description: Notifies that a locally invoked DIMSE request exceeded its response timeout while awaiting a response.
 type: docs
-weight: 2160
+weight: 2210
 url: /net/aspose.medical.dicom.network.messages/requesttimedoutnotification/
 ---
 

@@ -3,7 +3,7 @@ title: Aspose.Medical.Logging
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.medical.logging/
 ---
 

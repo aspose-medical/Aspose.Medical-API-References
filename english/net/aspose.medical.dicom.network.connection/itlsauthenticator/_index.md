@@ -3,7 +3,7 @@ title: ITlsAuthenticator
 second_title: Aspose.Medical for .NET API Reference
 description: Authenticates a TLS session over an SslStream during connection establishment.
 type: docs
-weight: 1630
+weight: 1680
 url: /net/aspose.medical.dicom.network.connection/itlsauthenticator/
 ---
 

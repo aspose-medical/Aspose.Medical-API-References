@@ -3,7 +3,7 @@ title: AssociationAbortReason
 second_title: Aspose.Medical for .NET API Reference
 description: Specifies the reason/diagnostic code for a DICOM UL A-ABORT.
 type: docs
-weight: 2320
+weight: 2370
 url: /net/aspose.medical.dicom.network.protocol/associationabortreason/
 ---
 

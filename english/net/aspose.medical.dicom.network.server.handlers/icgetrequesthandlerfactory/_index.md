@@ -3,7 +3,7 @@ title: ICGetRequestHandlerFactory
 second_title: Aspose.Medical for .NET API Reference
 description: Factory that creates handlers for inbound C-GET requests on the SCP side. Use this handler to match an Identifier and retrieve matching instances by issuing one or more C-STORE sub-operations on the same association. See  DICOM PS3.7 9.1.3 C-GET Service https//dicom.nema.org/medical/dicom/current/output/chtml/part07/chapter_9.html and  9.3.3 C-GET-RQ / C-GET-RSP / C-CANCEL-GET-RQ https//dicom.nema.org/medical/dicom/current/output/chtml/part07/sect_9.3.3.html.
 type: docs
-weight: 2580
+weight: 2630
 url: /net/aspose.medical.dicom.network.server.handlers/icgetrequesthandlerfactory/
 ---
 

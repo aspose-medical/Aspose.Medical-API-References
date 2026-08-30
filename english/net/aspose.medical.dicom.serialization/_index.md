@@ -3,7 +3,7 @@ title: Aspose.Medical.Dicom.Serialization
 second_title: Aspose.Medical for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.medical.dicom.serialization/
 ---
 
@@ -13,18 +13,18 @@ url: /net/aspose.medical.dicom.serialization/
 
 | Class | Description |
 | --- | --- |
-| [DatasetJsonConverter](./datasetjsonconverter) | Converts [`Dataset`](../aspose.medical.dicom/dataset) to and from JSON using the `System.Text.Json`. |
-| [DicomFileJsonConverter](./dicomfilejsonconverter) | Converts [`DicomFile`](../aspose.medical.dicom/dicomfile) to and from JSON using the `System.Text.Json`. |
-| [DicomJsonSerializer](./dicomjsonserializer) | Provides functionality to serialize DICOM objects to JSON and to deserialize JSON into DICOM objects. |
-| [DicomJsonSerializerOptions](./dicomjsonserializeroptions) | Provides options that controls serialization/deserialization (JSON) process of DICOM objects. |
-| [DicomXmlSerializer](./dicomxmlserializer) | Provides functionality to serialize DICOM objects to XML and to deserialize XML into DICOM objects. |
-| [DicomXmlSerializerOptions](./dicomxmlserializeroptions) | Provides options that controls serialization/deserialization (XML) process of DICOM objects. |
+| [DefaultBulkDataLoader](./defaultbulkdataloader) | Default implementation of [`IBulkDataLoader`](../aspose.medical.dicom.serialization/ibulkdataloader) that allows to load data from the source specified in `Bulk Data` element. This implementation allows to download data from file source and http using standard HttpClient without authorization. |
+| [DicomJsonSerializer](./dicomjsonserializer) | Serializes DICOM datasets and files to JSON and deserializes their JSON representations. |
+| [DicomJsonSerializerOptions](./dicomjsonserializeroptions) | Provides options that control DICOM JSON serialization and deserialization. |
+| [DicomXmlSerializer](./dicomxmlserializer) | Provides conversion between [`Dataset`](../aspose.medical.dicom/dataset) instances and Native DICOM Model XML documents. |
+| [DicomXmlSerializerOptions](./dicomxmlserializeroptions) | Provides options for serializing and deserializing DICOM Native XML documents. |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
+| [IAsyncBulkDataLoader](./iasyncbulkdataloader) | Defines synchronous and asynchronous retrieval of DICOM bulk data identified by a URI or UUID reference. |
 | [IBulkDataConverter](./ibulkdataconverter) | Defines the contract for objects that allows writing DICOM Element data as a reference to a blob of data specified in the BulkData element. See: https://dicom.nema.org/medical/dicom/current/output/chtml/part19/chapter_A.html#table_A.1.5-2. |
-| [IBulkDataLoader](./ibulkdataloader) | Defines the contract for objects that allows the recipient to retrieve data from a reference to a blob of data specified in BulkData element. See: https://dicom.nema.org/medical/dicom/current/output/chtml/part19/chapter_A.html#table_A.1.5-2. |
+| [IBulkDataLoader](./ibulkdataloader) | Defines synchronous retrieval of DICOM bulk data identified by a URI or UUID reference. |
 ## Enumeration
 
 | Enumeration | Description |

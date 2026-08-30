@@ -3,7 +3,7 @@ title: NoneDicomNetworkResponse
 second_title: Aspose.Medical for .NET API Reference
 description: Represents absence of a DICOM network response Null Object pattern.
 type: docs
-weight: 2150
+weight: 2200
 url: /net/aspose.medical.dicom.network.messages/nonedicomnetworkresponse/
 ---
 

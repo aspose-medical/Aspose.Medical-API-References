@@ -3,7 +3,7 @@ title: ExtendedNegotiationResult
 second_title: Aspose.Medical for .NET API Reference
 description: Captures accepted application information for a SOP Class Extended Negotiation item.
 type: docs
-weight: 2410
+weight: 2460
 url: /net/aspose.medical.dicom.network.protocol/extendednegotiationresult/
 ---
 

@@ -3,7 +3,7 @@ title: Rgb24
 second_title: Aspose.Medical for .NET API Reference
 description: Pixel value that stores red green and blue 8-bit components.
 type: docs
-weight: 3290
+weight: 3350
 url: /net/aspose.medical.imaging.pixels/rgb24/
 ---
 

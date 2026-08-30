@@ -3,7 +3,7 @@ title: AttributeTag
 second_title: Aspose.Medical for .NET API Reference
 description: Encapsulates the Attribute Tag AT VR type. https//dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.htmltextAT-Attribute20Tag-Ordered20pair20of.
 type: docs
-weight: 450
+weight: 490
 url: /net/aspose.medical.dicom.elements/attributetag/
 ---
 
@@ -12,7 +12,7 @@ url: /net/aspose.medical.dicom.elements/attributetag/
 Encapsulates the Attribute Tag (AT) VR type. https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html#:~:text=AT-,Attribute%20Tag,-Ordered%20pair%20of.
 
 ```csharp
-public sealed class AttributeTag : ValueElement<Tag>
+public sealed class AttributeTag : ValueElement<Tag>, IBufferBackedElement<AttributeTag, Tag>
 ```
 
 ## Constructors
@@ -28,6 +28,7 @@ public sealed class AttributeTag : ValueElement<Tag>
 | --- | --- |
 | [Count](../../aspose.medical.dicom.elements/valueelement`1/count) { get; } |  |
 | [Data](../../aspose.medical.dicom.elements/valueelement`1/data) { get; } |  |
+| [Item](../../aspose.medical.dicom.elements/valueelement`1/item) { get; set; } |  |
 | [Tag](../../aspose.medical.dicom.elements/valueelement`1/tag) { get; } |  |
 | override [ValueRepresentation](../../aspose.medical.dicom.elements/attributetag/valuerepresentation) { get; } |  |
 
@@ -35,9 +36,13 @@ public sealed class AttributeTag : ValueElement<Tag>
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.medical.dicom.elements/attributetag/create)(Tag, (IByteBuffer? ByteBuffer, ITypedBuffer&lt;Tag&gt;? TypedBuffer)) |  |
 | [Add](../../aspose.medical.dicom.elements/valueelement`1/add)(Tag) |  |
 | [AddRange](../../aspose.medical.dicom.elements/valueelement`1/addrange)(Span&lt;Tag&gt;) |  |
+| [Bootstrap](../../aspose.medical.dicom.elements/valueelement`1/bootstrap)() |  |
+| [BootstrapAsync](../../aspose.medical.dicom.elements/valueelement`1/bootstrapasync)(CancellationToken) |  |
 | [ConvertData&lt;TOutput&gt;](../../aspose.medical.dicom.elements/valueelement`1/convertdata)(Func&lt;Tag, TOutput&gt;) |  |
+| [CopyDataToArray](../../aspose.medical.dicom.elements/valueelement`1/copydatatoarray)() |  |
 | [Get](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(Index) |  |
 | [Get&lt;TValue&gt;](../../aspose.medical.dicom.elements/valueelement`1/get)(int) |  |
@@ -60,6 +65,7 @@ public sealed class AttributeTag : ValueElement<Tag>
 
 * class [ValueElement&lt;T&gt;](../valueelement-1)
 * class [Tag](../../aspose.medical.dicom.tags/tag)
+* interface [IBufferBackedElement&lt;TSelf,TValue&gt;](../ibufferbackedelement-2)
 * namespace [Aspose.Medical.Dicom.Elements](../../aspose.medical.dicom.elements)
 * assembly [Aspose.Medical](../../)
 

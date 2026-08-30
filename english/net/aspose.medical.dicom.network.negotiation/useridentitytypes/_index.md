@@ -3,7 +3,7 @@ title: UserIdentityTypes
 second_title: Aspose.Medical for .NET API Reference
 description: Specifies the user identity mechanism used in the User Identity Negotiation sub-item of an A-ASSOCIATE exchange DICOM PS3.7 D.3.3.7.
 type: docs
-weight: 2310
+weight: 2360
 url: /net/aspose.medical.dicom.network.negotiation/useridentitytypes/
 ---
 
